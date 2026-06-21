@@ -4,21 +4,29 @@ from playwright.async_api import async_playwright
 
 CATEGORIAS = [
     {"id": "cab-a", "nombre": "Caballeros A", "tipo": "cab",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ViflQ=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ViflQ=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ViflQ="},
     {"id": "cab-b", "nombre": "Caballeros B", "tipo": "cab",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3Zhe10=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3Zhe10=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3Zhe10="},
     {"id": "cab-c", "nombre": "Caballeros C", "tipo": "cab",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZheFU=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZheFU=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZheFU="},
     {"id": "dam-a", "nombre": "Damas A", "tipo": "dam",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3VlfFw=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3VlfFw=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3VlfFw="},
     {"id": "dam-b", "nombre": "Damas B", "tipo": "dam",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3Vle1M=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3Vle1M=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3Vle1M="},
     {"id": "dam-c", "nombre": "Damas C", "tipo": "dam",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3VieVM=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3VieVM=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3VieVM="},
     {"id": "dam-d", "nombre": "Damas D", "tipo": "dam",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZgfVY=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZgfVY=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZgfVY="},
     {"id": "dam-e", "nombre": "Damas E", "tipo": "dam",
-     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZgeVM=?clubId=00000006"},
+     "url": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZgeVM=?clubId=00000006",
+     "url_base": "https://tournamenttracker.buenosaireshockey.ar/RUdVX3ZgeVM="},
 ]
 
 async def click_tab(page, name):
@@ -85,6 +93,7 @@ async def scrape_tabla(page, tab_name):
     rows = []
     try:
         if not await click_tab(page, tab_name):
+            print(f"  Tab '{tab_name}' no encontrado")
             return {"headers": [], "rows": []}
         await page.wait_for_timeout(1500)
         ths = await page.query_selector_all('th')
@@ -115,20 +124,25 @@ async def scrape_tabla(page, tab_name):
     return {"headers": headers, "rows": rows}
 
 async def scrape_cat(page, cat):
-    print(f"[{cat['id']}] {cat['url']}")
+    print(f"[{cat['id']}] fixture...")
     await page.goto(cat['url'], wait_until='networkidle', timeout=60000)
     await page.wait_for_timeout(3000)
     fixture = await scrape_fixture(page)
+
+    print(f"[{cat['id']}] posiciones/goleadores...")
+    await page.goto(cat['url_base'], wait_until='networkidle', timeout=60000)
+    await page.wait_for_timeout(3000)
     posiciones = await scrape_tabla(page, 'posicion')
     goleadores = await scrape_tabla(page, 'goleador')
+
     print(f"  [{cat['id']}] fix={len(fixture)} pos={len(posiciones['rows'])} gol={len(goleadores['rows'])}")
     return {"id": cat["id"], "nombre": cat["nombre"], "tipo": cat["tipo"],
             "fixture": fixture, "posiciones": posiciones, "goleadores": goleadores}
 
 async def main():
     async with async_playwright() as pw:
-        browser = await pw.chromium.launch(headless=True, args=['--no-sandbox','--disable-dev-shm-usage'])
-        context = await browser.new_context(viewport={"width":1280,"height":900}, locale="es-AR")
+        browser = await pw.chromium.launch(headless=True, args=['--no-sandbox', '--disable-dev-shm-usage'])
+        context = await browser.new_context(viewport={"width": 1280, "height": 900}, locale="es-AR")
         page = await context.new_page()
         datos = []
         for cat in CATEGORIAS:
@@ -136,11 +150,12 @@ async def main():
                 datos.append(await scrape_cat(page, cat))
             except Exception as e:
                 print(f"ERROR {cat['id']}: {e}")
-                datos.append({"id":cat["id"],"nombre":cat["nombre"],"tipo":cat["tipo"],
-                               "fixture":[],"posiciones":{"headers":[],"rows":[]},"goleadores":{"headers":[],"rows":[]}})
+                datos.append({"id": cat["id"], "nombre": cat["nombre"], "tipo": cat["tipo"],
+                               "fixture": [], "posiciones": {"headers": [], "rows": []},
+                               "goleadores": {"headers": [], "rows": []}})
         await browser.close()
-    with open("datos.json","w",encoding="utf-8") as f:
-        json.dump({"actualizado":datetime.now(timezone.utc).isoformat(),"datos":datos},f,ensure_ascii=False,indent=2)
+    with open("datos.json", "w", encoding="utf-8") as f:
+        json.dump({"actualizado": datetime.now(timezone.utc).isoformat(), "datos": datos}, f, ensure_ascii=False, indent=2)
     print("\ndatos.json guardado.")
 
 asyncio.run(main())
