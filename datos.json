@@ -1,4488 +1,1458 @@
 {
-  "actualizado": "2026-06-21T00:18:07.216292+00:00",
+  "actualizado": "2026-06-21T00:32:00.395027+00:00",
   "datos": [
     {
       "id": "cab-a",
       "nombre": "Caballeros A",
       "tipo": "cab",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "G. Y ESGRIMA",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 08 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "CIUDAD B",
+          "fecha": "dom 15 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "5",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "LOMAS",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 22 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "SAN MARTÍN",
+          "fecha": "dom 29 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "5",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "QUILMES",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 12 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "MITRE",
+          "fecha": "dom 19 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "S.A.G.",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 26 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "CIUDAD",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 03 may 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "HURLING",
+          "fecha": "dom 10 may 15:30",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "DUCILO",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 17 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "BCO. PROVINCIA",
+          "fecha": "dom 31 may 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "U. LA PLATA",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 07 jun 15:30",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "S. BARBARA",
+          "fecha": "dom 14 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "4",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "G. Y ESGRIMA",
+          "fecha": "dom 21 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "CIUDAD B",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 28 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "LOMAS",
+          "fecha": "dom 05 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN MARTÍN",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 12 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "QUILMES",
+          "fecha": "dom 19 jul 15:30",
+          "jugado": false
+        },
+        {
+          "local": "MITRE",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 09 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "S.A.G.",
+          "fecha": "dom 23 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "CIUDAD",
+          "fecha": "dom 06 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "HURLING",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 13 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "DUCILO",
+          "fecha": "dom 27 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "BCO. PROVINCIA",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 04 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "U. LA PLATA",
+          "fecha": "dom 11 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "S. BARBARA",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 25 oct 15:30",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "SAN FERNANDO",
-            "37",
-            "13",
-            "12",
-            "1",
-            "0",
-            "42",
-            "10",
-            "32",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "CIUDAD",
-            "31",
-            "13",
-            "10",
-            "1",
-            "2",
-            "39",
-            "15",
-            "24",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "BCO. PROVINCIA",
-            "30",
-            "13",
-            "9",
-            "3",
-            "1",
-            "35",
-            "18",
-            "17",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "MITRE",
-            "24",
-            "13",
-            "7",
-            "3",
-            "3",
-            "33",
-            "17",
-            "16",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "G. Y ESGRIMA",
-            "20",
-            "13",
-            "6",
-            "2",
-            "5",
-            "37",
-            "26",
-            "11",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "DUCILO",
-            "19",
-            "13",
-            "4",
-            "7",
-            "2",
-            "35",
-            "33",
-            "2",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "U. LA PLATA",
-            "18",
-            "13",
-            "5",
-            "3",
-            "5",
-            "29",
-            "33",
-            "-4",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "S. BARBARA",
-            "17",
-            "13",
-            "5",
-            "2",
-            "6",
-            "28",
-            "27",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "QUILMES",
-            "17",
-            "13",
-            "4",
-            "5",
-            "4",
-            "23",
-            "30",
-            "-7",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "HURLING",
-            "15",
-            "13",
-            "3",
-            "6",
-            "4",
-            "29",
-            "22",
-            "7",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "LOMAS",
-            "9",
-            "13",
-            "2",
-            "3",
-            "8",
-            "26",
-            "38",
-            "-12",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "SAN MARTÍN",
-            "6",
-            "13",
-            "1",
-            "3",
-            "9",
-            "20",
-            "35",
-            "-15",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "S.A.G.",
-            "6",
-            "13",
-            "1",
-            "3",
-            "9",
-            "14",
-            "50",
-            "-36",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "CIUDAD B",
-            "2",
-            "13",
-            "0",
-            "2",
-            "11",
-            "12",
-            "48",
-            "-36",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "SAN FERNANDO",
-            "37",
-            "13",
-            "12",
-            "1",
-            "0",
-            "42",
-            "10",
-            "32",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "CIUDAD",
-            "31",
-            "13",
-            "10",
-            "1",
-            "2",
-            "39",
-            "15",
-            "24",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "BCO. PROVINCIA",
-            "30",
-            "13",
-            "9",
-            "3",
-            "1",
-            "35",
-            "18",
-            "17",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "MITRE",
-            "24",
-            "13",
-            "7",
-            "3",
-            "3",
-            "33",
-            "17",
-            "16",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "G. Y ESGRIMA",
-            "20",
-            "13",
-            "6",
-            "2",
-            "5",
-            "37",
-            "26",
-            "11",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "DUCILO",
-            "19",
-            "13",
-            "4",
-            "7",
-            "2",
-            "35",
-            "33",
-            "2",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "U. LA PLATA",
-            "18",
-            "13",
-            "5",
-            "3",
-            "5",
-            "29",
-            "33",
-            "-4",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "S. BARBARA",
-            "17",
-            "13",
-            "5",
-            "2",
-            "6",
-            "28",
-            "27",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "QUILMES",
-            "17",
-            "13",
-            "4",
-            "5",
-            "4",
-            "23",
-            "30",
-            "-7",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "HURLING",
-            "15",
-            "13",
-            "3",
-            "6",
-            "4",
-            "29",
-            "22",
-            "7",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "LOMAS",
-            "9",
-            "13",
-            "2",
-            "3",
-            "8",
-            "26",
-            "38",
-            "-12",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "SAN MARTÍN",
-            "6",
-            "13",
-            "1",
-            "3",
-            "9",
-            "20",
-            "35",
-            "-15",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "S.A.G.",
-            "6",
-            "13",
-            "1",
-            "3",
-            "9",
-            "14",
-            "50",
-            "-36",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "CIUDAD B",
-            "2",
-            "13",
-            "0",
-            "2",
-            "11",
-            "12",
-            "48",
-            "-36",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "3",
-            "Ferrero Farias, Lautaro",
-            "SAN FERNANDO",
-            "11",
-            "13",
-            "0.85"
-          ],
-          [
-            "8",
-            "Merlini, Mateo",
-            "SAN FERNANDO",
-            "8",
-            "13",
-            "0.62"
-          ],
-          [
-            "31",
-            "Magdalena, Mateo",
-            "SAN FERNANDO",
-            "4",
-            "13",
-            "0.31"
-          ],
-          [
-            "52",
-            "Bartoli, Felipe",
-            "SAN FERNANDO",
-            "3",
-            "12",
-            "0.25"
-          ],
-          [
-            "59",
-            "Rey, Matías",
-            "SAN FERNANDO",
-            "3",
-            "10",
-            "0.30"
-          ],
-          [
-            "63",
-            "Barreiros Lopez, Guido M.",
-            "SAN FERNANDO",
-            "2",
-            "13",
-            "0.15"
-          ],
-          [
-            "74",
-            "Merlini, Felipe",
-            "SAN FERNANDO",
-            "2",
-            "11",
-            "0.18"
-          ],
-          [
-            "76",
-            "Bonanno, Agustin",
-            "SAN FERNANDO",
-            "2",
-            "10",
-            "0.20"
-          ],
-          [
-            "98",
-            "Merlini, Fermin",
-            "SAN FERNANDO",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "106",
-            "Viviant, Tobias Nicolas",
-            "SAN FERNANDO",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "113",
-            "Lestrade, Juan Manuel",
-            "SAN FERNANDO",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "117",
-            "Quilez, Ignacio",
-            "SAN FERNANDO",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "119",
-            "Marchese, Rodrigo",
-            "SAN FERNANDO",
-            "1",
-            "9",
-            "0.11"
-          ],
-          [
-            "122",
-            "Sandoval, Ulises",
-            "SAN FERNANDO",
-            "1",
-            "7",
-            "0.14"
-          ],
-          [
-            "125",
-            "Rey, Emiliano",
-            "SAN FERNANDO",
-            "1",
-            "5",
-            "0.20"
-          ],
-          [
-            "3",
-            "Ferrero Farias, Lautaro",
-            "",
-            "11",
-            "13",
-            "0.85"
-          ],
-          [
-            "8",
-            "Merlini, Mateo",
-            "",
-            "8",
-            "13",
-            "0.62"
-          ],
-          [
-            "31",
-            "Magdalena, Mateo",
-            "",
-            "4",
-            "13",
-            "0.31"
-          ],
-          [
-            "52",
-            "Bartoli, Felipe",
-            "",
-            "3",
-            "12",
-            "0.25"
-          ],
-          [
-            "59",
-            "Rey, Matías",
-            "",
-            "3",
-            "10",
-            "0.30"
-          ],
-          [
-            "63",
-            "Barreiros Lopez, Guido M.",
-            "",
-            "2",
-            "13",
-            "0.15"
-          ],
-          [
-            "74",
-            "Merlini, Felipe",
-            "",
-            "2",
-            "11",
-            "0.18"
-          ],
-          [
-            "76",
-            "Bonanno, Agustin",
-            "",
-            "2",
-            "10",
-            "0.20"
-          ],
-          [
-            "98",
-            "Merlini, Fermin",
-            "",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "106",
-            "Viviant, Tobias Nicolas",
-            "",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "113",
-            "Lestrade, Juan Manuel",
-            "",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "117",
-            "Quilez, Ignacio",
-            "",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "119",
-            "Marchese, Rodrigo",
-            "",
-            "1",
-            "9",
-            "0.11"
-          ],
-          [
-            "122",
-            "Sandoval, Ulises",
-            "",
-            "1",
-            "7",
-            "0.14"
-          ],
-          [
-            "125",
-            "Rey, Emiliano",
-            "",
-            "1",
-            "5",
-            "0.20"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "cab-b",
       "nombre": "Caballeros B",
       "tipo": "cab",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "AACF QUILMES",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 14 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "BANADE",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 21 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "G. Y ESGRIMA B",
+          "fecha": "dom 28 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "VELEZ",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 05 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "Q.H.S.",
+          "fecha": "jue 09 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "BANFIELD",
+          "fecha": "dom 12 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PUERTO NIZUC",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 19 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "LANUS",
+          "fecha": "dom 09 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "Q.H.S.",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 16 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "FERRO C. O.",
+          "fecha": "lun 17 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "LANUS",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 23 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "BANADE",
+          "fecha": "dom 30 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "FERRO C. O.",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 06 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "AACF QUILMES",
+          "fecha": "dom 13 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "G. Y ESGRIMA B",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 27 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "VELEZ",
+          "fecha": "dom 04 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "BANFIELD",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 11 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "PUERTO NIZUC",
+          "fecha": "dom 01 nov 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "BANADE",
-            "8",
-            "1",
-            "1",
-            "0",
-            "0",
-            "3",
-            "1",
-            "2",
-            "5",
-            ""
-          ],
-          [
-            "2",
-            "SAN FERNANDO B",
-            "7",
-            "1",
-            "1",
-            "0",
-            "0",
-            "4",
-            "2",
-            "2",
-            "4",
-            ""
-          ],
-          [
-            "3",
-            "G. Y ESGRIMA B",
-            "6",
-            "1",
-            "1",
-            "0",
-            "0",
-            "3",
-            "0",
-            "3",
-            "3",
-            ""
-          ],
-          [
-            "4",
-            "BANFIELD",
-            "6",
-            "1",
-            "1",
-            "0",
-            "0",
-            "3",
-            "1",
-            "2",
-            "3",
-            ""
-          ],
-          [
-            "5",
-            "VELEZ",
-            "5",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "3",
-            "-2",
-            "5",
-            ""
-          ],
-          [
-            "6",
-            "AACF QUILMES",
-            "4",
-            "1",
-            "0",
-            "0",
-            "1",
-            "2",
-            "4",
-            "-2",
-            "4",
-            ""
-          ],
-          [
-            "7",
-            "FERRO C. O.",
-            "3",
-            "1",
-            "0",
-            "1",
-            "0",
-            "2",
-            "2",
-            "0",
-            "2",
-            ""
-          ],
-          [
-            "8",
-            "LANUS",
-            "2",
-            "1",
-            "0",
-            "1",
-            "0",
-            "2",
-            "2",
-            "0",
-            "1",
-            ""
-          ],
-          [
-            "9",
-            "Q.H.S.",
-            "2",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "3",
-            "-2",
-            "2",
-            ""
-          ],
-          [
-            "10",
-            "PUERTO NIZUC",
-            "1",
-            "1",
-            "0",
-            "0",
-            "1",
-            "0",
-            "3",
-            "-3",
-            "1",
-            ""
-          ],
-          [
-            "1",
-            "BANADE",
-            "8",
-            "1",
-            "1",
-            "0",
-            "0",
-            "3",
-            "1",
-            "2",
-            "5",
-            ""
-          ],
-          [
-            "2",
-            "SAN FERNANDO B",
-            "7",
-            "1",
-            "1",
-            "0",
-            "0",
-            "4",
-            "2",
-            "2",
-            "4",
-            ""
-          ],
-          [
-            "3",
-            "G. Y ESGRIMA B",
-            "6",
-            "1",
-            "1",
-            "0",
-            "0",
-            "3",
-            "0",
-            "3",
-            "3",
-            ""
-          ],
-          [
-            "4",
-            "BANFIELD",
-            "6",
-            "1",
-            "1",
-            "0",
-            "0",
-            "3",
-            "1",
-            "2",
-            "3",
-            ""
-          ],
-          [
-            "5",
-            "VELEZ",
-            "5",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "3",
-            "-2",
-            "5",
-            ""
-          ],
-          [
-            "6",
-            "AACF QUILMES",
-            "4",
-            "1",
-            "0",
-            "0",
-            "1",
-            "2",
-            "4",
-            "-2",
-            "4",
-            ""
-          ],
-          [
-            "7",
-            "FERRO C. O.",
-            "3",
-            "1",
-            "0",
-            "1",
-            "0",
-            "2",
-            "2",
-            "0",
-            "2",
-            ""
-          ],
-          [
-            "8",
-            "LANUS",
-            "2",
-            "1",
-            "0",
-            "1",
-            "0",
-            "2",
-            "2",
-            "0",
-            "1",
-            ""
-          ],
-          [
-            "9",
-            "Q.H.S.",
-            "2",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "3",
-            "-2",
-            "2",
-            ""
-          ],
-          [
-            "10",
-            "PUERTO NIZUC",
-            "1",
-            "1",
-            "0",
-            "0",
-            "1",
-            "0",
-            "3",
-            "-3",
-            "1",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "9",
-            "Garrigos, Ignacio",
-            "SAN FERNANDO",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "10",
-            "Giusti, Lucas",
-            "SAN FERNANDO",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "17",
-            "Tersi, Simon",
-            "SAN FERNANDO",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "18",
-            "Tort, Ignacio",
-            "SAN FERNANDO",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "9",
-            "Garrigos, Ignacio",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "10",
-            "Giusti, Lucas",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "17",
-            "Tersi, Simon",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "18",
-            "Tort, Ignacio",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "cab-c",
       "nombre": "Caballeros C",
       "tipo": "cab",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "DUCILO B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 14 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "Q.H.S. B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 21 jun 11:30",
+          "jugado": false
+        },
+        {
+          "local": "FERRO C. O. B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 28 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "G. Y E. LA PLATA",
+          "fecha": "dom 05 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "TRISTAN SUAREZ",
+          "fecha": "jue 09 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "G. Y ESGRIMA C",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 12 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "BOCA JUNIORS",
+          "fecha": "dom 19 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "AACF QUILMES B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 09 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "Q.H.S. B",
+          "fecha": "dom 16 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "FERRO C. O. B",
+          "fecha": "lun 17 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "MITRE B",
+          "fecha": "dom 23 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "TRISTAN SUAREZ",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 30 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "AACF QUILMES B",
+          "fecha": "dom 06 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "BOCA JUNIORS",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 13 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "DUCILO B",
+          "fecha": "dom 27 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "G. Y E. LA PLATA",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 04 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "G. Y ESGRIMA C",
+          "fecha": "dom 11 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "MITRE B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "dom 01 nov 18:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "BOCA JUNIORS",
-            "6",
-            "2",
-            "2",
-            "0",
-            "0",
-            "9",
-            "0",
-            "9",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "G. Y ESGRIMA C",
-            "3",
-            "1",
-            "1",
-            "0",
-            "0",
-            "4",
-            "1",
-            "3",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "Q.H.S. B",
-            "3",
-            "1",
-            "1",
-            "0",
-            "0",
-            "2",
-            "1",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "DUCILO B",
-            "3",
-            "1",
-            "1",
-            "0",
-            "0",
-            "2",
-            "1",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "MITRE B",
-            "3",
-            "2",
-            "1",
-            "0",
-            "1",
-            "4",
-            "9",
-            "-5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "AACF QUILMES B",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "2",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "SAN FERNANDO C",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "2",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "FERRO C. O. B",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "2",
-            "4",
-            "-2",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "G. Y E. LA PLATA",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "0",
-            "2",
-            "-2",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "TRISTAN SUAREZ",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "4",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "BOCA JUNIORS",
-            "6",
-            "2",
-            "2",
-            "0",
-            "0",
-            "9",
-            "0",
-            "9",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "G. Y ESGRIMA C",
-            "3",
-            "1",
-            "1",
-            "0",
-            "0",
-            "4",
-            "1",
-            "3",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "Q.H.S. B",
-            "3",
-            "1",
-            "1",
-            "0",
-            "0",
-            "2",
-            "1",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "DUCILO B",
-            "3",
-            "1",
-            "1",
-            "0",
-            "0",
-            "2",
-            "1",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "MITRE B",
-            "3",
-            "2",
-            "1",
-            "0",
-            "1",
-            "4",
-            "9",
-            "-5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "AACF QUILMES B",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "2",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "SAN FERNANDO C",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "2",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "FERRO C. O. B",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "2",
-            "4",
-            "-2",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "G. Y E. LA PLATA",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "0",
-            "2",
-            "-2",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "TRISTAN SUAREZ",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "4",
-            "-3",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "9",
-            "Casella Schuth, Kevin Tomas",
-            "SAN FERNANDO",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "9",
-            "Casella Schuth, Kevin Tomas",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "dam-a",
       "nombre": "Damas A",
       "tipo": "dam",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "S. CATHERINES",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 07 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "LOMAS",
+          "fecha": "sáb 14 mar 12:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "G. Y ESGRIMA",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 21 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "RIVER PLATE",
+          "fecha": "sáb 28 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "OLIVOS",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 11 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "CIUDAD",
+          "fecha": "sáb 18 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "BANCO NACION",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 25 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "BCO. PROVINCIA",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 02 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "BELGRANO",
+          "fecha": "sáb 09 may 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "S. BARBARA",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 17 may 13:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "ITALIANO",
+          "fecha": "sáb 30 may 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN LORENZO",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 06 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "ARQUITECTURA",
+          "fecha": "sáb 13 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "S. CATHERINES",
+          "fecha": "sáb 20 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "LOMAS",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 28 jun 13:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "G. Y ESGRIMA",
+          "fecha": "sáb 04 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "RIVER PLATE",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 11 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "OLIVOS",
+          "fecha": "sáb 18 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "CIUDAD",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 08 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "BANCO NACION",
+          "fecha": "sáb 22 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "BCO. PROVINCIA",
+          "fecha": "dom 06 sept 13:00",
+          "jugado": false
+        },
+        {
+          "local": "BELGRANO",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 12 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "S. BARBARA",
+          "fecha": "sáb 26 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "ITALIANO",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 03 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "SAN LORENZO",
+          "fecha": "sáb 10 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "ARQUITECTURA",
+          "visita": "SAN FERNANDO",
+          "fecha": "sáb 24 oct 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "LOMAS",
-            "29",
-            "14",
-            "8",
-            "5",
-            "1",
-            "28",
-            "12",
-            "16",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "S. BARBARA",
-            "25",
-            "14",
-            "7",
-            "4",
-            "3",
-            "20",
-            "14",
-            "6",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "G. Y ESGRIMA",
-            "24",
-            "13",
-            "6",
-            "6",
-            "1",
-            "22",
-            "9",
-            "13",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "BELGRANO",
-            "20",
-            "14",
-            "6",
-            "2",
-            "6",
-            "14",
-            "15",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "SAN FERNANDO",
-            "20",
-            "14",
-            "5",
-            "5",
-            "4",
-            "19",
-            "14",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "RIVER PLATE",
-            "19",
-            "14",
-            "5",
-            "4",
-            "5",
-            "19",
-            "15",
-            "4",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "ITALIANO",
-            "19",
-            "14",
-            "4",
-            "7",
-            "3",
-            "21",
-            "18",
-            "3",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "BANCO NACION",
-            "18",
-            "14",
-            "5",
-            "3",
-            "6",
-            "20",
-            "18",
-            "2",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "OLIVOS",
-            "17",
-            "13",
-            "5",
-            "2",
-            "6",
-            "15",
-            "23",
-            "-8",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "CIUDAD",
-            "17",
-            "14",
-            "4",
-            "5",
-            "5",
-            "20",
-            "19",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "S. CATHERINES",
-            "16",
-            "14",
-            "4",
-            "4",
-            "6",
-            "16",
-            "19",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "BCO. PROVINCIA",
-            "16",
-            "14",
-            "3",
-            "7",
-            "4",
-            "26",
-            "27",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "ARQUITECTURA",
-            "15",
-            "14",
-            "4",
-            "3",
-            "7",
-            "14",
-            "25",
-            "-11",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "SAN LORENZO",
-            "6",
-            "14",
-            "1",
-            "3",
-            "10",
-            "16",
-            "42",
-            "-26",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "LOMAS",
-            "29",
-            "14",
-            "8",
-            "5",
-            "1",
-            "28",
-            "12",
-            "16",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "S. BARBARA",
-            "25",
-            "14",
-            "7",
-            "4",
-            "3",
-            "20",
-            "14",
-            "6",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "G. Y ESGRIMA",
-            "24",
-            "13",
-            "6",
-            "6",
-            "1",
-            "22",
-            "9",
-            "13",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "BELGRANO",
-            "20",
-            "14",
-            "6",
-            "2",
-            "6",
-            "14",
-            "15",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "SAN FERNANDO",
-            "20",
-            "14",
-            "5",
-            "5",
-            "4",
-            "19",
-            "14",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "RIVER PLATE",
-            "19",
-            "14",
-            "5",
-            "4",
-            "5",
-            "19",
-            "15",
-            "4",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "ITALIANO",
-            "19",
-            "14",
-            "4",
-            "7",
-            "3",
-            "21",
-            "18",
-            "3",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "BANCO NACION",
-            "18",
-            "14",
-            "5",
-            "3",
-            "6",
-            "20",
-            "18",
-            "2",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "OLIVOS",
-            "17",
-            "13",
-            "5",
-            "2",
-            "6",
-            "15",
-            "23",
-            "-8",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "CIUDAD",
-            "17",
-            "14",
-            "4",
-            "5",
-            "5",
-            "20",
-            "19",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "S. CATHERINES",
-            "16",
-            "14",
-            "4",
-            "4",
-            "6",
-            "16",
-            "19",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "BCO. PROVINCIA",
-            "16",
-            "14",
-            "3",
-            "7",
-            "4",
-            "26",
-            "27",
-            "-1",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "ARQUITECTURA",
-            "15",
-            "14",
-            "4",
-            "3",
-            "7",
-            "14",
-            "25",
-            "-11",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "SAN LORENZO",
-            "6",
-            "14",
-            "1",
-            "3",
-            "10",
-            "16",
-            "42",
-            "-26",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "5",
-            "Piccardo, Alina",
-            "SAN FERNANDO",
-            "8",
-            "12",
-            "0.67"
-          ],
-          [
-            "6",
-            "Costa Biondi, Valentina",
-            "SAN FERNANDO",
-            "6",
-            "14",
-            "0.43"
-          ],
-          [
-            "51",
-            "Sanguinetti, Maria Lucía",
-            "SAN FERNANDO",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
-            "72",
-            "Esandi, Candela",
-            "SAN FERNANDO",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "83",
-            "Pagella, Sol",
-            "SAN FERNANDO",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "110",
-            "Trinchineti, Eugenia",
-            "SAN FERNANDO",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "5",
-            "Piccardo, Alina",
-            "",
-            "8",
-            "12",
-            "0.67"
-          ],
-          [
-            "6",
-            "Costa Biondi, Valentina",
-            "",
-            "6",
-            "14",
-            "0.43"
-          ],
-          [
-            "51",
-            "Sanguinetti, Maria Lucía",
-            "",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
-            "72",
-            "Esandi, Candela",
-            "",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "83",
-            "Pagella, Sol",
-            "",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "110",
-            "Trinchineti, Eugenia",
-            "",
-            "1",
-            "10",
-            "0.10"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "dam-b",
       "nombre": "Damas B",
       "tipo": "dam",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "BANADE",
+          "fecha": "sáb 07 mar 06:30",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "CENTRO NAVAL",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 14 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "SAN LUIS",
+          "fecha": "sáb 21 mar 12:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "S.A.G.",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 28 mar 14:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "H.C. ANDERSEN",
+          "fecha": "sáb 11 abr 10:30",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "CIUDAD C",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 18 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "CHAMPAGNAT",
+          "fecha": "sáb 25 abr 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "S. BARBARA B",
+          "fecha": "sáb 02 may 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "C.U.B.A.",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 09 may 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "MUN. V. LOPEZ",
+          "fecha": "sáb 16 may 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "CAMIONEROS",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 30 may 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "SAGLZ",
+          "fecha": "sáb 06 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "G. Y ESGRIMA C",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 13 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "BANADE",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 20 jun 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "CENTRO NAVAL",
+          "fecha": "sáb 27 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN LUIS",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 04 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "S.A.G.",
+          "fecha": "sáb 11 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "H.C. ANDERSEN",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 18 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "CIUDAD C",
+          "fecha": "sáb 08 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "CHAMPAGNAT",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 22 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "S. BARBARA B",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 05 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "C.U.B.A.",
+          "fecha": "sáb 12 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "MUN. V. LOPEZ",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 26 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "CAMIONEROS",
+          "fecha": "sáb 03 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAGLZ",
+          "visita": "SAN FERNANDO B",
+          "fecha": "sáb 10 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "G. Y ESGRIMA C",
+          "fecha": "sáb 31 oct 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "H.C. ANDERSEN",
-            "38",
-            "14",
-            "12",
-            "2",
-            "0",
-            "35",
-            "13",
-            "22",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "SAN LUIS",
-            "28",
-            "14",
-            "9",
-            "1",
-            "4",
-            "24",
-            "17",
-            "7",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "CHAMPAGNAT",
-            "25",
-            "14",
-            "7",
-            "4",
-            "3",
-            "24",
-            "15",
-            "9",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "S.A.G.",
-            "24",
-            "14",
-            "6",
-            "6",
-            "2",
-            "19",
-            "12",
-            "7",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "S. BARBARA B",
-            "23",
-            "14",
-            "7",
-            "2",
-            "5",
-            "26",
-            "21",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "C.U.B.A.",
-            "21",
-            "14",
-            "6",
-            "3",
-            "5",
-            "27",
-            "23",
-            "4",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "SAN FERNANDO B",
-            "20",
-            "14",
-            "6",
-            "2",
-            "6",
-            "16",
-            "14",
-            "2",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "BANADE",
-            "20",
-            "14",
-            "5",
-            "5",
-            "4",
-            "20",
-            "19",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "CAMIONEROS",
-            "19",
-            "14",
-            "6",
-            "1",
-            "7",
-            "13",
-            "19",
-            "-6",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "CENTRO NAVAL",
-            "16",
-            "14",
-            "4",
-            "4",
-            "6",
-            "13",
-            "16",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "G. Y ESGRIMA C",
-            "13",
-            "14",
-            "3",
-            "4",
-            "7",
-            "12",
-            "16",
-            "-4",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "SAGLZ",
-            "12",
-            "14",
-            "2",
-            "6",
-            "6",
-            "17",
-            "31",
-            "-14",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "MUN. V. LOPEZ",
-            "9",
-            "14",
-            "2",
-            "3",
-            "9",
-            "13",
-            "22",
-            "-9",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "CIUDAD C",
-            "4",
-            "14",
-            "1",
-            "1",
-            "12",
-            "5",
-            "26",
-            "-21",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "H.C. ANDERSEN",
-            "38",
-            "14",
-            "12",
-            "2",
-            "0",
-            "35",
-            "13",
-            "22",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "SAN LUIS",
-            "28",
-            "14",
-            "9",
-            "1",
-            "4",
-            "24",
-            "17",
-            "7",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "CHAMPAGNAT",
-            "25",
-            "14",
-            "7",
-            "4",
-            "3",
-            "24",
-            "15",
-            "9",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "S.A.G.",
-            "24",
-            "14",
-            "6",
-            "6",
-            "2",
-            "19",
-            "12",
-            "7",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "S. BARBARA B",
-            "23",
-            "14",
-            "7",
-            "2",
-            "5",
-            "26",
-            "21",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "C.U.B.A.",
-            "21",
-            "14",
-            "6",
-            "3",
-            "5",
-            "27",
-            "23",
-            "4",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "SAN FERNANDO B",
-            "20",
-            "14",
-            "6",
-            "2",
-            "6",
-            "16",
-            "14",
-            "2",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "BANADE",
-            "20",
-            "14",
-            "5",
-            "5",
-            "4",
-            "20",
-            "19",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "CAMIONEROS",
-            "19",
-            "14",
-            "6",
-            "1",
-            "7",
-            "13",
-            "19",
-            "-6",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "CENTRO NAVAL",
-            "16",
-            "14",
-            "4",
-            "4",
-            "6",
-            "13",
-            "16",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "G. Y ESGRIMA C",
-            "13",
-            "14",
-            "3",
-            "4",
-            "7",
-            "12",
-            "16",
-            "-4",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "SAGLZ",
-            "12",
-            "14",
-            "2",
-            "6",
-            "6",
-            "17",
-            "31",
-            "-14",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "MUN. V. LOPEZ",
-            "9",
-            "14",
-            "2",
-            "3",
-            "9",
-            "13",
-            "22",
-            "-9",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "CIUDAD C",
-            "4",
-            "14",
-            "1",
-            "1",
-            "12",
-            "5",
-            "26",
-            "-21",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "16",
-            "Chaubell, M. Victoria",
-            "SAN FERNANDO",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "19",
-            "Flores, Sofia Ornella",
-            "SAN FERNANDO",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "21",
-            "Lindolfo, Candelaria",
-            "SAN FERNANDO",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "58",
-            "Findor, Maia",
-            "SAN FERNANDO",
-            "2",
-            "12",
-            "0.17"
-          ],
-          [
-            "68",
-            "Gastaldin, Valentina",
-            "SAN FERNANDO",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "71",
-            "Grom, Luciana",
-            "SAN FERNANDO",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "74",
-            "Montes, Lola",
-            "SAN FERNANDO",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "86",
-            "Alberich, Juana",
-            "SAN FERNANDO",
-            "1",
-            "12",
-            "0.08"
-          ],
-          [
-            "112",
-            "Enrico, María Valentina",
-            "SAN FERNANDO",
-            "1",
-            "5",
-            "0.20"
-          ],
-          [
-            "16",
-            "Chaubell, M. Victoria",
-            "",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "19",
-            "Flores, Sofia Ornella",
-            "",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "21",
-            "Lindolfo, Candelaria",
-            "",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "58",
-            "Findor, Maia",
-            "",
-            "2",
-            "12",
-            "0.17"
-          ],
-          [
-            "68",
-            "Gastaldin, Valentina",
-            "",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "71",
-            "Grom, Luciana",
-            "",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "74",
-            "Montes, Lola",
-            "",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "86",
-            "Alberich, Juana",
-            "",
-            "1",
-            "12",
-            "0.08"
-          ],
-          [
-            "112",
-            "Enrico, María Valentina",
-            "",
-            "1",
-            "5",
-            "0.20"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "dam-c",
       "nombre": "Damas C",
       "tipo": "dam",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "CLUB J.M.",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 07 mar 10:30",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "LOS PINOS",
+          "fecha": "sáb 14 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "CENTRO NAVAL B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 21 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "PUCARA C",
+          "fecha": "sáb 28 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "PUERTOS DEL LAGO",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 11 abr 10:30",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "ST. BRENDANS B",
+          "fecha": "sáb 18 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN LUIS C",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 25 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "MUN. LA MATANZA",
+          "fecha": "sáb 02 may 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "BANFIELD B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 09 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "N. CHICAGO",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 16 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "DEP. S. BARBARA B",
+          "fecha": "sáb 30 may 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "CIUDAD DE CAMPANA",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 06 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "PLATENSE",
+          "fecha": "sáb 13 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "4",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "CLUB J.M.",
+          "fecha": "sáb 20 jun 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "LOS PINOS",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 27 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "CENTRO NAVAL B",
+          "fecha": "sáb 04 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PUCARA C",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 11 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "PUERTOS DEL LAGO",
+          "fecha": "sáb 18 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "ST. BRENDANS B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 08 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "SAN LUIS C",
+          "fecha": "sáb 22 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "MUN. LA MATANZA",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 05 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "BANFIELD B",
+          "fecha": "sáb 12 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "N. CHICAGO",
+          "fecha": "sáb 26 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "DEP. S. BARBARA B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 03 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "CIUDAD DE CAMPANA",
+          "fecha": "sáb 10 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PLATENSE",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 31 oct 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "SAN FERNANDO C",
-            "38",
-            "14",
-            "12",
-            "2",
-            "0",
-            "33",
-            "8",
-            "25",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "PUCARA C",
-            "32",
-            "14",
-            "10",
-            "2",
-            "2",
-            "34",
-            "16",
-            "18",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "CENTRO NAVAL B",
-            "32",
-            "14",
-            "10",
-            "2",
-            "2",
-            "20",
-            "10",
-            "10",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "MUN. LA MATANZA",
-            "27",
-            "14",
-            "8",
-            "3",
-            "3",
-            "28",
-            "10",
-            "18",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "BANFIELD B",
-            "26",
-            "14",
-            "8",
-            "2",
-            "4",
-            "27",
-            "22",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "PUERTOS DEL LAGO",
-            "25",
-            "14",
-            "8",
-            "1",
-            "5",
-            "20",
-            "14",
-            "6",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "LOS PINOS",
-            "19",
-            "14",
-            "4",
-            "7",
-            "3",
-            "19",
-            "16",
-            "3",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "DEP. S. BARBARA B",
-            "16",
-            "14",
-            "5",
-            "1",
-            "8",
-            "15",
-            "18",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "N. CHICAGO",
-            "12",
-            "14",
-            "3",
-            "3",
-            "8",
-            "11",
-            "17",
-            "-6",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "SAN LUIS C",
-            "12",
-            "14",
-            "3",
-            "3",
-            "8",
-            "10",
-            "20",
-            "-10",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "CIUDAD DE CAMPANA",
-            "11",
-            "14",
-            "3",
-            "2",
-            "9",
-            "7",
-            "22",
-            "-15",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "CLUB J.M.",
-            "11",
-            "14",
-            "3",
-            "2",
-            "9",
-            "11",
-            "35",
-            "-24",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "ST. BRENDANS B",
-            "8",
-            "14",
-            "2",
-            "2",
-            "10",
-            "12",
-            "24",
-            "-12",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "PLATENSE",
-            "8",
-            "14",
-            "2",
-            "2",
-            "10",
-            "11",
-            "26",
-            "-15",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "SAN FERNANDO C",
-            "38",
-            "14",
-            "12",
-            "2",
-            "0",
-            "33",
-            "8",
-            "25",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "PUCARA C",
-            "32",
-            "14",
-            "10",
-            "2",
-            "2",
-            "34",
-            "16",
-            "18",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "CENTRO NAVAL B",
-            "32",
-            "14",
-            "10",
-            "2",
-            "2",
-            "20",
-            "10",
-            "10",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "MUN. LA MATANZA",
-            "27",
-            "14",
-            "8",
-            "3",
-            "3",
-            "28",
-            "10",
-            "18",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "BANFIELD B",
-            "26",
-            "14",
-            "8",
-            "2",
-            "4",
-            "27",
-            "22",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "PUERTOS DEL LAGO",
-            "25",
-            "14",
-            "8",
-            "1",
-            "5",
-            "20",
-            "14",
-            "6",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "LOS PINOS",
-            "19",
-            "14",
-            "4",
-            "7",
-            "3",
-            "19",
-            "16",
-            "3",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "DEP. S. BARBARA B",
-            "16",
-            "14",
-            "5",
-            "1",
-            "8",
-            "15",
-            "18",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "N. CHICAGO",
-            "12",
-            "14",
-            "3",
-            "3",
-            "8",
-            "11",
-            "17",
-            "-6",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "SAN LUIS C",
-            "12",
-            "14",
-            "3",
-            "3",
-            "8",
-            "10",
-            "20",
-            "-10",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "CIUDAD DE CAMPANA",
-            "11",
-            "14",
-            "3",
-            "2",
-            "9",
-            "7",
-            "22",
-            "-15",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "CLUB J.M.",
-            "11",
-            "14",
-            "3",
-            "2",
-            "9",
-            "11",
-            "35",
-            "-24",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "ST. BRENDANS B",
-            "8",
-            "14",
-            "2",
-            "2",
-            "10",
-            "12",
-            "24",
-            "-12",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "PLATENSE",
-            "8",
-            "14",
-            "2",
-            "2",
-            "10",
-            "11",
-            "26",
-            "-15",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "7",
-            "Cornolo, Sol Catherine",
-            "SAN FERNANDO",
-            "6",
-            "14",
-            "0.43"
-          ],
-          [
-            "12",
-            "Larrinaga, Delfina",
-            "SAN FERNANDO",
-            "5",
-            "14",
-            "0.36"
-          ],
-          [
-            "13",
-            "Sosa, Karen Sofia",
-            "SAN FERNANDO",
-            "5",
-            "14",
-            "0.36"
-          ],
-          [
-            "18",
-            "Suarez Labella, Florencia Abril",
-            "SAN FERNANDO",
-            "4",
-            "14",
-            "0.29"
-          ],
-          [
-            "22",
-            "Zequeira, Ivana Sofia",
-            "SAN FERNANDO",
-            "4",
-            "12",
-            "0.33"
-          ],
-          [
-            "29",
-            "Suarez Perez, Valentina",
-            "SAN FERNANDO",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "34",
-            "Aguirre Gomez Corta Gonzalez, Almudena",
-            "SAN FERNANDO",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
-            "59",
-            "Maza, Delfina",
-            "SAN FERNANDO",
-            "2",
-            "10",
-            "0.20"
-          ],
-          [
-            "86",
-            "Alvarez Mendizabal, Candela",
-            "SAN FERNANDO",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "95",
-            "Pisano, Delfina",
-            "SAN FERNANDO",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "7",
-            "Cornolo, Sol Catherine",
-            "",
-            "6",
-            "14",
-            "0.43"
-          ],
-          [
-            "12",
-            "Larrinaga, Delfina",
-            "",
-            "5",
-            "14",
-            "0.36"
-          ],
-          [
-            "13",
-            "Sosa, Karen Sofia",
-            "",
-            "5",
-            "14",
-            "0.36"
-          ],
-          [
-            "18",
-            "Suarez Labella, Florencia Abril",
-            "",
-            "4",
-            "14",
-            "0.29"
-          ],
-          [
-            "22",
-            "Zequeira, Ivana Sofia",
-            "",
-            "4",
-            "12",
-            "0.33"
-          ],
-          [
-            "29",
-            "Suarez Perez, Valentina",
-            "",
-            "3",
-            "14",
-            "0.21"
-          ],
-          [
-            "34",
-            "Aguirre Gomez Corta Gonzalez, Almudena",
-            "",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
-            "59",
-            "Maza, Delfina",
-            "",
-            "2",
-            "10",
-            "0.20"
-          ],
-          [
-            "86",
-            "Alvarez Mendizabal, Candela",
-            "",
-            "1",
-            "13",
-            "0.08"
-          ],
-          [
-            "95",
-            "Pisano, Delfina",
-            "",
-            "1",
-            "13",
-            "0.08"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "dam-d",
       "nombre": "Damas D",
       "tipo": "dam",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "CAMPANA B.C. B",
+          "fecha": "sáb 07 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "LOS CEDROS B",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 14 mar 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "BANCO CENTRAL",
+          "fecha": "sáb 21 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "5",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "VICENTINOS B",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 28 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "PADRE MARIO",
+          "fecha": "sáb 11 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "A. C. BRANDSEN",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 18 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "ARGENTINO B",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 02 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "S.I.T.A.S. C",
+          "fecha": "sáb 09 may 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "LUJAN R.C. B",
+          "fecha": "sáb 16 may 06:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "PUERTO NIZUC C",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 30 may 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "PUEYRREDON C",
+          "fecha": "sáb 06 jun 10:30",
+          "jugado": true,
+          "scoreLocal": "4",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "C. NEWMAN D",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 13 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "CAMPANA B.C. B",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 20 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "6"
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "LOS CEDROS B",
+          "fecha": "sáb 27 jun 10:30",
+          "jugado": false
+        },
+        {
+          "local": "BANCO CENTRAL",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 04 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "VICENTINOS B",
+          "fecha": "sáb 11 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PADRE MARIO",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 18 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "A. C. BRANDSEN",
+          "fecha": "sáb 08 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "ARGENTINO B",
+          "fecha": "sáb 05 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "S.I.T.A.S. C",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 12 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "LUJAN R.C. B",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 26 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "PUERTO NIZUC C",
+          "fecha": "sáb 03 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PUEYRREDON C",
+          "visita": "SAN FERNANDO D",
+          "fecha": "sáb 10 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO D",
+          "visita": "C. NEWMAN D",
+          "fecha": "sáb 31 oct 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "PUERTO NIZUC C",
-            "33",
-            "13",
-            "10",
-            "3",
-            "0",
-            "51",
-            "12",
-            "39",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "C. NEWMAN D",
-            "33",
-            "13",
-            "10",
-            "3",
-            "0",
-            "49",
-            "11",
-            "38",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "SAN FERNANDO D",
-            "28",
-            "13",
-            "8",
-            "4",
-            "1",
-            "34",
-            "11",
-            "23",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "VICENTINOS B",
-            "27",
-            "12",
-            "8",
-            "3",
-            "1",
-            "28",
-            "13",
-            "15",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "LOS CEDROS B",
-            "19",
-            "13",
-            "5",
-            "4",
-            "4",
-            "18",
-            "18",
-            "0",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "LUJAN R.C. B",
-            "18",
-            "13",
-            "5",
-            "3",
-            "5",
-            "15",
-            "14",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "A. C. BRANDSEN",
-            "18",
-            "13",
-            "5",
-            "3",
-            "5",
-            "16",
-            "16",
-            "0",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "PUEYRREDON C",
-            "17",
-            "13",
-            "5",
-            "2",
-            "6",
-            "23",
-            "25",
-            "-2",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "S.I.T.A.S. C",
-            "13",
-            "13",
-            "3",
-            "4",
-            "6",
-            "15",
-            "25",
-            "-10",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "BANCO CENTRAL",
-            "9",
-            "13",
-            "2",
-            "3",
-            "8",
-            "17",
-            "39",
-            "-22",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "CAMPANA B.C. B",
-            "8",
-            "13",
-            "2",
-            "2",
-            "9",
-            "15",
-            "40",
-            "-25",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "PADRE MARIO",
-            "7",
-            "13",
-            "2",
-            "1",
-            "10",
-            "13",
-            "33",
-            "-20",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "ARGENTINO B",
-            "3",
-            "13",
-            "0",
-            "3",
-            "10",
-            "9",
-            "46",
-            "-37",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "PUERTO NIZUC C",
-            "33",
-            "13",
-            "10",
-            "3",
-            "0",
-            "51",
-            "12",
-            "39",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "C. NEWMAN D",
-            "33",
-            "13",
-            "10",
-            "3",
-            "0",
-            "49",
-            "11",
-            "38",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "SAN FERNANDO D",
-            "28",
-            "13",
-            "8",
-            "4",
-            "1",
-            "34",
-            "11",
-            "23",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "VICENTINOS B",
-            "27",
-            "12",
-            "8",
-            "3",
-            "1",
-            "28",
-            "13",
-            "15",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "LOS CEDROS B",
-            "19",
-            "13",
-            "5",
-            "4",
-            "4",
-            "18",
-            "18",
-            "0",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "LUJAN R.C. B",
-            "18",
-            "13",
-            "5",
-            "3",
-            "5",
-            "15",
-            "14",
-            "1",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "A. C. BRANDSEN",
-            "18",
-            "13",
-            "5",
-            "3",
-            "5",
-            "16",
-            "16",
-            "0",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "PUEYRREDON C",
-            "17",
-            "13",
-            "5",
-            "2",
-            "6",
-            "23",
-            "25",
-            "-2",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "S.I.T.A.S. C",
-            "13",
-            "13",
-            "3",
-            "4",
-            "6",
-            "15",
-            "25",
-            "-10",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "BANCO CENTRAL",
-            "9",
-            "13",
-            "2",
-            "3",
-            "8",
-            "17",
-            "39",
-            "-22",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "CAMPANA B.C. B",
-            "8",
-            "13",
-            "2",
-            "2",
-            "9",
-            "15",
-            "40",
-            "-25",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "PADRE MARIO",
-            "7",
-            "13",
-            "2",
-            "1",
-            "10",
-            "13",
-            "33",
-            "-20",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "ARGENTINO B",
-            "3",
-            "13",
-            "0",
-            "3",
-            "10",
-            "9",
-            "46",
-            "-37",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "7",
-            "Zakowicz, Melani",
-            "SAN FERNANDO",
-            "7",
-            "13",
-            "0.54"
-          ],
-          [
-            "12",
-            "Adamoli, Morena",
-            "SAN FERNANDO",
-            "5",
-            "13",
-            "0.38"
-          ],
-          [
-            "22",
-            "Pereyro, Martina Sofia",
-            "SAN FERNANDO",
-            "4",
-            "8",
-            "0.50"
-          ],
-          [
-            "23",
-            "Arias, Luciana",
-            "SAN FERNANDO",
-            "3",
-            "13",
-            "0.23"
-          ],
-          [
-            "37",
-            "De Groot, Sofia",
-            "SAN FERNANDO",
-            "3",
-            "11",
-            "0.27"
-          ],
-          [
-            "47",
-            "Gonzalez Gotelli, Paloma",
-            "SAN FERNANDO",
-            "2",
-            "13",
-            "0.15"
-          ],
-          [
-            "50",
-            "Quintana, Pilar",
-            "SAN FERNANDO",
-            "2",
-            "13",
-            "0.15"
-          ],
-          [
-            "52",
-            "Adamoli, Candelaria",
-            "SAN FERNANDO",
-            "2",
-            "12",
-            "0.17"
-          ],
-          [
-            "56",
-            "Tort, Agustina",
-            "SAN FERNANDO",
-            "2",
-            "12",
-            "0.17"
-          ],
-          [
-            "93",
-            "Haenger, Paloma",
-            "SAN FERNANDO",
-            "1",
-            "11",
-            "0.09"
-          ],
-          [
-            "97",
-            "Sackmann, Ana Rocca",
-            "SAN FERNANDO",
-            "1",
-            "11",
-            "0.09"
-          ],
-          [
-            "102",
-            "Leon Casamayou, Josefina",
-            "SAN FERNANDO",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "108",
-            "Fuoco, Guadalupe",
-            "SAN FERNANDO",
-            "1",
-            "9",
-            "0.11"
-          ],
-          [
-            "7",
-            "Zakowicz, Melani",
-            "",
-            "7",
-            "13",
-            "0.54"
-          ],
-          [
-            "12",
-            "Adamoli, Morena",
-            "",
-            "5",
-            "13",
-            "0.38"
-          ],
-          [
-            "22",
-            "Pereyro, Martina Sofia",
-            "",
-            "4",
-            "8",
-            "0.50"
-          ],
-          [
-            "23",
-            "Arias, Luciana",
-            "",
-            "3",
-            "13",
-            "0.23"
-          ],
-          [
-            "37",
-            "De Groot, Sofia",
-            "",
-            "3",
-            "11",
-            "0.27"
-          ],
-          [
-            "47",
-            "Gonzalez Gotelli, Paloma",
-            "",
-            "2",
-            "13",
-            "0.15"
-          ],
-          [
-            "50",
-            "Quintana, Pilar",
-            "",
-            "2",
-            "13",
-            "0.15"
-          ],
-          [
-            "52",
-            "Adamoli, Candelaria",
-            "",
-            "2",
-            "12",
-            "0.17"
-          ],
-          [
-            "56",
-            "Tort, Agustina",
-            "",
-            "2",
-            "12",
-            "0.17"
-          ],
-          [
-            "93",
-            "Haenger, Paloma",
-            "",
-            "1",
-            "11",
-            "0.09"
-          ],
-          [
-            "97",
-            "Sackmann, Ana Rocca",
-            "",
-            "1",
-            "11",
-            "0.09"
-          ],
-          [
-            "102",
-            "Leon Casamayou, Josefina",
-            "",
-            "1",
-            "10",
-            "0.10"
-          ],
-          [
-            "108",
-            "Fuoco, Guadalupe",
-            "",
-            "1",
-            "9",
-            "0.11"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     },
     {
       "id": "dam-e",
       "nombre": "Damas E",
       "tipo": "dam",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "SAN FERNANDO",
+          "visita": "C.U.B.A. B",
+          "fecha": "dom 08 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "10",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "C.M. BELGRANO",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 15 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "CIRCULO HEBREO",
+          "fecha": "dom 22 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "9",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "DEP. FRANCESA B",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 29 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "9"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "SAN LORENZO",
+          "fecha": "dom 12 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "EL SOSIEGO",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 19 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "ALBATROS",
+          "fecha": "dom 26 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "G.E.I.",
+          "fecha": "dom 03 may 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "BANADE",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 10 may 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "PUEYRREDON",
+          "fecha": "dom 17 may 11:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "LOS MATREROS B",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 31 may 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "COMUNICACIONES",
+          "fecha": "dom 07 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "U. LA PLATA",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 14 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "VICENTINOS",
+          "fecha": "lun 25 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "LICEO MILITAR",
+          "visita": "SAN FERNANDO",
+          "fecha": "vie 20 mar 22:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "5"
+        },
+        {
+          "local": "C.U.B.A. B",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 21 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "C.M. BELGRANO",
+          "fecha": "dom 28 jun 16:00",
+          "jugado": false
+        },
+        {
+          "local": "CIRCULO HEBREO",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 05 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "DEP. FRANCESA B",
+          "fecha": "dom 12 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN LORENZO",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 19 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "EL SOSIEGO",
+          "fecha": "dom 09 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "ALBATROS",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 23 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "G.E.I.",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 06 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "BANADE",
+          "fecha": "dom 13 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PUEYRREDON",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 27 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "LOS MATREROS B",
+          "fecha": "dom 04 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "COMUNICACIONES",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 11 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "U. LA PLATA",
+          "fecha": "dom 01 nov 16:00",
+          "jugado": false
+        },
+        {
+          "local": "VICENTINOS",
+          "visita": "SAN FERNANDO",
+          "fecha": "dom 16 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO",
+          "visita": "LICEO MILITAR",
+          "fecha": "dom 18 oct 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
-        "headers": [
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB",
-          "#",
-          "Club",
-          "PTS",
-          "PJ",
-          "PG",
-          "PE",
-          "PP",
-          "GF",
-          "GC",
-          "DF",
-          "PB"
-        ],
-        "rows": [
-          [
-            "1",
-            "SAN LORENZO",
-            "40",
-            "15",
-            "13",
-            "1",
-            "1",
-            "58",
-            "9",
-            "49",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "ALBATROS",
-            "34",
-            "15",
-            "11",
-            "1",
-            "3",
-            "46",
-            "17",
-            "29",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "SAN FERNANDO",
-            "34",
-            "15",
-            "10",
-            "4",
-            "1",
-            "51",
-            "11",
-            "40",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "BANADE",
-            "34",
-            "15",
-            "10",
-            "4",
-            "1",
-            "43",
-            "11",
-            "32",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "U. LA PLATA",
-            "26",
-            "15",
-            "6",
-            "8",
-            "1",
-            "39",
-            "18",
-            "21",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "LICEO MILITAR",
-            "25",
-            "15",
-            "8",
-            "1",
-            "6",
-            "39",
-            "21",
-            "18",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "LOS MATREROS B",
-            "24",
-            "15",
-            "7",
-            "3",
-            "5",
-            "38",
-            "16",
-            "22",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "EL SOSIEGO",
-            "22",
-            "15",
-            "7",
-            "1",
-            "7",
-            "46",
-            "41",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "C.U.B.A. B",
-            "20",
-            "15",
-            "6",
-            "2",
-            "7",
-            "34",
-            "34",
-            "0",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "C.M. BELGRANO",
-            "18",
-            "15",
-            "4",
-            "6",
-            "5",
-            "17",
-            "20",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "G.E.I.",
-            "14",
-            "15",
-            "4",
-            "2",
-            "9",
-            "20",
-            "42",
-            "-22",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "PUEYRREDON",
-            "13",
-            "15",
-            "3",
-            "4",
-            "8",
-            "16",
-            "30",
-            "-14",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "VICENTINOS",
-            "10",
-            "15",
-            "2",
-            "4",
-            "9",
-            "22",
-            "34",
-            "-12",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "COMUNICACIONES",
-            "10",
-            "15",
-            "2",
-            "4",
-            "9",
-            "7",
-            "26",
-            "-19",
-            "0",
-            ""
-          ],
-          [
-            "15",
-            "DEP. FRANCESA B",
-            "7",
-            "15",
-            "1",
-            "4",
-            "10",
-            "5",
-            "81",
-            "-76",
-            "0",
-            ""
-          ],
-          [
-            "16",
-            "CIRCULO HEBREO",
-            "4",
-            "15",
-            "1",
-            "1",
-            "13",
-            "11",
-            "81",
-            "-70",
-            "0",
-            ""
-          ],
-          [
-            "1",
-            "SAN LORENZO",
-            "40",
-            "15",
-            "13",
-            "1",
-            "1",
-            "58",
-            "9",
-            "49",
-            "0",
-            ""
-          ],
-          [
-            "2",
-            "ALBATROS",
-            "34",
-            "15",
-            "11",
-            "1",
-            "3",
-            "46",
-            "17",
-            "29",
-            "0",
-            ""
-          ],
-          [
-            "3",
-            "SAN FERNANDO",
-            "34",
-            "15",
-            "10",
-            "4",
-            "1",
-            "51",
-            "11",
-            "40",
-            "0",
-            ""
-          ],
-          [
-            "4",
-            "BANADE",
-            "34",
-            "15",
-            "10",
-            "4",
-            "1",
-            "43",
-            "11",
-            "32",
-            "0",
-            ""
-          ],
-          [
-            "5",
-            "U. LA PLATA",
-            "26",
-            "15",
-            "6",
-            "8",
-            "1",
-            "39",
-            "18",
-            "21",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "LICEO MILITAR",
-            "25",
-            "15",
-            "8",
-            "1",
-            "6",
-            "39",
-            "21",
-            "18",
-            "0",
-            ""
-          ],
-          [
-            "7",
-            "LOS MATREROS B",
-            "24",
-            "15",
-            "7",
-            "3",
-            "5",
-            "38",
-            "16",
-            "22",
-            "0",
-            ""
-          ],
-          [
-            "8",
-            "EL SOSIEGO",
-            "22",
-            "15",
-            "7",
-            "1",
-            "7",
-            "46",
-            "41",
-            "5",
-            "0",
-            ""
-          ],
-          [
-            "9",
-            "C.U.B.A. B",
-            "20",
-            "15",
-            "6",
-            "2",
-            "7",
-            "34",
-            "34",
-            "0",
-            "0",
-            ""
-          ],
-          [
-            "10",
-            "C.M. BELGRANO",
-            "18",
-            "15",
-            "4",
-            "6",
-            "5",
-            "17",
-            "20",
-            "-3",
-            "0",
-            ""
-          ],
-          [
-            "11",
-            "G.E.I.",
-            "14",
-            "15",
-            "4",
-            "2",
-            "9",
-            "20",
-            "42",
-            "-22",
-            "0",
-            ""
-          ],
-          [
-            "12",
-            "PUEYRREDON",
-            "13",
-            "15",
-            "3",
-            "4",
-            "8",
-            "16",
-            "30",
-            "-14",
-            "0",
-            ""
-          ],
-          [
-            "13",
-            "VICENTINOS",
-            "10",
-            "15",
-            "2",
-            "4",
-            "9",
-            "22",
-            "34",
-            "-12",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "COMUNICACIONES",
-            "10",
-            "15",
-            "2",
-            "4",
-            "9",
-            "7",
-            "26",
-            "-19",
-            "0",
-            ""
-          ],
-          [
-            "15",
-            "DEP. FRANCESA B",
-            "7",
-            "15",
-            "1",
-            "4",
-            "10",
-            "5",
-            "81",
-            "-76",
-            "0",
-            ""
-          ],
-          [
-            "16",
-            "CIRCULO HEBREO",
-            "4",
-            "15",
-            "1",
-            "1",
-            "13",
-            "11",
-            "81",
-            "-70",
-            "0",
-            ""
-          ]
-        ]
+        "headers": [],
+        "rows": []
       },
       "goleadores": {
-        "headers": [
-          "Ranking",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio",
-          "#",
-          "Jugador",
-          "Club",
-          "Goles",
-          "Partidos",
-          "Promedio"
-        ],
-        "rows": [
-          [
-            "5",
-            "Abraham Giosa, Francisca",
-            "SAN FERNANDO",
-            "9",
-            "15",
-            "0.60"
-          ],
-          [
-            "17",
-            "Alfaro Mercuri, Maitena Rocio",
-            "SAN FERNANDO",
-            "7",
-            "15",
-            "0.47"
-          ],
-          [
-            "20",
-            "Crochat, Agnes",
-            "SAN FERNANDO",
-            "7",
-            "15",
-            "0.47"
-          ],
-          [
-            "25",
-            "Solaro, Angela",
-            "SAN FERNANDO",
-            "7",
-            "11",
-            "0.64"
-          ],
-          [
-            "36",
-            "Ferreiro, Francisca Maria",
-            "SAN FERNANDO",
-            "5",
-            "12",
-            "0.42"
-          ],
-          [
-            "40",
-            "Martinez, Delfina",
-            "SAN FERNANDO",
-            "4",
-            "15",
-            "0.27"
-          ],
-          [
-            "53",
-            "Tradito, Ana Paula",
-            "SAN FERNANDO",
-            "3",
-            "15",
-            "0.20"
-          ],
-          [
-            "64",
-            "Rodriguez Negri, Ariela",
-            "SAN FERNANDO",
-            "3",
-            "12",
-            "0.25"
-          ],
-          [
-            "77",
-            "Protetto, Denise Eliana",
-            "SAN FERNANDO",
-            "2",
-            "15",
-            "0.13"
-          ],
-          [
-            "102",
-            "Cacherosky, Candela",
-            "SAN FERNANDO",
-            "1",
-            "15",
-            "0.07"
-          ],
-          [
-            "111",
-            "Vazquez Ortolani, Sofia",
-            "SAN FERNANDO",
-            "1",
-            "15",
-            "0.07"
-          ],
-          [
-            "120",
-            "Estevez, Paulina",
-            "SAN FERNANDO",
-            "1",
-            "12",
-            "0.08"
-          ],
-          [
-            "125",
-            "Sequeira, Priscila Guadalupe",
-            "SAN FERNANDO",
-            "1",
-            "12",
-            "0.08"
-          ],
-          [
-            "5",
-            "Abraham Giosa, Francisca",
-            "",
-            "9",
-            "15",
-            "0.60"
-          ],
-          [
-            "17",
-            "Alfaro Mercuri, Maitena Rocio",
-            "",
-            "7",
-            "15",
-            "0.47"
-          ],
-          [
-            "20",
-            "Crochat, Agnes",
-            "",
-            "7",
-            "15",
-            "0.47"
-          ],
-          [
-            "25",
-            "Solaro, Angela",
-            "",
-            "7",
-            "11",
-            "0.64"
-          ],
-          [
-            "36",
-            "Ferreiro, Francisca Maria",
-            "",
-            "5",
-            "12",
-            "0.42"
-          ],
-          [
-            "40",
-            "Martinez, Delfina",
-            "",
-            "4",
-            "15",
-            "0.27"
-          ],
-          [
-            "53",
-            "Tradito, Ana Paula",
-            "",
-            "3",
-            "15",
-            "0.20"
-          ],
-          [
-            "64",
-            "Rodriguez Negri, Ariela",
-            "",
-            "3",
-            "12",
-            "0.25"
-          ],
-          [
-            "77",
-            "Protetto, Denise Eliana",
-            "",
-            "2",
-            "15",
-            "0.13"
-          ],
-          [
-            "102",
-            "Cacherosky, Candela",
-            "",
-            "1",
-            "15",
-            "0.07"
-          ],
-          [
-            "111",
-            "Vazquez Ortolani, Sofia",
-            "",
-            "1",
-            "15",
-            "0.07"
-          ],
-          [
-            "120",
-            "Estevez, Paulina",
-            "",
-            "1",
-            "12",
-            "0.08"
-          ],
-          [
-            "125",
-            "Sequeira, Priscila Guadalupe",
-            "",
-            "1",
-            "12",
-            "0.08"
-          ]
-        ]
+        "headers": [],
+        "rows": []
       }
     }
   ]
