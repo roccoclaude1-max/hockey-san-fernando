@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-21T00:52:15.378894+00:00",
+  "actualizado": "2026-06-21T11:39:10.288213+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -3217,6 +3217,20 @@
           ],
           [
             "3",
+            "AACF QUILMES B",
+            "3",
+            "2",
+            "1",
+            "0",
+            "1",
+            "5",
+            "4",
+            "1",
+            "0",
+            ""
+          ],
+          [
+            "4",
             "Q.H.S. B",
             "3",
             "1",
@@ -3230,21 +3244,21 @@
             ""
           ],
           [
-            "4",
+            "5",
             "DUCILO B",
             "3",
-            "1",
-            "1",
-            "0",
-            "0",
             "2",
             "1",
+            "0",
             "1",
+            "4",
+            "5",
+            "-1",
             "0",
             ""
           ],
           [
-            "5",
+            "6",
             "MITRE B",
             "3",
             "2",
@@ -3254,20 +3268,6 @@
             "4",
             "9",
             "-5",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "AACF QUILMES B",
-            "0",
-            "1",
-            "0",
-            "0",
-            "1",
-            "1",
-            "2",
-            "-1",
             "0",
             ""
           ],
@@ -3365,6 +3365,14 @@
           ],
           [
             "4",
+            "Garay, Rubén Adrián",
+            "DUCILO",
+            "2",
+            "2",
+            "1.00"
+          ],
+          [
+            "5",
             "Lezcano, Braian H",
             "MITRE",
             "2",
@@ -3372,7 +3380,7 @@
             "1.00"
           ],
           [
-            "5",
+            "6",
             "Lattanzio, Santiago Luis",
             "G. Y ESGRIMA",
             "2",
@@ -3380,7 +3388,7 @@
             "2.00"
           ],
           [
-            "6",
+            "7",
             "Bareiro, Rolando Eusebio",
             "MITRE",
             "1",
@@ -3388,7 +3396,7 @@
             "0.50"
           ],
           [
-            "7",
+            "8",
             "Carrillo Ortega, Cristian Ramiro",
             "BOCA JUNIORS",
             "1",
@@ -3396,7 +3404,15 @@
             "0.50"
           ],
           [
-            "8",
+            "9",
+            "Castro, Alejandro",
+            "AACF QUILMES",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "10",
             "D Lucas, Ignacio David",
             "BOCA JUNIORS",
             "1",
@@ -3404,7 +3420,47 @@
             "0.50"
           ],
           [
-            "9",
+            "11",
+            "Gorosito, Ignacio",
+            "AACF QUILMES",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "12",
+            "Guiffredi, Thiago",
+            "DUCILO",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "13",
+            "Navarro, Rodrigo",
+            "AACF QUILMES",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "14",
+            "Nicoletti, Guido",
+            "AACF QUILMES",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "15",
+            "Villari, Julian",
+            "DUCILO",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "16",
             "Casella Schuth, Kevin Tomas",
             "SAN FERNANDO",
             "1",
@@ -3412,7 +3468,7 @@
             "1.00"
           ],
           [
-            "10",
+            "17",
             "Cocco, Mariano Francisco",
             "Q.H.S.",
             "1",
@@ -3420,7 +3476,15 @@
             "1.00"
           ],
           [
-            "11",
+            "18",
+            "Daer, Cesar Sebastián",
+            "AACF QUILMES",
+            "1",
+            "1",
+            "1.00"
+          ],
+          [
+            "19",
             "Fassi, Nicolas Ezequiel",
             "G. Y ESGRIMA",
             "1",
@@ -3428,15 +3492,7 @@
             "1.00"
           ],
           [
-            "12",
-            "Garay, Rubén Adrián",
-            "DUCILO",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "13",
+            "20",
             "Gilly, Patricio",
             "FERRO C. O.",
             "1",
@@ -3444,7 +3500,7 @@
             "1.00"
           ],
           [
-            "14",
+            "21",
             "La Leta, Braian V.",
             "Q.H.S.",
             "1",
@@ -3452,7 +3508,7 @@
             "1.00"
           ],
           [
-            "15",
+            "22",
             "Larrandart, Lucas Ezequiel",
             "G. Y ESGRIMA",
             "1",
@@ -3460,15 +3516,7 @@
             "1.00"
           ],
           [
-            "16",
-            "Navarro, Rodrigo",
-            "AACF QUILMES",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "17",
+            "23",
             "Pereyra, Matias Nicolas",
             "FERRO C. O.",
             "1",
@@ -3476,7 +3524,7 @@
             "1.00"
           ],
           [
-            "18",
+            "24",
             "Rojas, Emanuel",
             "TRISTAN SUAREZ",
             "1",
@@ -3484,17 +3532,9 @@
             "1.00"
           ],
           [
-            "19",
+            "25",
             "Saucedo, Valentin Matias",
             "MITRE",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "20",
-            "Villari, Julian",
-            "DUCILO",
             "1",
             "1",
             "1.00"
@@ -3525,7 +3565,7 @@
           ],
           [
             "4",
-            "Lezcano, Braian H",
+            "Garay, Rubén Adrián",
             "",
             "2",
             "2",
@@ -3533,6 +3573,14 @@
           ],
           [
             "5",
+            "Lezcano, Braian H",
+            "",
+            "2",
+            "2",
+            "1.00"
+          ],
+          [
+            "6",
             "Lattanzio, Santiago Luis",
             "",
             "2",
@@ -3540,7 +3588,7 @@
             "2.00"
           ],
           [
-            "6",
+            "7",
             "Bareiro, Rolando Eusebio",
             "",
             "1",
@@ -3548,7 +3596,7 @@
             "0.50"
           ],
           [
-            "7",
+            "8",
             "Carrillo Ortega, Cristian Ramiro",
             "",
             "1",
@@ -3556,7 +3604,15 @@
             "0.50"
           ],
           [
-            "8",
+            "9",
+            "Castro, Alejandro",
+            "",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "10",
             "D Lucas, Ignacio David",
             "",
             "1",
@@ -3564,7 +3620,47 @@
             "0.50"
           ],
           [
-            "9",
+            "11",
+            "Gorosito, Ignacio",
+            "",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "12",
+            "Guiffredi, Thiago",
+            "",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "13",
+            "Navarro, Rodrigo",
+            "",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "14",
+            "Nicoletti, Guido",
+            "",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "15",
+            "Villari, Julian",
+            "",
+            "1",
+            "2",
+            "0.50"
+          ],
+          [
+            "16",
             "Casella Schuth, Kevin Tomas",
             "",
             "1",
@@ -3572,7 +3668,7 @@
             "1.00"
           ],
           [
-            "10",
+            "17",
             "Cocco, Mariano Francisco",
             "",
             "1",
@@ -3580,64 +3676,8 @@
             "1.00"
           ],
           [
-            "11",
-            "Fassi, Nicolas Ezequiel",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "12",
-            "Garay, Rubén Adrián",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "13",
-            "Gilly, Patricio",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "14",
-            "La Leta, Braian V.",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "15",
-            "Larrandart, Lucas Ezequiel",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "16",
-            "Navarro, Rodrigo",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
-            "17",
-            "Pereyra, Matias Nicolas",
-            "",
-            "1",
-            "1",
-            "1.00"
-          ],
-          [
             "18",
-            "Rojas, Emanuel",
+            "Daer, Cesar Sebastián",
             "",
             "1",
             "1",
@@ -3645,7 +3685,7 @@
           ],
           [
             "19",
-            "Saucedo, Valentin Matias",
+            "Fassi, Nicolas Ezequiel",
             "",
             "1",
             "1",
@@ -3653,7 +3693,47 @@
           ],
           [
             "20",
-            "Villari, Julian",
+            "Gilly, Patricio",
+            "",
+            "1",
+            "1",
+            "1.00"
+          ],
+          [
+            "21",
+            "La Leta, Braian V.",
+            "",
+            "1",
+            "1",
+            "1.00"
+          ],
+          [
+            "22",
+            "Larrandart, Lucas Ezequiel",
+            "",
+            "1",
+            "1",
+            "1.00"
+          ],
+          [
+            "23",
+            "Pereyra, Matias Nicolas",
+            "",
+            "1",
+            "1",
+            "1.00"
+          ],
+          [
+            "24",
+            "Rojas, Emanuel",
+            "",
+            "1",
+            "1",
+            "1.00"
+          ],
+          [
+            "25",
+            "Saucedo, Valentin Matias",
             "",
             "1",
             "1",
