@@ -89,36 +89,37 @@ async def scrape_fixture(page):
     return fixture
 
 async def scrape_tabla(page, tab_name):
+    """Scrape tabla usando ARIA roles ([role=columnheader], [role=row], [role=gridcell])."""
     headers = []
     rows = []
     try:
         if not await click_tab(page, tab_name):
             print(f"  Tab '{tab_name}' no encontrado")
             return {"headers": [], "rows": []}
-        await page.wait_for_timeout(1500)
-        ths = await page.query_selector_all('th')
-        seen_h = set()
-        for th in ths:
-            t = (await th.inner_text()).strip()
-            if t and t not in seen_h:
-                headers.append(t)
-                seen_h.add(t)
-            elif t and t in seen_h:
-                break
-        trs = await page.query_selector_all('tr')
+        await page.wait_for_timeout(2000)
+
+        # Filas de datos (deduplicar desktop+mobile)
+        all_rows = await page.query_selector_all('[role="row"]')
         seen_r = set()
-        for tr in trs:
-            tds = await tr.query_selector_all('td')
-            if not tds:
+        for row in all_rows:
+            cells = await row.query_selector_all('[role="gridcell"]')
+            if not cells:
                 continue
-            row = [(await td.inner_text()).strip() for td in tds]
-            if not any(row):
+            cell_texts = [(await c.inner_text()).strip() for c in cells]
+            if not any(cell_texts):
                 continue
-            key = tuple(row)
+            key = tuple(cell_texts)
             if key in seen_r:
                 continue
             seen_r.add(key)
-            rows.append(row)
+            rows.append(cell_texts)
+
+        # Headers: tomar tantos como columnas tiene la primera fila
+        col_count = len(rows[0]) if rows else 0
+        all_hs = await page.query_selector_all('[role="columnheader"]')
+        raw_headers = [(await h.inner_text()).strip() for h in all_hs]
+        headers = raw_headers[:col_count]
+
     except Exception as e:
         print(f"  Error {tab_name}: {e}")
     return {"headers": headers, "rows": rows}
