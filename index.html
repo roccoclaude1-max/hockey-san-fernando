@@ -87,6 +87,21 @@ tbody td:first-child{text-align:left;padding-left:16px;font-weight:600}
 .hl{background:#dcfce7!important;border-left:3px solid var(--g)}
 .hlb{background:#dbeafe!important;border-left:3px solid var(--b)}
 .nd{text-align:center;color:#94a3b8;padding:40px;font-size:.88rem}
+.uf-section{background:#fff;border:1px solid var(--brd);border-radius:14px;padding:16px 18px;margin-bottom:22px;box-shadow:var(--sh)}
+.uf-title{display:flex;align-items:center;gap:8px;margin-bottom:12px}
+.uf-title h2{font-size:.95rem;font-weight:700;color:var(--tx)}
+.uf-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px}
+.uf-card{background:var(--bg);border-radius:10px;padding:10px 12px;border:1px solid var(--brd)}
+.uf-cat-label{font-size:.65rem;font-weight:700;color:var(--sub);text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center}
+.uf-fecha-tag{font-weight:500;color:#94a3b8;font-size:.63rem;text-transform:none;letter-spacing:0}
+.uf-match{display:flex;align-items:center;gap:6px;padding:4px 0;border-bottom:1px solid var(--brd)}
+.uf-match:last-child{border-bottom:none}
+.uf-team{flex:1;font-size:.8rem;font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.uf-team.right{text-align:right}
+.uf-team.sf{color:var(--g);font-weight:700}
+.uf-team.sfb{color:var(--b);font-weight:700}
+.uf-sc{background:#1e293b;color:#fff;padding:2px 8px;border-radius:6px;font-weight:700;font-size:.78rem;min-width:42px;text-align:center;white-space:nowrap;flex-shrink:0}
+@media(max-width:600px){.uf-grid{grid-template-columns:1fr}}
 footer{background:#0f172a;color:rgba(255,255,255,.3);text-align:center;padding:14px;font-size:.72rem}
 footer a{color:rgba(255,255,255,.5);text-decoration:none}
 @media(max-width:600px){.htop{padding:10px 12px}.p-fecha{display:none}main{padding:12px 8px 40px}}
@@ -96,7 +111,7 @@ footer a{color:rgba(255,255,255,.5);text-decoration:none}
 <div id="loader"><div class="spinner"></div><p>Cargando datos...</p></div>
 <header>
   <div class="htop">
-    <img class="logo" src="https://clubsanfernando.org.ar/wp-content/uploads/2026/01/cropped-escudo-csf-300x300.png" alt="CSF" onerror="this.style.display='none'"/>
+    <img class="logo" src="https://clubsanfernando.org.ar/wp-content/uploads/2026/01/cropped-escudo-csf-300x300.png" alt="CSF" style="opacity:0;transition:opacity .3s" onload="this.style.opacity=1" onerror="this.style.display='none'"/>
     <div class="hinfo"><h1>Club San Fernando — Hockey</h1><p>Torneo Metropolitano AHBA</p></div>
     <div class="hts" id="hts"></div>
   </div>
@@ -116,6 +131,10 @@ footer a{color:rgba(255,255,255,.5);text-decoration:none}
 </header>
 <main>
   <div class="upd-bar"><div class="upd-dot"></div><span id="updMsg">Cargando...</span></div>
+  <div class="uf-section" id="ufSection" style="display:none">
+    <div class="uf-title"><h2>Última Fecha</h2></div>
+    <div class="uf-grid" id="ufGrid"></div>
+  </div>
   <div class="hoy-section" id="hoySection" style="display:none">
     <div class="hoy-title"><h2>Partidos de Hoy</h2><span class="hoy-badge" id="hoyCount"></span></div>
     <div class="hoy-cards" id="hoyCards"></div>
@@ -134,17 +153,21 @@ function sfCls(n,t){return SF.test(n)?(t==='dam'?'sfb':'sf'):'';}
 function rScore(p,dark){if(p.jugado)return`<div class="${dark?'hoy-score':'p-score'}">${p.scoreLocal} - ${p.scoreVisita}</div>`;const h=horaStr(p.fecha);return`<div class="${dark?'hoy-score prox':'p-score prox'}">${h||'vs'}</div>`;}
 function rPartido(p,tipo){return`<div class="partido"><div class="p-fecha">${p.fecha||''}</div><div class="p-body"><div class="p-loc ${sfCls(p.local,tipo)}">${p.local}</div>${rScore(p,false)}<div class="p-vis ${sfCls(p.visita,tipo)}">${p.visita}</div></div></div>`;}
 function rFixture(cat){const ps=cat.fixture||[];if(!ps.length)return'<div class="nd">Sin partidos de San Fernando</div>';const jug=ps.filter(p=>p.jugado),prx=ps.filter(p=>!p.jugado);function grupo(lista,label){if(!lista.length)return'';const rondas={};lista.forEach(p=>{const r=p.ronda||'';if(!rondas[r])rondas[r]=[];rondas[r].push(p);});let s=`<div class="slabel">${label}</div>`;Object.entries(rondas).forEach(([r,ps2])=>{if(r)s+=`<div class="ronda-h">${r}</div>`;s+=ps2.map(p=>rPartido(p,cat.tipo)).join('');});return s;}return grupo(jug,'Resultados')+grupo(prx,'Próximos partidos');}
+function fechaOrd(f){const p=(f||'').toLowerCase().split(/\s+/);let d=0,m=0;for(const x of p){if(/^\d{1,2}$/.test(x))d=+x;if(MESES[x]!==undefined)m=MESES[x];}return m*31+d;}
+function dateKey(f){const m=(f||'').match(/\d{1,2}\s+\w+/);return m?m[0].toLowerCase():'';}
 function rTabla(h,rows,tipo){
   if(!rows||!rows.length)return'<div class="nd">Sin datos</div>';
   // Eliminar filas duplicadas (versión mobile sin club = col[2] vacío)
-  const uniq=rows.filter(r=>r[2]!==undefined&&r[2]!=='');
+  const uniq=rows.filter(r=>r.length>2&&r[2]!=='');
   const data=uniq.length?uniq:rows;
-  // Filtrar encabezado vacío de headers
-  const hdrs=h.filter(x=>x!=='');
-  return`<div class="tw"><table><thead><tr>${hdrs.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${data.map(r=>{const hi=r.some(c=>SF.test(c))?(tipo==='dam'?'hlb':'hl'):'';const cells=r.filter((_,i)=>h[i]!=='');return`<tr class="${hi}">${cells.map(c=>`<td>${c}</td>`).join('')}</tr>`;}).join('')}</tbody></table></div>`;}
+  // Mantener columna si tiene header NO vacío, O si tiene algún dato (fix: nombre goleador tiene header vacío)
+  const mask=h.map((hdr,i)=>hdr!==''||data.some(r=>r[i]!==undefined&&r[i]!==''));
+  const hdrs=h.filter((_,i)=>mask[i]);
+  return`<div class="tw"><table><thead><tr>${hdrs.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${data.map(r=>{const hi=r.some(c=>SF.test(c))?(tipo==='dam'?'hlb':'hl'):'';const cells=r.filter((_,i)=>mask[i]);return`<tr class="${hi}">${cells.map(c=>`<td>${c}</td>`).join('')}</tr>`;}).join('')}</tbody></table></div>`;}
 function renderHoy(){const hc=document.getElementById('hoyCards'),hs=document.getElementById('hoySection'),cnt=document.getElementById('hoyCount');const ph=[];G.forEach(cat=>(cat.fixture||[]).forEach(p=>{if(esHoy(p.fecha))ph.push({...p,catNombre:cat.nombre,catTipo:cat.tipo});}));if(!ph.length){hs.style.display='none';return;}hs.style.display='block';cnt.textContent=`${ph.length} partido${ph.length!==1?'s':''}`;hc.innerHTML=ph.map(p=>`<div class="hoy-card"><div class="hoy-cat">${p.catNombre}</div><div class="hoy-match"><div class="hoy-team right">${p.local}</div>${rScore(p,true)}<div class="hoy-team">${p.visita}</div></div>${p.fecha?`<div class="hoy-hora">${p.fecha}</div>`:''}</div>`).join('');}
 function rPanel(cat){const isD=cat.tipo==='dam';return`<div class="cat-panel" id="p-${cat.id}"><div class="panel-header"><div class="panel-icon ${isD?'id':'ic'}">🏑</div><div><h2>${cat.nombre}</h2><div class="panel-sub">Torneo Metropolitano AHBA</div></div><a href="${URLS[cat.id]}" target="_blank" class="ext-link ${isD?'ld':'lc'}">Ver en AHBA ↗</a></div><div class="stabs" id="t-${cat.id}"><button class="stab ${isD?'sb':'sg'}" onclick="SS('${cat.id}','f',this)">Fixture</button><button class="stab" onclick="SS('${cat.id}','p',this)">Posiciones</button><button class="stab" onclick="SS('${cat.id}','g',this)">Goleadores</button></div><div class="card"><div class="sec vis" id="s-${cat.id}-f">${rFixture(cat)}</div><div class="sec" id="s-${cat.id}-p">${rTabla(cat.posiciones?.headers||[],cat.posiciones?.rows,cat.tipo)}</div><div class="sec" id="s-${cat.id}-g">${rTabla(cat.goleadores?.headers||[],cat.goleadores?.rows,cat.tipo)}</div></div></div>`;}
-function renderTodo(){document.getElementById('panels').innerHTML=G.map(rPanel).join('');renderHoy();SC(catActiva,true);}
+function renderUltimaFecha(){const sec=document.getElementById('ufSection'),grid=document.getElementById('ufGrid');if(!sec||!grid)return;const cards=[];G.forEach(cat=>{const jugados=(cat.fixture||[]).filter(p=>p.jugado);if(!jugados.length)return;let best=jugados[0];jugados.forEach(p=>{if(fechaOrd(p.fecha)>fechaOrd(best.fecha))best=p;});const key=dateKey(best.fecha);const matches=jugados.filter(p=>dateKey(p.fecha)===key);cards.push({cat,matches,key});});if(!cards.length){sec.style.display='none';return;}sec.style.display='block';grid.innerHTML=cards.map(({cat,matches,key})=>`<div class="uf-card"><div class="uf-cat-label"><span>${cat.nombre}</span><span class="uf-fecha-tag">${key}</span></div>${matches.map(p=>`<div class="uf-match"><div class="uf-team right ${sfCls(p.local,cat.tipo)}">${p.local}</div><div class="uf-sc">${p.scoreLocal}-${p.scoreVisita}</div><div class="uf-team ${sfCls(p.visita,cat.tipo)}">${p.visita}</div></div>`).join('')}</div>`).join('');}
+function renderTodo(){document.getElementById('panels').innerHTML=G.map(rPanel).join('');renderUltimaFecha();renderHoy();SC(catActiva,true);}
 function SC(id,s){catActiva=id;document.querySelectorAll('.cat-panel').forEach(p=>p.classList.remove('vis'));document.querySelectorAll('.cnav-btn').forEach(b=>b.classList.remove('act-c','act-d'));const panel=document.getElementById('p-'+id);if(panel)panel.classList.add('vis');const cat=G.find(d=>d.id===id),btn=document.getElementById('btn-'+id);if(btn)btn.classList.add(cat?.tipo==='dam'?'act-d':'act-c');}
 function SS(cid,s,btn){document.querySelectorAll('#p-'+cid+' .sec').forEach(x=>x.classList.remove('vis'));document.querySelectorAll('#t-'+cid+' .stab').forEach(b=>b.classList.remove('sg','sb'));const sec=document.getElementById('s-'+cid+'-'+s);if(sec)sec.classList.add('vis');const cat=G.find(d=>d.id===cid);btn.classList.add(cat?.tipo==='dam'?'sb':'sg');}
 async function cargarDatos(){const cached=localStorage.getItem('hockeyData');if(cached){try{const j=JSON.parse(cached);G=j.datos||[];renderTodo();document.getElementById('loader').classList.add('hidden');if(j.actualizado){const d=new Date(j.actualizado);const local=d.toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});document.getElementById('hts').textContent=local;document.getElementById('updMsg').textContent=`Última actualización: ${local} · Actualizando...`;}}catch(e){}}try{const r=await fetch('datos.json?t='+Date.now());const json=await r.json();localStorage.setItem('hockeyData',JSON.stringify(json));G=json.datos||[];renderTodo();document.getElementById('loader').classList.add('hidden');if(json.actualizado){const d=new Date(json.actualizado);const local=d.toLocaleString('es-AR',{day:'2-digit',month:'2-digit',hour:'2-digit',minute:'2-digit'});document.getElementById('hts').textContent=local;document.getElementById('updMsg').textContent=`Última actualización: ${local}`;}}catch(e){if(!cached){document.getElementById('updMsg').textContent='Error cargando datos. Reintentando...';setTimeout(cargarDatos,5000);}}}
