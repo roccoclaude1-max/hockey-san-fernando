@@ -3,14 +3,10 @@
 <head>
 <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>Hockey · Club San Fernando</title>
-</head>
-<body>
-<p>placeholder - reemplazar con index.html real</p>
-</body></html><!DOCTYPE html>
-<html lang="es">
-<head>
-<meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Hockey · Club San Fernando</title>
+<meta name="theme-color" content="#006633"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title" content="Hockey CSF"/>
+<link rel="apple-touch-icon" href="https://clubsanfernando.org.ar/wp-content/uploads/2026/01/cropped-escudo-csf-300x300.png"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 :root{--g:#006633;--g2:#004d26;--b:#003399;--b2:#001f66;--bg:#f0f4f8;--card:#fff;--tx:#1e293b;--sub:#64748b;--brd:#e2e8f0;--sh:0 2px 12px rgba(0,0,0,.08)}
@@ -20,11 +16,7 @@ header{background:linear-gradient(135deg,#0d1f12 0%,#0a1840 100%);color:#fff;box
 .logo{height:54px;border-radius:50%;border:2px solid rgba(255,255,255,.2);background:#fff;padding:2px;flex-shrink:0}
 .hinfo h1{font-size:1.1rem;font-weight:700}
 .hinfo p{font-size:.72rem;color:rgba(255,255,255,.5);margin-top:2px}
-.hlive{margin-left:auto;display:flex;flex-direction:column;align-items:flex-end;gap:4px}
-.live-dot{display:flex;align-items:center;gap:6px;font-size:.72rem;color:rgba(255,255,255,.7)}
-.dot{width:8px;height:8px;border-radius:50%;background:#4ade80;animation:pulse 1.5s infinite}
-@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
-.hts{font-size:.65rem;color:rgba(255,255,255,.35)}
+.hts{margin-left:auto;font-size:.65rem;color:rgba(255,255,255,.35);text-align:right}
 .tri{height:4px;background:linear-gradient(90deg,var(--g) 33.3%,#fff 33.3% 66.6%,var(--b) 66.6%)}
 #loader{position:fixed;inset:0;background:rgba(15,23,42,.9);display:flex;flex-direction:column;align-items:center;justify-content:center;z-index:999;color:#fff;gap:14px}
 .spinner{width:44px;height:44px;border:4px solid rgba(255,255,255,.15);border-top-color:#4ade80;border-radius:50%;animation:spin .8s linear infinite}
@@ -106,7 +98,7 @@ footer a{color:rgba(255,255,255,.5);text-decoration:none}
   <div class="htop">
     <img class="logo" src="https://clubsanfernando.org.ar/wp-content/uploads/2026/01/cropped-escudo-csf-300x300.png" alt="CSF" onerror="this.style.display='none'"/>
     <div class="hinfo"><h1>Club San Fernando — Hockey</h1><p>Torneo Metropolitano AHBA</p></div>
-    <div class="hlive"><div class="live-dot"><span class="dot"></span><span>En vivo</span></div><div class="hts" id="hts"></div></div>
+    <div class="hts" id="hts"></div>
   </div>
   <div class="tri"></div>
   <div class="catnav"><div class="catnav-inner">
@@ -125,7 +117,7 @@ footer a{color:rgba(255,255,255,.5);text-decoration:none}
 <main>
   <div class="upd-bar"><div class="upd-dot"></div><span id="updMsg">Cargando...</span></div>
   <div class="hoy-section" id="hoySection" style="display:none">
-    <div class="hoy-title"><span style="font-size:1.3rem">📅</span><h2>Partidos de Hoy</h2><span class="hoy-badge" id="hoyCount"></span></div>
+    <div class="hoy-title"><h2>Partidos de Hoy</h2><span class="hoy-badge" id="hoyCount"></span></div>
     <div class="hoy-cards" id="hoyCards"></div>
   </div>
   <div id="panels"></div>
@@ -141,10 +133,10 @@ function horaStr(f){const m=(f||'').match(/\d{1,2}:\d{2}/);return m?m[0]:'';}
 function sfCls(n,t){return SF.test(n)?(t==='dam'?'sfb':'sf'):'';}
 function rScore(p,dark){if(p.jugado)return`<div class="${dark?'hoy-score':'p-score'}">${p.scoreLocal} - ${p.scoreVisita}</div>`;const h=horaStr(p.fecha);return`<div class="${dark?'hoy-score prox':'p-score prox'}">${h||'vs'}</div>`;}
 function rPartido(p,tipo){return`<div class="partido"><div class="p-fecha">${p.fecha||''}</div><div class="p-body"><div class="p-loc ${sfCls(p.local,tipo)}">${p.local}</div>${rScore(p,false)}<div class="p-vis ${sfCls(p.visita,tipo)}">${p.visita}</div></div></div>`;}
-function rFixture(cat){const ps=cat.fixture||[];if(!ps.length)return'<div class="nd">Sin partidos de San Fernando</div>';const jug=ps.filter(p=>p.jugado),prx=ps.filter(p=>!p.jugado);function grupo(lista,label){if(!lista.length)return'';const rondas={};lista.forEach(p=>{const r=p.ronda||'';if(!rondas[r])rondas[r]=[];rondas[r].push(p);});let s=`<div class="slabel">${label}</div>`;Object.entries(rondas).forEach(([r,ps2])=>{if(r)s+=`<div class="ronda-h">${r}</div>`;s+=ps2.map(p=>rPartido(p,cat.tipo)).join('');});return s;}return grupo(jug,'⚽ Resultados')+grupo(prx,'📅 Próximos partidos');}
-function rTabla(h,rows,tipo){if(!rows||!rows.length)return'<div class="nd">Sin datos</div>';return`<div class="tw"><table><thead><tr>${h.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>{const hi=r.some(c=>SF.test(c))?(tipo==='dam'?'hlb':'hl'):'';return`<tr class="${hi}">${r.map(c=>`<td>${c}</td>`).join('')}</tr>`;}).join('')}</tbody></table></div>`;}
-function rPanel(cat){const isD=cat.tipo==='dam';return`<div class="cat-panel" id="p-${cat.id}"><div class="panel-header"><div class="panel-icon ${isD?'id':'ic'}">🏑</div><div><h2>${cat.nombre}</h2><div class="panel-sub">Torneo Metropolitano AHBA</div></div><a href="${URLS[cat.id]}" target="_blank" class="ext-link ${isD?'ld':'lc'}">Ver en AHBA ↗</a></div><div class="stabs" id="t-${cat.id}"><button class="stab ${isD?'sb':'sg'}" onclick="SS('${cat.id}','f',this)">📅 Fixture</button><button class="stab" onclick="SS('${cat.id}','p',this)">📊 Posiciones</button><button class="stab" onclick="SS('${cat.id}','g',this)">⚽ Goleadores</button></div><div class="card"><div class="sec vis" id="s-${cat.id}-f">${rFixture(cat)}</div><div class="sec" id="s-${cat.id}-p">${rTabla(cat.posiciones?.headers||[],cat.posiciones?.rows,cat.tipo)}</div><div class="sec" id="s-${cat.id}-g">${rTabla(cat.goleadores?.headers||[],cat.goleadores?.rows,cat.tipo)}</div></div></div>`;}
-function renderHoy(){const hc=document.getElementById('hoyCards'),hs=document.getElementById('hoySection'),cnt=document.getElementById('hoyCount');const ph=[];G.forEach(cat=>(cat.fixture||[]).forEach(p=>{if(esHoy(p.fecha))ph.push({...p,catNombre:cat.nombre,catTipo:cat.tipo});}));if(!ph.length){hs.style.display='none';return;}hs.style.display='block';cnt.textContent=`${ph.length} partido${ph.length!==1?'s':''}`;hc.innerHTML=ph.map(p=>`<div class="hoy-card"><div class="hoy-cat">${p.catNombre}</div><div class="hoy-match"><div class="hoy-team right">${p.local}</div>${rScore(p,true)}<div class="hoy-team">${p.visita}</div></div>${p.fecha?`<div class="hoy-hora">${p.fecha}</div>`:''}</div>`).join('');}
+function rFixture(cat){const ps=cat.fixture||[];if(!ps.length)return'<div class="nd">Sin partidos de San Fernando</div>';const jug=ps.filter(p=>p.jugado),prx=ps.filter(p=>!p.jugado);function grupo(lista,label){if(!lista.length)return'';const rondas={};lista.forEach(p=>{const r=p.ronda||'';if(!rondas[r])rondas[r]=[];rondas[r].push(p);});let s=`<div class="slabel">${label}</div>`;Object.entries(rondas).forEach(([r,ps2])=>{if(r)s+=`<div class="ronda-h">${r}</div>`;s+=ps2.map(p=>rPartido(p,cat.tipo)).join('');});return s;}return grupo(jug,'Resultados')+grupo(prx,'Próximos partidos');}
+function rTabla(h,rows,tipo){if(!rows||!rows.length)return'<div class="nd">Sin datos</div>';const uniq=rows.filter(r=>r[2]!==undefined&&r[2]!=='');const data=uniq.length?uniq:rows;const hdrs=h.filter(x=>x!=='');return`<div class="tw"><table><thead><tr>${hdrs.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${data.map(r=>{const hi=r.some(c=>SF.test(c))?(tipo==='dam'?'hlb':'hl'):'';const cells=r.filter((_,i)=>h[i]!=='');return`<tr class="${hi}">${cells.map(c=>`<td>${c}</td>`).join('')}</tr>`;}).join('')}</tbody></table></div>`;}
+function renderHoy(){const hc=document.getElementById('hoyCards'),hs=document.getElementById('hoySection'),cnt=document.getElementById('hoyCount');const ph=[];G.forEach(cat=>(cat.fixture||[]).forEach(p=>{if(esHoy(p.fecha))ph.push({...p,catNombre:cat.nombre,catTipo:cat.tipo});}));if(!ph.length){hs.style.display='none';return;}hs.style.display='block';cnt.textContent=`${ph.length} partido${ph.length!==1?'s':''}`;hc.innerHTML=ph.map(p=>`<div class="hoy-card"><div class="hoy-cat">${p.catNombre}</div><div class="hoy-match"><div class="hoy-team right">${p.local}</div>${rScore(p,true)}<div class="hoy-team">${p.visita}</div></div>${p.fecha?`<div class="hoy-hora">${p.fecha}</div>":''}</div>`).join('');}
+function rPanel(cat){const isD=cat.tipo==='dam';return`<div class="cat-panel" id="p-${cat.id}"><div class="panel-header"><div class="panel-icon ${isD?'id':'ic'}">🏑</div><div><h2>${cat.nombre}</h2><div class="panel-sub">Torneo Metropolitano AHBA</div></div><a href="${URLS[cat.id]}" target="_blank" class="ext-link ${isD?'ld':'lc'}">Ver en AHBA ↗</a></div><div class="stabs" id="t-${cat.id}"><button class="stab ${isD?'sb':'sg'}" onclick="SS('${cat.id}','f',this)">Fixture</button><button class="stab" onclick="SS('${cat.id}','p',this)">Posiciones</button><button class="stab" onclick="SS('${cat.id}','g',this)">Goleadores</button></div><div class="card"><div class="sec vis" id="s-${cat.id}-f">${rFixture(cat)}</div><div class="sec" id="s-${cat.id}-p">${rTabla(cat.posiciones?.headers||[],cat.posiciones?.rows,cat.tipo)}</div><div class="sec" id="s-${cat.id}-g">${rTabla(cat.goleadores?.headers||[],cat.goleadores?.rows,cat.tipo)}</div></div></div>`;}
 function renderTodo(){document.getElementById('panels').innerHTML=G.map(rPanel).join('');renderHoy();SC(catActiva,true);}
 function SC(id,s){catActiva=id;document.querySelectorAll('.cat-panel').forEach(p=>p.classList.remove('vis'));document.querySelectorAll('.cnav-btn').forEach(b=>b.classList.remove('act-c','act-d'));const panel=document.getElementById('p-'+id);if(panel)panel.classList.add('vis');const cat=G.find(d=>d.id===id),btn=document.getElementById('btn-'+id);if(btn)btn.classList.add(cat?.tipo==='dam'?'act-d':'act-c');}
 function SS(cid,s,btn){document.querySelectorAll('#p-'+cid+' .sec').forEach(x=>x.classList.remove('vis'));document.querySelectorAll('#t-'+cid+' .stab').forEach(b=>b.classList.remove('sg','sb'));const sec=document.getElementById('s-'+cid+'-'+s);if(sec)sec.classList.add('vis');const cat=G.find(d=>d.id===cid);btn.classList.add(cat?.tipo==='dam'?'sb':'sg');}
