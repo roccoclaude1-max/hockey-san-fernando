@@ -111,7 +111,7 @@ footer a{color:rgba(255,255,255,.5);text-decoration:none}
 <div id="loader"><div class="spinner"></div><p>Cargando datos...</p></div>
 <header>
   <div class="htop">
-    <img class="logo" src="https://clubsanfernando.org.ar/wp-content/uploads/2026/01/cropped-escudo-csf-300x300.png" alt="CSF" style="opacity:0;transition:opacity .3s" onload="this.style.opacity=1" onerror="this.style.display='none'"/>
+    <img class="logo" src="https://clubsanfernando.org.ar/wp-content/uploads/2026/01/cropped-escudo-csf-300x300.png" alt="CSF" style="display:none" onload="this.style.display=''"/>
     <div class="hinfo"><h1>Club San Fernando — Hockey</h1><p>Torneo Metropolitano AHBA</p></div>
     <div class="hts" id="hts"></div>
   </div>
@@ -157,10 +157,8 @@ function fechaOrd(f){const p=(f||'').toLowerCase().split(/\s+/);let d=0,m=0;for(
 function dateKey(f){const m=(f||'').match(/\d{1,2}\s+\w+/);return m?m[0].toLowerCase():'';}
 function rTabla(h,rows,tipo){
   if(!rows||!rows.length)return'<div class="nd">Sin datos</div>';
-  // Eliminar filas duplicadas (versión mobile sin club = col[2] vacío)
   const uniq=rows.filter(r=>r.length>2&&r[2]!=='');
   const data=uniq.length?uniq:rows;
-  // Mantener columna si tiene header NO vacío, O si tiene algún dato (fix: nombre goleador tiene header vacío)
   const mask=h.map((hdr,i)=>hdr!==''||data.some(r=>r[i]!==undefined&&r[i]!==''));
   const hdrs=h.filter((_,i)=>mask[i]);
   return`<div class="tw"><table><thead><tr>${hdrs.map(x=>`<th>${x}</th>`).join('')}</tr></thead><tbody>${data.map(r=>{const hi=r.some(c=>SF.test(c))?(tipo==='dam'?'hlb':'hl'):'';const cells=r.filter((_,i)=>mask[i]);return`<tr class="${hi}">${cells.map(c=>`<td>${c}</td>`).join('')}</tr>`;}).join('')}</tbody></table></div>`;}
