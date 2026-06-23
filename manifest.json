@@ -1,0 +1,15 @@
+{
+  "name": "Hockey Club San Fernando",
+  "short_name": "Hockey CSF",
+  "description": "Torneo Metropolitano AHBA - Club San Fernando",
+  "start_url": "/hockey-san-fernando/",
+  "scope": "/hockey-san-fernando/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#006633",
+  "background_color": "#0d1f12",
+  "icons": [
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any"},
+    {"src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable"}
+  ]
+}
