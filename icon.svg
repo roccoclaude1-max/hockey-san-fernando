@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="80" fill="#0d1f12"/>
+  <rect x="16" y="16" width="480" height="480" rx="68" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#006633"/>
+      <stop offset="100%" stop-color="#004d26"/>
+    </linearGradient>
+  </defs>
+  <text x="256" y="210" font-family="Arial Black,Arial,sans-serif" font-size="130" font-weight="900" text-anchor="middle" fill="white" letter-spacing="-2">CSF</text>
+  <text x="256" y="320" font-family="Arial,sans-serif" font-size="58" font-weight="400" text-anchor="middle" fill="rgba(255,255,255,0.7)">HOCKEY</text>
+  <line x1="100" y1="345" x2="412" y2="345" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <text x="256" y="395" font-family="Arial,sans-serif" font-size="38" font-weight="300" text-anchor="middle" fill="rgba(255,255,255,0.5)" letter-spacing="4">SAN FERNANDO</text>
+</svg>
