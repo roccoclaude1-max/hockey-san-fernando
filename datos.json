@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-26T17:27:47.318509+00:00",
+  "actualizado": "2026-06-26T21:56:09.443689+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -151,7 +151,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "S.A.G.",
-          "fecha": "dom 23 ago 16:00",
+          "fecha": "dom 30 ago 16:00",
           "jugado": false
         },
         {
@@ -2586,13 +2586,13 @@
         {
           "local": "LANUS",
           "visita": "SAN FERNANDO B",
-          "fecha": "dom 23 ago 16:00",
+          "fecha": "dom 30 ago 16:00",
           "jugado": false
         },
         {
           "local": "SAN FERNANDO B",
           "visita": "BANADE",
-          "fecha": "dom 30 ago 16:00",
+          "fecha": "dom 23 ago 16:00",
           "jugado": false
         },
         {
@@ -3355,13 +3355,13 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "MITRE B",
-          "fecha": "dom 23 ago 16:00",
+          "fecha": "dom 30 ago 16:00",
           "jugado": false
         },
         {
           "local": "TRISTAN SUAREZ",
           "visita": "SAN FERNANDO C",
-          "fecha": "dom 30 ago 16:00",
+          "fecha": "dom 23 ago 16:00",
           "jugado": false
         },
         {
@@ -4298,7 +4298,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "BANCO NACION",
-          "fecha": "sáb 22 ago 16:00",
+          "fecha": "sáb 29 ago 16:00",
           "jugado": false
         },
         {
@@ -6491,7 +6491,7 @@
         {
           "local": "CHAMPAGNAT",
           "visita": "SAN FERNANDO B",
-          "fecha": "sáb 22 ago 16:00",
+          "fecha": "sáb 29 ago 16:00",
           "jugado": false
         },
         {
@@ -8732,7 +8732,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "SAN LUIS C",
-          "fecha": "sáb 22 ago 16:00",
+          "fecha": "sáb 29 ago 16:00",
           "jugado": false
         },
         {
@@ -13186,7 +13186,7 @@
         {
           "local": "ALBATROS",
           "visita": "SAN FERNANDO",
-          "fecha": "dom 23 ago 16:00",
+          "fecha": "dom 30 ago 16:00",
           "jugado": false
         },
         {
