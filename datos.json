@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-06-28T15:11:27.343835+00:00",
+  "actualizado": "2026-06-28T20:02:50.302174+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -122,7 +122,9 @@
           "local": "CIUDAD B",
           "visita": "SAN FERNANDO",
           "fecha": "dom 28 jun 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO",
@@ -2539,7 +2541,9 @@
           "local": "SAN FERNANDO B",
           "visita": "G. Y ESGRIMA B",
           "fecha": "dom 28 jun 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
         },
         {
           "local": "VELEZ",
@@ -3308,7 +3312,9 @@
           "local": "FERRO C. O. B",
           "visita": "SAN FERNANDO C",
           "fecha": "dom 28 jun 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
         },
         {
           "local": "SAN FERNANDO C",
@@ -4269,7 +4275,9 @@
           "local": "LOMAS",
           "visita": "SAN FERNANDO",
           "fecha": "dom 28 jun 13:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "2"
         },
         {
           "local": "SAN FERNANDO",
@@ -4372,13 +4380,13 @@
             "2",
             "LOMAS",
             "29",
-            "14",
+            "15",
             "8",
             "5",
-            "1",
-            "28",
-            "12",
-            "16",
+            "2",
+            "29",
+            "14",
+            "15",
             "0",
             ""
           ],
@@ -4412,6 +4420,20 @@
           ],
           [
             "5",
+            "SAN FERNANDO",
+            "23",
+            "15",
+            "6",
+            "5",
+            "4",
+            "21",
+            "15",
+            "6",
+            "0",
+            ""
+          ],
+          [
+            "6",
             "ITALIANO",
             "22",
             "15",
@@ -4421,20 +4443,6 @@
             "25",
             "21",
             "4",
-            "0",
-            ""
-          ],
-          [
-            "6",
-            "SAN FERNANDO",
-            "20",
-            "14",
-            "5",
-            "5",
-            "4",
-            "19",
-            "14",
-            "5",
             "0",
             ""
           ],
@@ -4588,6 +4596,22 @@
           ],
           [
             "4",
+            "Agostini Coliqueo, Chiara",
+            "LOMAS",
+            "9",
+            "15",
+            "0.60"
+          ],
+          [
+            "5",
+            "Costa Biondi, Valentina",
+            "SAN FERNANDO",
+            "8",
+            "15",
+            "0.53"
+          ],
+          [
+            "6",
             "Ferola, Valentina",
             "ITALIANO",
             "8",
@@ -4595,23 +4619,15 @@
             "0.53"
           ],
           [
-            "5",
-            "Agostini Coliqueo, Chiara",
-            "LOMAS",
-            "8",
-            "14",
-            "0.57"
-          ],
-          [
-            "6",
+            "7",
             "Piccardo, Alina",
             "SAN FERNANDO",
             "8",
-            "12",
-            "0.67"
+            "13",
+            "0.62"
           ],
           [
-            "7",
+            "8",
             "Santin, Agostina Sol",
             "SAN LORENZO",
             "7",
@@ -4619,20 +4635,12 @@
             "0.47"
           ],
           [
-            "8",
+            "9",
             "Rinaldi, Antonella",
             "G. Y ESGRIMA",
             "6",
             "15",
             "0.40"
-          ],
-          [
-            "9",
-            "Costa Biondi, Valentina",
-            "SAN FERNANDO",
-            "6",
-            "14",
-            "0.43"
           ],
           [
             "10",
@@ -4676,6 +4684,22 @@
           ],
           [
             "15",
+            "Di Santo, Celina",
+            "LOMAS",
+            "4",
+            "15",
+            "0.27"
+          ],
+          [
+            "16",
+            "Ovejero, Aylin Trinidad",
+            "LOMAS",
+            "4",
+            "15",
+            "0.27"
+          ],
+          [
+            "17",
             "Rodriguez Giesso, Catalina",
             "G. Y ESGRIMA",
             "4",
@@ -4683,28 +4707,12 @@
             "0.27"
           ],
           [
-            "16",
+            "18",
             "Sacomanno, Giuliana",
             "OLIVOS",
             "4",
             "15",
             "0.27"
-          ],
-          [
-            "17",
-            "Di Santo, Celina",
-            "LOMAS",
-            "4",
-            "14",
-            "0.29"
-          ],
-          [
-            "18",
-            "Ovejero, Aylin Trinidad",
-            "LOMAS",
-            "4",
-            "14",
-            "0.29"
           ],
           [
             "19",
@@ -4732,6 +4740,14 @@
           ],
           [
             "22",
+            "Bouza, Morena",
+            "LOMAS",
+            "3",
+            "15",
+            "0.20"
+          ],
+          [
+            "23",
             "Carregal, Jazmin",
             "G. Y ESGRIMA",
             "3",
@@ -4739,7 +4755,7 @@
             "0.20"
           ],
           [
-            "23",
+            "24",
             "Centofanti, Ianella",
             "CIUDAD",
             "3",
@@ -4747,7 +4763,7 @@
             "0.20"
           ],
           [
-            "24",
+            "25",
             "Francisconi, Martina",
             "OLIVOS",
             "3",
@@ -4755,7 +4771,7 @@
             "0.20"
           ],
           [
-            "25",
+            "26",
             "Guggini Galeano, Juliana",
             "CIUDAD",
             "3",
@@ -4763,7 +4779,7 @@
             "0.20"
           ],
           [
-            "26",
+            "27",
             "Iturralde, Margarita",
             "S. BARBARA",
             "3",
@@ -4771,7 +4787,7 @@
             "0.20"
           ],
           [
-            "27",
+            "28",
             "Judelewski Onega, Paloma",
             "ARQUITECTURA",
             "3",
@@ -4779,7 +4795,7 @@
             "0.20"
           ],
           [
-            "28",
+            "29",
             "Lettieri, Eugenia",
             "BCO. PROVINCIA",
             "3",
@@ -4787,7 +4803,7 @@
             "0.20"
           ],
           [
-            "29",
+            "30",
             "Lombardo, María Sol",
             "ITALIANO",
             "3",
@@ -4795,7 +4811,7 @@
             "0.20"
           ],
           [
-            "30",
+            "31",
             "Migles Bordonaro, Luisina",
             "BANCO NACION",
             "3",
@@ -4803,7 +4819,7 @@
             "0.20"
           ],
           [
-            "31",
+            "32",
             "Ortiz Quirno, Calista",
             "S. CATHERINES",
             "3",
@@ -4811,7 +4827,7 @@
             "0.20"
           ],
           [
-            "32",
+            "33",
             "Sanzo, Maria Sol",
             "ARQUITECTURA",
             "3",
@@ -4819,7 +4835,7 @@
             "0.20"
           ],
           [
-            "33",
+            "34",
             "Sendon, Cecilia",
             "BELGRANO",
             "3",
@@ -4827,20 +4843,12 @@
             "0.20"
           ],
           [
-            "34",
+            "35",
             "Vazquez Ponce, Camila Jazmin",
             "SAN LORENZO",
             "3",
             "15",
             "0.20"
-          ],
-          [
-            "35",
-            "Bouza, Morena",
-            "LOMAS",
-            "3",
-            "14",
-            "0.21"
           ],
           [
             "36",
@@ -4908,6 +4916,14 @@
           ],
           [
             "44",
+            "Albertarrio, Agustina",
+            "LOMAS",
+            "2",
+            "15",
+            "0.13"
+          ],
+          [
+            "45",
             "Ayastuy, Camila",
             "ITALIANO",
             "2",
@@ -4915,7 +4931,7 @@
             "0.13"
           ],
           [
-            "45",
+            "46",
             "Bibbo Rulli, Paloma",
             "S. BARBARA",
             "2",
@@ -4923,7 +4939,7 @@
             "0.13"
           ],
           [
-            "46",
+            "47",
             "Bonomo, Juana",
             "ARQUITECTURA",
             "2",
@@ -4931,7 +4947,7 @@
             "0.13"
           ],
           [
-            "47",
+            "48",
             "Canone, Josefina",
             "ARQUITECTURA",
             "2",
@@ -4939,7 +4955,7 @@
             "0.13"
           ],
           [
-            "48",
+            "49",
             "Estigarria Campos, Lourdes",
             "BANCO NACION",
             "2",
@@ -4947,7 +4963,7 @@
             "0.13"
           ],
           [
-            "49",
+            "50",
             "Galli, Delfina",
             "CIUDAD",
             "2",
@@ -4955,7 +4971,7 @@
             "0.13"
           ],
           [
-            "50",
+            "51",
             "Gosci, Candela",
             "OLIVOS",
             "2",
@@ -4963,7 +4979,7 @@
             "0.13"
           ],
           [
-            "51",
+            "52",
             "Honczar Salgado, Camila",
             "OLIVOS",
             "2",
@@ -4971,7 +4987,7 @@
             "0.13"
           ],
           [
-            "52",
+            "53",
             "Iacoponi, Valentina",
             "CIUDAD",
             "2",
@@ -4979,7 +4995,7 @@
             "0.13"
           ],
           [
-            "53",
+            "54",
             "Moroni, Martina Aoi",
             "BELGRANO",
             "2",
@@ -4987,7 +5003,7 @@
             "0.13"
           ],
           [
-            "54",
+            "55",
             "Palacio Cascallares, Pilar",
             "RIVER PLATE",
             "2",
@@ -4995,7 +5011,7 @@
             "0.13"
           ],
           [
-            "55",
+            "56",
             "Rayer, Abril Celeste",
             "G. Y ESGRIMA",
             "2",
@@ -5003,7 +5019,7 @@
             "0.13"
           ],
           [
-            "56",
+            "57",
             "Rossi, Clara",
             "BCO. PROVINCIA",
             "2",
@@ -5011,7 +5027,7 @@
             "0.13"
           ],
           [
-            "57",
+            "58",
             "Saad, Luciana",
             "OLIVOS",
             "2",
@@ -5019,7 +5035,15 @@
             "0.13"
           ],
           [
-            "58",
+            "59",
+            "Sanguinetti, Maria Lucía",
+            "SAN FERNANDO",
+            "2",
+            "15",
+            "0.13"
+          ],
+          [
+            "60",
             "Strauss Mackenzie, Justina",
             "S. CATHERINES",
             "2",
@@ -5027,15 +5051,7 @@
             "0.13"
           ],
           [
-            "59",
-            "Albertarrio, Agustina",
-            "LOMAS",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
-            "60",
+            "61",
             "Caucigh, Ambar Evangelina",
             "ARQUITECTURA",
             "2",
@@ -5043,17 +5059,9 @@
             "0.14"
           ],
           [
-            "61",
+            "62",
             "Ruggeri, Brisa",
             "S. CATHERINES",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
-            "62",
-            "Sanguinetti, Maria Lucía",
-            "SAN FERNANDO",
             "2",
             "14",
             "0.14"
@@ -5143,7 +5151,7 @@
             "Berisso, Joaquina",
             "LOMAS",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -5191,7 +5199,7 @@
             "Esandi, Candela",
             "SAN FERNANDO",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -5199,7 +5207,7 @@
             "Fajardo, Juana",
             "LOMAS",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -5279,7 +5287,7 @@
             "Marcucci, Valentina",
             "LOMAS",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -5319,7 +5327,7 @@
             "Pagella, Sol",
             "SAN FERNANDO",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -5343,7 +5351,7 @@
             "Redruello, Bã¡rbara",
             "LOMAS",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -5508,6 +5516,22 @@
           ],
           [
             "4",
+            "Agostini Coliqueo, Chiara",
+            "",
+            "9",
+            "15",
+            "0.60"
+          ],
+          [
+            "5",
+            "Costa Biondi, Valentina",
+            "",
+            "8",
+            "15",
+            "0.53"
+          ],
+          [
+            "6",
             "Ferola, Valentina",
             "",
             "8",
@@ -5515,23 +5539,15 @@
             "0.53"
           ],
           [
-            "5",
-            "Agostini Coliqueo, Chiara",
-            "",
-            "8",
-            "14",
-            "0.57"
-          ],
-          [
-            "6",
+            "7",
             "Piccardo, Alina",
             "",
             "8",
-            "12",
-            "0.67"
+            "13",
+            "0.62"
           ],
           [
-            "7",
+            "8",
             "Santin, Agostina Sol",
             "",
             "7",
@@ -5539,20 +5555,12 @@
             "0.47"
           ],
           [
-            "8",
+            "9",
             "Rinaldi, Antonella",
             "",
             "6",
             "15",
             "0.40"
-          ],
-          [
-            "9",
-            "Costa Biondi, Valentina",
-            "",
-            "6",
-            "14",
-            "0.43"
           ],
           [
             "10",
@@ -5596,7 +5604,7 @@
           ],
           [
             "15",
-            "Rodriguez Giesso, Catalina",
+            "Di Santo, Celina",
             "",
             "4",
             "15",
@@ -5604,7 +5612,7 @@
           ],
           [
             "16",
-            "Sacomanno, Giuliana",
+            "Ovejero, Aylin Trinidad",
             "",
             "4",
             "15",
@@ -5612,19 +5620,19 @@
           ],
           [
             "17",
-            "Di Santo, Celina",
+            "Rodriguez Giesso, Catalina",
             "",
             "4",
-            "14",
-            "0.29"
+            "15",
+            "0.27"
           ],
           [
             "18",
-            "Ovejero, Aylin Trinidad",
+            "Sacomanno, Giuliana",
             "",
             "4",
-            "14",
-            "0.29"
+            "15",
+            "0.27"
           ],
           [
             "19",
@@ -5652,7 +5660,7 @@
           ],
           [
             "22",
-            "Carregal, Jazmin",
+            "Bouza, Morena",
             "",
             "3",
             "15",
@@ -5660,7 +5668,7 @@
           ],
           [
             "23",
-            "Centofanti, Ianella",
+            "Carregal, Jazmin",
             "",
             "3",
             "15",
@@ -5668,7 +5676,7 @@
           ],
           [
             "24",
-            "Francisconi, Martina",
+            "Centofanti, Ianella",
             "",
             "3",
             "15",
@@ -5676,7 +5684,7 @@
           ],
           [
             "25",
-            "Guggini Galeano, Juliana",
+            "Francisconi, Martina",
             "",
             "3",
             "15",
@@ -5684,7 +5692,7 @@
           ],
           [
             "26",
-            "Iturralde, Margarita",
+            "Guggini Galeano, Juliana",
             "",
             "3",
             "15",
@@ -5692,7 +5700,7 @@
           ],
           [
             "27",
-            "Judelewski Onega, Paloma",
+            "Iturralde, Margarita",
             "",
             "3",
             "15",
@@ -5700,7 +5708,7 @@
           ],
           [
             "28",
-            "Lettieri, Eugenia",
+            "Judelewski Onega, Paloma",
             "",
             "3",
             "15",
@@ -5708,7 +5716,7 @@
           ],
           [
             "29",
-            "Lombardo, María Sol",
+            "Lettieri, Eugenia",
             "",
             "3",
             "15",
@@ -5716,7 +5724,7 @@
           ],
           [
             "30",
-            "Migles Bordonaro, Luisina",
+            "Lombardo, María Sol",
             "",
             "3",
             "15",
@@ -5724,7 +5732,7 @@
           ],
           [
             "31",
-            "Ortiz Quirno, Calista",
+            "Migles Bordonaro, Luisina",
             "",
             "3",
             "15",
@@ -5732,7 +5740,7 @@
           ],
           [
             "32",
-            "Sanzo, Maria Sol",
+            "Ortiz Quirno, Calista",
             "",
             "3",
             "15",
@@ -5740,7 +5748,7 @@
           ],
           [
             "33",
-            "Sendon, Cecilia",
+            "Sanzo, Maria Sol",
             "",
             "3",
             "15",
@@ -5748,7 +5756,7 @@
           ],
           [
             "34",
-            "Vazquez Ponce, Camila Jazmin",
+            "Sendon, Cecilia",
             "",
             "3",
             "15",
@@ -5756,11 +5764,11 @@
           ],
           [
             "35",
-            "Bouza, Morena",
+            "Vazquez Ponce, Camila Jazmin",
             "",
             "3",
-            "14",
-            "0.21"
+            "15",
+            "0.20"
           ],
           [
             "36",
@@ -5828,7 +5836,7 @@
           ],
           [
             "44",
-            "Ayastuy, Camila",
+            "Albertarrio, Agustina",
             "",
             "2",
             "15",
@@ -5836,7 +5844,7 @@
           ],
           [
             "45",
-            "Bibbo Rulli, Paloma",
+            "Ayastuy, Camila",
             "",
             "2",
             "15",
@@ -5844,7 +5852,7 @@
           ],
           [
             "46",
-            "Bonomo, Juana",
+            "Bibbo Rulli, Paloma",
             "",
             "2",
             "15",
@@ -5852,7 +5860,7 @@
           ],
           [
             "47",
-            "Canone, Josefina",
+            "Bonomo, Juana",
             "",
             "2",
             "15",
@@ -5860,7 +5868,7 @@
           ],
           [
             "48",
-            "Estigarria Campos, Lourdes",
+            "Canone, Josefina",
             "",
             "2",
             "15",
@@ -5868,7 +5876,7 @@
           ],
           [
             "49",
-            "Galli, Delfina",
+            "Estigarria Campos, Lourdes",
             "",
             "2",
             "15",
@@ -5876,7 +5884,7 @@
           ],
           [
             "50",
-            "Gosci, Candela",
+            "Galli, Delfina",
             "",
             "2",
             "15",
@@ -5884,7 +5892,7 @@
           ],
           [
             "51",
-            "Honczar Salgado, Camila",
+            "Gosci, Candela",
             "",
             "2",
             "15",
@@ -5892,7 +5900,7 @@
           ],
           [
             "52",
-            "Iacoponi, Valentina",
+            "Honczar Salgado, Camila",
             "",
             "2",
             "15",
@@ -5900,7 +5908,7 @@
           ],
           [
             "53",
-            "Moroni, Martina Aoi",
+            "Iacoponi, Valentina",
             "",
             "2",
             "15",
@@ -5908,7 +5916,7 @@
           ],
           [
             "54",
-            "Palacio Cascallares, Pilar",
+            "Moroni, Martina Aoi",
             "",
             "2",
             "15",
@@ -5916,7 +5924,7 @@
           ],
           [
             "55",
-            "Rayer, Abril Celeste",
+            "Palacio Cascallares, Pilar",
             "",
             "2",
             "15",
@@ -5924,7 +5932,7 @@
           ],
           [
             "56",
-            "Rossi, Clara",
+            "Rayer, Abril Celeste",
             "",
             "2",
             "15",
@@ -5932,7 +5940,7 @@
           ],
           [
             "57",
-            "Saad, Luciana",
+            "Rossi, Clara",
             "",
             "2",
             "15",
@@ -5940,7 +5948,7 @@
           ],
           [
             "58",
-            "Strauss Mackenzie, Justina",
+            "Saad, Luciana",
             "",
             "2",
             "15",
@@ -5948,14 +5956,22 @@
           ],
           [
             "59",
-            "Albertarrio, Agustina",
+            "Sanguinetti, Maria Lucía",
             "",
             "2",
-            "14",
-            "0.14"
+            "15",
+            "0.13"
           ],
           [
             "60",
+            "Strauss Mackenzie, Justina",
+            "",
+            "2",
+            "15",
+            "0.13"
+          ],
+          [
+            "61",
             "Caucigh, Ambar Evangelina",
             "",
             "2",
@@ -5963,16 +5979,8 @@
             "0.14"
           ],
           [
-            "61",
-            "Ruggeri, Brisa",
-            "",
-            "2",
-            "14",
-            "0.14"
-          ],
-          [
             "62",
-            "Sanguinetti, Maria Lucía",
+            "Ruggeri, Brisa",
             "",
             "2",
             "14",
@@ -6063,7 +6071,7 @@
             "Berisso, Joaquina",
             "",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -6111,7 +6119,7 @@
             "Esandi, Candela",
             "",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -6119,7 +6127,7 @@
             "Fajardo, Juana",
             "",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -6199,7 +6207,7 @@
             "Marcucci, Valentina",
             "",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -6239,7 +6247,7 @@
             "Pagella, Sol",
             "",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -6263,7 +6271,7 @@
             "Redruello, Bã¡rbara",
             "",
             "1",
-            "14",
+            "15",
             "0.07"
           ],
           [
@@ -13371,7 +13379,9 @@
           "local": "SAN FERNANDO",
           "visita": "C.M. BELGRANO",
           "fecha": "dom 28 jun 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "CIRCULO HEBREO",
