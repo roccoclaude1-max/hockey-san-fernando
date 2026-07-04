@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-04T16:38:38.305112+00:00",
+  "actualizado": "2026-07-04T20:21:26.604050+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -4699,7 +4699,9 @@
           "local": "SAN FERNANDO",
           "visita": "G. Y ESGRIMA",
           "fecha": "sáb 04 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
         },
         {
           "local": "RIVER PLATE",
@@ -6958,7 +6960,9 @@
           "local": "SAN LUIS",
           "visita": "SAN FERNANDO B",
           "fecha": "sáb 04 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO B",
@@ -9249,7 +9253,9 @@
           "local": "SAN FERNANDO C",
           "visita": "CENTRO NAVAL B",
           "fecha": "sáb 04 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
         },
         {
           "local": "PUCARA C",
@@ -11436,7 +11442,9 @@
           "local": "BANCO CENTRAL",
           "visita": "SAN FERNANDO D",
           "fecha": "sáb 04 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
         },
         {
           "local": "SAN FERNANDO D",
