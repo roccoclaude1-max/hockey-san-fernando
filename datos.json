@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-06T12:36:11.250683+00:00",
+  "actualizado": "2026-07-06T14:11:49.605383+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -2872,13 +2872,13 @@
             "7",
             "Q.H.S.",
             "8",
-            "3",
+            "4",
             "2",
             "0",
-            "1",
+            "2",
             "9",
-            "6",
-            "3",
+            "9",
+            "0",
             "2",
             ""
           ],
@@ -2899,14 +2899,14 @@
           [
             "9",
             "LANUS",
-            "2",
-            "3",
-            "0",
+            "5",
+            "4",
+            "1",
             "1",
             "2",
-            "4",
+            "7",
             "8",
-            "-4",
+            "-1",
             "1",
             ""
           ],
@@ -2938,6 +2938,14 @@
         "rows": [
           [
             "1",
+            "Drago Mezzano, Luciano",
+            "LANUS",
+            "6",
+            "4",
+            "1.50"
+          ],
+          [
+            "2",
             "Desiata, Tobias Luis",
             "FERRO C. O.",
             "4",
@@ -2945,7 +2953,7 @@
             "1.00"
           ],
           [
-            "2",
+            "3",
             "Andino, Alan",
             "BANADE",
             "4",
@@ -2953,7 +2961,7 @@
             "1.33"
           ],
           [
-            "3",
+            "4",
             "Baquero, Emanuel",
             "VELEZ",
             "3",
@@ -2961,7 +2969,7 @@
             "0.75"
           ],
           [
-            "4",
+            "5",
             "Binetti, Tomas",
             "AACF QUILMES",
             "3",
@@ -2969,7 +2977,7 @@
             "0.75"
           ],
           [
-            "5",
+            "6",
             "Janse, Ulises",
             "BANADE",
             "3",
@@ -2977,7 +2985,7 @@
             "0.75"
           ],
           [
-            "6",
+            "7",
             "Lescano, Geronimo",
             "BANADE",
             "3",
@@ -2985,20 +2993,12 @@
             "0.75"
           ],
           [
-            "7",
+            "8",
             "Soliz, Juan Alberto",
             "SAN FERNANDO",
             "3",
             "4",
             "0.75"
-          ],
-          [
-            "8",
-            "Drago Mezzano, Luciano",
-            "LANUS",
-            "3",
-            "3",
-            "1.00"
           ],
           [
             "9",
@@ -3018,6 +3018,14 @@
           ],
           [
             "11",
+            "Dominguez, Blas Antonio",
+            "Q.H.S.",
+            "2",
+            "4",
+            "0.50"
+          ],
+          [
+            "12",
             "Farias, Martín",
             "BANFIELD",
             "2",
@@ -3025,7 +3033,7 @@
             "0.50"
           ],
           [
-            "12",
+            "13",
             "Gallelli, Bruno",
             "FERRO C. O.",
             "2",
@@ -3033,7 +3041,7 @@
             "0.50"
           ],
           [
-            "13",
+            "14",
             "Garrigos, Ignacio",
             "SAN FERNANDO",
             "2",
@@ -3041,7 +3049,7 @@
             "0.50"
           ],
           [
-            "14",
+            "15",
             "Gomez, Franco Danilo",
             "VELEZ",
             "2",
@@ -3049,7 +3057,7 @@
             "0.50"
           ],
           [
-            "15",
+            "16",
             "Pampin, Lucas Manuel",
             "FERRO C. O.",
             "2",
@@ -3057,7 +3065,7 @@
             "0.50"
           ],
           [
-            "16",
+            "17",
             "Pujalka, Ivan",
             "PUERTO NIZUC",
             "2",
@@ -3065,7 +3073,7 @@
             "0.50"
           ],
           [
-            "17",
+            "18",
             "Trevisan, Pablo",
             "SAN FERNANDO",
             "2",
@@ -3073,7 +3081,7 @@
             "0.50"
           ],
           [
-            "18",
+            "19",
             "Vanecek, Ivo Rodrigo",
             "BANADE",
             "2",
@@ -3081,20 +3089,12 @@
             "0.50"
           ],
           [
-            "19",
+            "20",
             "Zimbimbakis, Juan Ignacio",
             "G. Y ESGRIMA",
             "2",
             "4",
             "0.50"
-          ],
-          [
-            "20",
-            "Dominguez, Blas Antonio",
-            "Q.H.S.",
-            "2",
-            "3",
-            "0.67"
           ],
           [
             "21",
@@ -3154,6 +3154,14 @@
           ],
           [
             "28",
+            "Gibaut, Benito",
+            "Q.H.S.",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "29",
             "Giusti, Lucas",
             "SAN FERNANDO",
             "1",
@@ -3161,7 +3169,7 @@
             "0.25"
           ],
           [
-            "29",
+            "30",
             "Gomez, Nahuel",
             "VELEZ",
             "1",
@@ -3169,7 +3177,7 @@
             "0.25"
           ],
           [
-            "30",
+            "31",
             "Gutierrez, Rocco",
             "AACF QUILMES",
             "1",
@@ -3177,7 +3185,7 @@
             "0.25"
           ],
           [
-            "31",
+            "32",
             "Langecker, Uriel Joaquin",
             "PUERTO NIZUC",
             "1",
@@ -3185,7 +3193,7 @@
             "0.25"
           ],
           [
-            "32",
+            "33",
             "Mallo, Alexis",
             "BANFIELD",
             "1",
@@ -3193,7 +3201,7 @@
             "0.25"
           ],
           [
-            "33",
+            "34",
             "Martinez, Lucas",
             "BANFIELD",
             "1",
@@ -3201,7 +3209,31 @@
             "0.25"
           ],
           [
-            "34",
+            "35",
+            "Melgarejo, Juan Cruz",
+            "Q.H.S.",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "36",
+            "Melgarejo, Manuel Ignacio",
+            "Q.H.S.",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "37",
+            "Mendizabal, Juan Ignacio",
+            "Q.H.S.",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "38",
             "Miguens, Matías",
             "BANFIELD",
             "1",
@@ -3209,7 +3241,7 @@
             "0.25"
           ],
           [
-            "35",
+            "39",
             "Naon, Esteban Ariel",
             "VELEZ",
             "1",
@@ -3217,7 +3249,7 @@
             "0.25"
           ],
           [
-            "36",
+            "40",
             "Ortiz, Juan Ezequiel",
             "BANADE",
             "1",
@@ -3225,7 +3257,7 @@
             "0.25"
           ],
           [
-            "37",
+            "41",
             "Perez, Ramiro Martin",
             "G. Y ESGRIMA",
             "1",
@@ -3233,7 +3265,7 @@
             "0.25"
           ],
           [
-            "38",
+            "42",
             "Rey, Mateo",
             "AACF QUILMES",
             "1",
@@ -3241,7 +3273,7 @@
             "0.25"
           ],
           [
-            "39",
+            "43",
             "Ruiz, Maximo",
             "AACF QUILMES",
             "1",
@@ -3249,7 +3281,7 @@
             "0.25"
           ],
           [
-            "40",
+            "44",
             "Spagnoletta, Francesco",
             "G. Y ESGRIMA",
             "1",
@@ -3257,7 +3289,7 @@
             "0.25"
           ],
           [
-            "41",
+            "45",
             "Terzi, Simon",
             "SAN FERNANDO",
             "1",
@@ -3265,7 +3297,7 @@
             "0.25"
           ],
           [
-            "42",
+            "46",
             "Tort, Ignacio",
             "SAN FERNANDO",
             "1",
@@ -3273,7 +3305,7 @@
             "0.25"
           ],
           [
-            "43",
+            "47",
             "Viera, Thiago Nahuel",
             "BANFIELD",
             "1",
@@ -3281,7 +3313,7 @@
             "0.25"
           ],
           [
-            "44",
+            "48",
             "Casini, Sebastián",
             "Q.H.S.",
             "1",
@@ -3289,41 +3321,9 @@
             "0.33"
           ],
           [
-            "45",
+            "49",
             "Ficca, Valentino Benjamin",
             "FERRO C. O.",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "46",
-            "Gibaut, Benito",
-            "Q.H.S.",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "47",
-            "Melgarejo, Juan Cruz",
-            "Q.H.S.",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "48",
-            "Melgarejo, Manuel Ignacio",
-            "Q.H.S.",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "49",
-            "Mendizabal, Juan Ignacio",
-            "Q.H.S.",
             "1",
             "3",
             "0.33"
@@ -3338,16 +3338,16 @@
           ],
           [
             "51",
-            "Andreotti, Felipe",
-            "BANADE",
+            "Perez Larraburu, Manuel Eloy",
+            "LANUS",
             "1",
-            "1",
-            "1.00"
+            "2",
+            "0.50"
           ],
           [
             "52",
-            "Perez Larraburu, Manuel Eloy",
-            "LANUS",
+            "Andreotti, Felipe",
+            "BANADE",
             "1",
             "1",
             "1.00"
@@ -3362,6 +3362,14 @@
           ],
           [
             "1",
+            "Drago Mezzano, Luciano",
+            "",
+            "6",
+            "4",
+            "1.50"
+          ],
+          [
+            "2",
             "Desiata, Tobias Luis",
             "",
             "4",
@@ -3369,7 +3377,7 @@
             "1.00"
           ],
           [
-            "2",
+            "3",
             "Andino, Alan",
             "",
             "4",
@@ -3377,7 +3385,7 @@
             "1.33"
           ],
           [
-            "3",
+            "4",
             "Baquero, Emanuel",
             "",
             "3",
@@ -3385,7 +3393,7 @@
             "0.75"
           ],
           [
-            "4",
+            "5",
             "Binetti, Tomas",
             "",
             "3",
@@ -3393,7 +3401,7 @@
             "0.75"
           ],
           [
-            "5",
+            "6",
             "Janse, Ulises",
             "",
             "3",
@@ -3401,7 +3409,7 @@
             "0.75"
           ],
           [
-            "6",
+            "7",
             "Lescano, Geronimo",
             "",
             "3",
@@ -3409,20 +3417,12 @@
             "0.75"
           ],
           [
-            "7",
+            "8",
             "Soliz, Juan Alberto",
             "",
             "3",
             "4",
             "0.75"
-          ],
-          [
-            "8",
-            "Drago Mezzano, Luciano",
-            "",
-            "3",
-            "3",
-            "1.00"
           ],
           [
             "9",
@@ -3442,7 +3442,7 @@
           ],
           [
             "11",
-            "Farias, Martín",
+            "Dominguez, Blas Antonio",
             "",
             "2",
             "4",
@@ -3450,7 +3450,7 @@
           ],
           [
             "12",
-            "Gallelli, Bruno",
+            "Farias, Martín",
             "",
             "2",
             "4",
@@ -3458,7 +3458,7 @@
           ],
           [
             "13",
-            "Garrigos, Ignacio",
+            "Gallelli, Bruno",
             "",
             "2",
             "4",
@@ -3466,7 +3466,7 @@
           ],
           [
             "14",
-            "Gomez, Franco Danilo",
+            "Garrigos, Ignacio",
             "",
             "2",
             "4",
@@ -3474,7 +3474,7 @@
           ],
           [
             "15",
-            "Pampin, Lucas Manuel",
+            "Gomez, Franco Danilo",
             "",
             "2",
             "4",
@@ -3482,7 +3482,7 @@
           ],
           [
             "16",
-            "Pujalka, Ivan",
+            "Pampin, Lucas Manuel",
             "",
             "2",
             "4",
@@ -3490,7 +3490,7 @@
           ],
           [
             "17",
-            "Trevisan, Pablo",
+            "Pujalka, Ivan",
             "",
             "2",
             "4",
@@ -3498,7 +3498,7 @@
           ],
           [
             "18",
-            "Vanecek, Ivo Rodrigo",
+            "Trevisan, Pablo",
             "",
             "2",
             "4",
@@ -3506,7 +3506,7 @@
           ],
           [
             "19",
-            "Zimbimbakis, Juan Ignacio",
+            "Vanecek, Ivo Rodrigo",
             "",
             "2",
             "4",
@@ -3514,11 +3514,11 @@
           ],
           [
             "20",
-            "Dominguez, Blas Antonio",
+            "Zimbimbakis, Juan Ignacio",
             "",
             "2",
-            "3",
-            "0.67"
+            "4",
+            "0.50"
           ],
           [
             "21",
@@ -3578,7 +3578,7 @@
           ],
           [
             "28",
-            "Giusti, Lucas",
+            "Gibaut, Benito",
             "",
             "1",
             "4",
@@ -3586,7 +3586,7 @@
           ],
           [
             "29",
-            "Gomez, Nahuel",
+            "Giusti, Lucas",
             "",
             "1",
             "4",
@@ -3594,7 +3594,7 @@
           ],
           [
             "30",
-            "Gutierrez, Rocco",
+            "Gomez, Nahuel",
             "",
             "1",
             "4",
@@ -3602,7 +3602,7 @@
           ],
           [
             "31",
-            "Langecker, Uriel Joaquin",
+            "Gutierrez, Rocco",
             "",
             "1",
             "4",
@@ -3610,7 +3610,7 @@
           ],
           [
             "32",
-            "Mallo, Alexis",
+            "Langecker, Uriel Joaquin",
             "",
             "1",
             "4",
@@ -3618,7 +3618,7 @@
           ],
           [
             "33",
-            "Martinez, Lucas",
+            "Mallo, Alexis",
             "",
             "1",
             "4",
@@ -3626,7 +3626,7 @@
           ],
           [
             "34",
-            "Miguens, Matías",
+            "Martinez, Lucas",
             "",
             "1",
             "4",
@@ -3634,7 +3634,7 @@
           ],
           [
             "35",
-            "Naon, Esteban Ariel",
+            "Melgarejo, Juan Cruz",
             "",
             "1",
             "4",
@@ -3642,7 +3642,7 @@
           ],
           [
             "36",
-            "Ortiz, Juan Ezequiel",
+            "Melgarejo, Manuel Ignacio",
             "",
             "1",
             "4",
@@ -3650,7 +3650,7 @@
           ],
           [
             "37",
-            "Perez, Ramiro Martin",
+            "Mendizabal, Juan Ignacio",
             "",
             "1",
             "4",
@@ -3658,7 +3658,7 @@
           ],
           [
             "38",
-            "Rey, Mateo",
+            "Miguens, Matías",
             "",
             "1",
             "4",
@@ -3666,7 +3666,7 @@
           ],
           [
             "39",
-            "Ruiz, Maximo",
+            "Naon, Esteban Ariel",
             "",
             "1",
             "4",
@@ -3674,7 +3674,7 @@
           ],
           [
             "40",
-            "Spagnoletta, Francesco",
+            "Ortiz, Juan Ezequiel",
             "",
             "1",
             "4",
@@ -3682,7 +3682,7 @@
           ],
           [
             "41",
-            "Terzi, Simon",
+            "Perez, Ramiro Martin",
             "",
             "1",
             "4",
@@ -3690,7 +3690,7 @@
           ],
           [
             "42",
-            "Tort, Ignacio",
+            "Rey, Mateo",
             "",
             "1",
             "4",
@@ -3698,7 +3698,7 @@
           ],
           [
             "43",
-            "Viera, Thiago Nahuel",
+            "Ruiz, Maximo",
             "",
             "1",
             "4",
@@ -3706,6 +3706,38 @@
           ],
           [
             "44",
+            "Spagnoletta, Francesco",
+            "",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "45",
+            "Terzi, Simon",
+            "",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "46",
+            "Tort, Ignacio",
+            "",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "47",
+            "Viera, Thiago Nahuel",
+            "",
+            "1",
+            "4",
+            "0.25"
+          ],
+          [
+            "48",
             "Casini, Sebastián",
             "",
             "1",
@@ -3713,40 +3745,8 @@
             "0.33"
           ],
           [
-            "45",
-            "Ficca, Valentino Benjamin",
-            "",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "46",
-            "Gibaut, Benito",
-            "",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "47",
-            "Melgarejo, Juan Cruz",
-            "",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
-            "48",
-            "Melgarejo, Manuel Ignacio",
-            "",
-            "1",
-            "3",
-            "0.33"
-          ],
-          [
             "49",
-            "Mendizabal, Juan Ignacio",
+            "Ficca, Valentino Benjamin",
             "",
             "1",
             "3",
@@ -3762,15 +3762,15 @@
           ],
           [
             "51",
-            "Andreotti, Felipe",
+            "Perez Larraburu, Manuel Eloy",
             "",
             "1",
-            "1",
-            "1.00"
+            "2",
+            "0.50"
           ],
           [
             "52",
-            "Perez Larraburu, Manuel Eloy",
+            "Andreotti, Felipe",
             "",
             "1",
             "1",
