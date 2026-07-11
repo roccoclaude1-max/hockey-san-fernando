@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-11T17:46:12.543805+00:00",
+  "actualizado": "2026-07-11T20:32:42.831866+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -5341,7 +5341,9 @@
           "local": "RIVER PLATE",
           "visita": "SAN FERNANDO",
           "fecha": "sáb 11 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO",
@@ -7682,7 +7684,9 @@
           "local": "SAN FERNANDO B",
           "visita": "S.A.G.",
           "fecha": "sáb 11 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
         },
         {
           "local": "H.C. ANDERSEN",
@@ -9991,7 +9995,9 @@
           "local": "PUCARA C",
           "visita": "SAN FERNANDO C",
           "fecha": "sáb 11 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO C",
@@ -12244,7 +12250,9 @@
           "local": "SAN FERNANDO D",
           "visita": "VICENTINOS B",
           "fecha": "sáb 11 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "PADRE MARIO",
