@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-18T10:57:04.895873+00:00",
+  "actualizado": "2026-07-18T14:40:34.368940+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -10361,7 +10361,9 @@
           "local": "SAN FERNANDO C",
           "visita": "PUERTOS DEL LAGO",
           "fecha": "sáb 18 jul 10:30",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
         },
         {
           "local": "ST. BRENDANS B",
