@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-18T17:47:21.898622+00:00",
+  "actualizado": "2026-07-18T20:30:45.421627+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -5595,7 +5595,9 @@
           "local": "SAN FERNANDO",
           "visita": "OLIVOS",
           "fecha": "sáb 18 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
         },
         {
           "local": "CIUDAD",
@@ -8002,7 +8004,9 @@
           "local": "H.C. ANDERSEN",
           "visita": "SAN FERNANDO B",
           "fecha": "sáb 18 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO B",
@@ -12666,7 +12670,9 @@
           "local": "PADRE MARIO",
           "visita": "SAN FERNANDO D",
           "fecha": "sáb 18 jul 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "2"
         },
         {
           "local": "SAN FERNANDO D",
