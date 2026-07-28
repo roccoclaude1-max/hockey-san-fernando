@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-07-28T19:49:50.178188+00:00",
+  "actualizado": "2026-07-28T21:18:28.788567+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -2700,7 +2700,128 @@
       "id": "cab-b",
       "nombre": "Caballeros B",
       "tipo": "cab",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "AACF QUILMES",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 14 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "BANADE",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 21 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "G. Y ESGRIMA B",
+          "fecha": "dom 28 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "VELEZ",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 05 jul 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "Q.H.S.",
+          "fecha": "jue 09 jul 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "BANFIELD",
+          "fecha": "dom 12 jul 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "PUERTO NIZUC",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 19 jul 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "LANUS",
+          "fecha": "dom 09 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "Q.H.S.",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 16 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "FERRO C. O.",
+          "fecha": "lun 17 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "LANUS",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 30 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "BANADE",
+          "fecha": "dom 23 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "FERRO C. O.",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 06 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "AACF QUILMES",
+          "fecha": "dom 13 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "G. Y ESGRIMA B",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 27 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "VELEZ",
+          "fecha": "dom 04 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "BANFIELD",
+          "visita": "SAN FERNANDO B",
+          "fecha": "dom 11 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO B",
+          "visita": "PUERTO NIZUC",
+          "fecha": "dom 01 nov 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
         "headers": [
           "#",
