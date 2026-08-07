@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-07T12:15:25.327316+00:00",
+  "actualizado": "2026-08-07T13:55:28.059440+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -145,7 +145,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "QUILMES",
-          "fecha": "dom 19 jul 15:30",
+          "fecha": "dom 20 sept 15:30",
           "jugado": false
         },
         {
@@ -2752,7 +2752,7 @@
         {
           "local": "PUERTO NIZUC",
           "visita": "SAN FERNANDO B",
-          "fecha": "dom 19 jul 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
@@ -4137,7 +4137,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "BOCA JUNIORS",
-          "fecha": "dom 19 jul 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
@@ -15218,7 +15218,7 @@
         {
           "local": "SAN LORENZO",
           "visita": "SAN FERNANDO",
-          "fecha": "dom 19 jul 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
