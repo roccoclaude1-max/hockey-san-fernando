@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-08T19:47:23.986739+00:00",
+  "actualizado": "2026-08-08T20:08:11.121295+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -5603,7 +5603,9 @@
           "local": "CIUDAD",
           "visita": "SAN FERNANDO",
           "fecha": "sáb 08 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "2"
         },
         {
           "local": "SAN FERNANDO",
@@ -12779,8 +12781,8 @@
           "visita": "A. C. BRANDSEN",
           "fecha": "sáb 08 ago 16:00",
           "jugado": true,
-          "scoreLocal": "1",
-          "scoreVisita": "0"
+          "scoreLocal": "2",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO D",
