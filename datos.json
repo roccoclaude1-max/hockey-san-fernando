@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-08T19:14:02.884104+00:00",
+  "actualizado": "2026-08-08T19:47:23.986739+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -8028,7 +8028,9 @@
           "local": "SAN FERNANDO B",
           "visita": "CIUDAD C",
           "fecha": "sáb 08 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "CHAMPAGNAT",
@@ -10421,7 +10423,9 @@
           "local": "ST. BRENDANS B",
           "visita": "SAN FERNANDO C",
           "fecha": "sáb 08 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
         },
         {
           "local": "SAN FERNANDO C",
@@ -12774,7 +12778,9 @@
           "local": "SAN FERNANDO D",
           "visita": "A. C. BRANDSEN",
           "fecha": "sáb 08 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO D",
