@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-09T18:59:56.143835+00:00",
+  "actualizado": "2026-08-09T19:35:27.401226+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -2759,7 +2759,9 @@
           "local": "SAN FERNANDO B",
           "visita": "LANUS",
           "fecha": "dom 09 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
         },
         {
           "local": "Q.H.S.",
@@ -4144,7 +4146,9 @@
           "local": "AACF QUILMES B",
           "visita": "SAN FERNANDO C",
           "fecha": "dom 09 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
         },
         {
           "local": "SAN FERNANDO C",
@@ -15409,7 +15413,9 @@
           "local": "SAN FERNANDO",
           "visita": "EL SOSIEGO",
           "fecha": "dom 09 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
         },
         {
           "local": "ALBATROS",
