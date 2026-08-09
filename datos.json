@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-09T09:38:08.153602+00:00",
+  "actualizado": "2026-08-09T10:11:37.058695+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -10404,7 +10404,202 @@
       "id": "dam-c",
       "nombre": "Damas C",
       "tipo": "dam",
-      "fixture": [],
+      "fixture": [
+        {
+          "local": "CLUB J.M.",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 07 mar 10:30",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "LOS PINOS",
+          "fecha": "sáb 14 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "CENTRO NAVAL B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 21 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "PUCARA C",
+          "fecha": "sáb 28 mar 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "PUERTOS DEL LAGO",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 11 abr 10:30",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "ST. BRENDANS B",
+          "fecha": "sáb 18 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN LUIS C",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 25 abr 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "MUN. LA MATANZA",
+          "fecha": "sáb 02 may 16:00",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "BANFIELD B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 09 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "N. CHICAGO",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 16 may 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "DEP. S. BARBARA B",
+          "fecha": "sáb 30 may 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "CIUDAD DE CAMPANA",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 06 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "PLATENSE",
+          "fecha": "sáb 13 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "4",
+          "scoreVisita": "0"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "CLUB J.M.",
+          "fecha": "sáb 20 jun 10:30",
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
+        },
+        {
+          "local": "LOS PINOS",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 27 jun 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "CENTRO NAVAL B",
+          "fecha": "sáb 04 jul 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "PUCARA C",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 11 jul 16:00",
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "PUERTOS DEL LAGO",
+          "fecha": "sáb 18 jul 10:30",
+          "jugado": true,
+          "scoreLocal": "3",
+          "scoreVisita": "4"
+        },
+        {
+          "local": "ST. BRENDANS B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 08 ago 16:00",
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "3"
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "SAN LUIS C",
+          "fecha": "sáb 29 ago 16:00",
+          "jugado": false
+        },
+        {
+          "local": "MUN. LA MATANZA",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 05 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "BANFIELD B",
+          "fecha": "sáb 12 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "N. CHICAGO",
+          "fecha": "sáb 26 sept 16:00",
+          "jugado": false
+        },
+        {
+          "local": "DEP. S. BARBARA B",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 03 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "SAN FERNANDO C",
+          "visita": "CIUDAD DE CAMPANA",
+          "fecha": "sáb 10 oct 16:00",
+          "jugado": false
+        },
+        {
+          "local": "PLATENSE",
+          "visita": "SAN FERNANDO C",
+          "fecha": "sáb 31 oct 16:00",
+          "jugado": false
+        }
+      ],
       "posiciones": {
         "headers": [
           "#",
