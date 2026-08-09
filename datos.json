@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-09T19:35:27.401226+00:00",
+  "actualizado": "2026-08-09T20:04:42.029027+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -152,7 +152,9 @@
           "local": "MITRE",
           "visita": "SAN FERNANDO",
           "fecha": "dom 09 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO",
@@ -2760,8 +2762,8 @@
           "visita": "LANUS",
           "fecha": "dom 09 ago 16:00",
           "jugado": true,
-          "scoreLocal": "0",
-          "scoreVisita": "1"
+          "scoreLocal": "3",
+          "scoreVisita": "2"
         },
         {
           "local": "Q.H.S.",
@@ -4147,8 +4149,8 @@
           "visita": "SAN FERNANDO C",
           "fecha": "dom 09 ago 16:00",
           "jugado": true,
-          "scoreLocal": "0",
-          "scoreVisita": "3"
+          "scoreLocal": "2",
+          "scoreVisita": "5"
         },
         {
           "local": "SAN FERNANDO C",
@@ -15414,8 +15416,8 @@
           "visita": "EL SOSIEGO",
           "fecha": "dom 09 ago 16:00",
           "jugado": true,
-          "scoreLocal": "0",
-          "scoreVisita": "1"
+          "scoreLocal": "1",
+          "scoreVisita": "2"
         },
         {
           "local": "ALBATROS",
