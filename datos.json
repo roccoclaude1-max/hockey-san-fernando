@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-15T18:54:25.446165+00:00",
+  "actualizado": "2026-08-15T19:15:13.019071+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -2849,7 +2849,9 @@
           "local": "Q.H.S.",
           "visita": "SAN FERNANDO B",
           "fecha": "sáb 15 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO B",
