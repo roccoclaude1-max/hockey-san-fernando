@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-16T20:18:26.359514+00:00",
+  "actualizado": "2026-08-16T20:45:16.897723+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -4351,8 +4351,8 @@
           "visita": "Q.H.S. B",
           "fecha": "dom 16 ago 16:00",
           "jugado": true,
-          "scoreLocal": "0",
-          "scoreVisita": "0"
+          "scoreLocal": "2",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO C",
@@ -4691,6 +4691,14 @@
           ],
           [
             "15",
+            "Arroqui, Esteban Ariel",
+            "FERRO C. O.",
+            "4",
+            "8",
+            "0.50"
+          ],
+          [
+            "16",
             "Fassi, Nicolas Ezequiel",
             "G. Y ESGRIMA",
             "4",
@@ -4698,7 +4706,15 @@
             "0.50"
           ],
           [
-            "16",
+            "17",
+            "Roldan, Juan Cruz",
+            "G. Y E. LA PLATA",
+            "4",
+            "8",
+            "0.50"
+          ],
+          [
+            "18",
             "Vega, Erik",
             "G. Y ESGRIMA",
             "4",
@@ -4706,7 +4722,15 @@
             "0.50"
           ],
           [
-            "17",
+            "19",
+            "Bru, Joaquin Miguel",
+            "G. Y E. LA PLATA",
+            "3",
+            "9",
+            "0.33"
+          ],
+          [
+            "20",
             "Andrada, Juan Pablo",
             "AACF QUILMES",
             "3",
@@ -4714,15 +4738,7 @@
             "0.38"
           ],
           [
-            "18",
-            "Bru, Joaquin Miguel",
-            "G. Y E. LA PLATA",
-            "3",
-            "8",
-            "0.38"
-          ],
-          [
-            "19",
+            "21",
             "Rodriguez, Sebastián Alejandro",
             "MITRE",
             "3",
@@ -4730,25 +4746,9 @@
             "0.38"
           ],
           [
-            "20",
-            "Arroqui, Esteban Ariel",
-            "FERRO C. O.",
-            "3",
-            "7",
-            "0.43"
-          ],
-          [
-            "21",
+            "22",
             "Melgarejo, Leandro",
             "Q.H.S.",
-            "3",
-            "7",
-            "0.43"
-          ],
-          [
-            "22",
-            "Roldan, Juan Cruz",
-            "G. Y E. LA PLATA",
             "3",
             "7",
             "0.43"
@@ -4771,6 +4771,14 @@
           ],
           [
             "25",
+            "Juarez, Emilio Javier",
+            "G. Y E. LA PLATA",
+            "2",
+            "9",
+            "0.22"
+          ],
+          [
+            "26",
             "Mastroianni, Agustin Heber",
             "TRISTAN SUAREZ",
             "2",
@@ -4778,7 +4786,7 @@
             "0.22"
           ],
           [
-            "26",
+            "27",
             "Ramirez, Marcos",
             "TRISTAN SUAREZ",
             "2",
@@ -4786,7 +4794,15 @@
             "0.22"
           ],
           [
-            "27",
+            "28",
+            "Reale Barboza, Jean Alan",
+            "G. Y E. LA PLATA",
+            "2",
+            "9",
+            "0.22"
+          ],
+          [
+            "29",
             "D Lucas, Ignacio David",
             "BOCA JUNIORS",
             "2",
@@ -4794,7 +4810,7 @@
             "0.25"
           ],
           [
-            "28",
+            "30",
             "Franco Marchesani, Lautaro a",
             "DUCILO",
             "2",
@@ -4802,7 +4818,7 @@
             "0.25"
           ],
           [
-            "29",
+            "31",
             "Ibarguren, Juan Miguel",
             "BOCA JUNIORS",
             "2",
@@ -4810,7 +4826,7 @@
             "0.25"
           ],
           [
-            "30",
+            "32",
             "Iglesias, Raul Ignacio",
             "DUCILO",
             "2",
@@ -4818,7 +4834,7 @@
             "0.25"
           ],
           [
-            "31",
+            "33",
             "Larrandart, Lucas Ezequiel",
             "G. Y ESGRIMA",
             "2",
@@ -4826,7 +4842,7 @@
             "0.25"
           ],
           [
-            "32",
+            "34",
             "Nuñez Figueroa, David",
             "MITRE",
             "2",
@@ -4834,15 +4850,15 @@
             "0.25"
           ],
           [
-            "33",
-            "Reale Barboza, Jean Alan",
+            "35",
+            "Bruno, Gastã²n",
             "G. Y E. LA PLATA",
             "2",
-            "8",
-            "0.25"
+            "7",
+            "0.29"
           ],
           [
-            "34",
+            "36",
             "Casella Schuth, Kevin Tomas",
             "SAN FERNANDO",
             "2",
@@ -4850,7 +4866,7 @@
             "0.29"
           ],
           [
-            "35",
+            "37",
             "Drahan, Ramiro",
             "AACF QUILMES",
             "2",
@@ -4858,7 +4874,7 @@
             "0.29"
           ],
           [
-            "36",
+            "38",
             "Luceno, Nicolás",
             "DUCILO",
             "2",
@@ -4866,7 +4882,7 @@
             "0.33"
           ],
           [
-            "37",
+            "39",
             "Mujica Urzagaste, Mauro Gonzalo",
             "TRISTAN SUAREZ",
             "2",
@@ -4874,7 +4890,7 @@
             "0.33"
           ],
           [
-            "38",
+            "40",
             "Lattanzio, Santiago Luis",
             "G. Y ESGRIMA",
             "2",
@@ -4882,7 +4898,7 @@
             "0.40"
           ],
           [
-            "39",
+            "41",
             "Navarro, Federico",
             "AACF QUILMES",
             "2",
@@ -4890,7 +4906,7 @@
             "0.50"
           ],
           [
-            "40",
+            "42",
             "Alvarez Suarez, Hilario",
             "TRISTAN SUAREZ",
             "1",
@@ -4898,7 +4914,7 @@
             "0.11"
           ],
           [
-            "41",
+            "43",
             "Vivanco, Andres Antonio",
             "TRISTAN SUAREZ",
             "1",
@@ -4906,7 +4922,7 @@
             "0.11"
           ],
           [
-            "42",
+            "44",
             "Antonelli, Emiliano",
             "DUCILO",
             "1",
@@ -4914,7 +4930,15 @@
             "0.13"
           ],
           [
-            "43",
+            "45",
+            "Cavallaro, Martín",
+            "FERRO C. O.",
+            "1",
+            "8",
+            "0.13"
+          ],
+          [
+            "46",
             "Chaves, Matías Nicolás",
             "DUCILO",
             "1",
@@ -4922,7 +4946,7 @@
             "0.13"
           ],
           [
-            "44",
+            "47",
             "Gerez, Luciano Andres",
             "G. Y ESGRIMA",
             "1",
@@ -4930,7 +4954,7 @@
             "0.13"
           ],
           [
-            "45",
+            "48",
             "Gorosito, Ignacio",
             "AACF QUILMES",
             "1",
@@ -4938,15 +4962,7 @@
             "0.13"
           ],
           [
-            "46",
-            "Juarez, Emilio Javier",
-            "G. Y E. LA PLATA",
-            "1",
-            "8",
-            "0.13"
-          ],
-          [
-            "47",
+            "49",
             "Lezcano, Lucas I.",
             "MITRE",
             "1",
@@ -4954,7 +4970,7 @@
             "0.13"
           ],
           [
-            "48",
+            "50",
             "Pascuali, Diego",
             "DUCILO",
             "1",
@@ -4962,7 +4978,23 @@
             "0.13"
           ],
           [
-            "49",
+            "51",
+            "Pereyra, Matias Nicolas",
+            "FERRO C. O.",
+            "1",
+            "8",
+            "0.13"
+          ],
+          [
+            "52",
+            "Ahihi, Mariano",
+            "FERRO C. O.",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "53",
             "Carrillo Ortega, Cristian Ramiro",
             "BOCA JUNIORS",
             "1",
@@ -4970,7 +5002,7 @@
             "0.14"
           ],
           [
-            "50",
+            "54",
             "Castro, Juan Manuel",
             "AACF QUILMES",
             "1",
@@ -4978,7 +5010,7 @@
             "0.14"
           ],
           [
-            "51",
+            "55",
             "Ferrara, Ignacio",
             "SAN FERNANDO",
             "1",
@@ -4986,40 +5018,8 @@
             "0.14"
           ],
           [
-            "52",
-            "Gonzalez, Juan Cruz",
-            "SAN FERNANDO",
-            "1",
-            "7",
-            "0.14"
-          ],
-          [
-            "53",
-            "Nicoletti, Guido",
-            "AACF QUILMES",
-            "1",
-            "7",
-            "0.14"
-          ],
-          [
-            "54",
-            "Pereyra, Matias Nicolas",
-            "FERRO C. O.",
-            "1",
-            "7",
-            "0.14"
-          ],
-          [
-            "55",
-            "Serra, Lucas",
-            "Q.H.S.",
-            "1",
-            "7",
-            "0.14"
-          ],
-          [
             "56",
-            "Viggiano, Santiago",
+            "Gonzalez, Gaston Alejandro",
             "FERRO C. O.",
             "1",
             "7",
@@ -5027,14 +5027,46 @@
           ],
           [
             "57",
-            "Ahihi, Mariano",
-            "FERRO C. O.",
+            "Gonzalez, Juan Cruz",
+            "SAN FERNANDO",
             "1",
-            "6",
-            "0.17"
+            "7",
+            "0.14"
           ],
           [
             "58",
+            "Martã­nez, Néstor Alberto",
+            "G. Y E. LA PLATA",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "59",
+            "Nicoletti, Guido",
+            "AACF QUILMES",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "60",
+            "Serra, Lucas",
+            "Q.H.S.",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "61",
+            "Viggiano, Santiago",
+            "FERRO C. O.",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "62",
             "Baruffaldi, Bruno",
             "SAN FERNANDO",
             "1",
@@ -5042,15 +5074,7 @@
             "0.17"
           ],
           [
-            "59",
-            "Bruno, Gastã²n",
-            "G. Y E. LA PLATA",
-            "1",
-            "6",
-            "0.17"
-          ],
-          [
-            "60",
+            "63",
             "Cornes, Javier",
             "AACF QUILMES",
             "1",
@@ -5058,7 +5082,7 @@
             "0.17"
           ],
           [
-            "61",
+            "64",
             "Daer, Cesar Sebastián",
             "AACF QUILMES",
             "1",
@@ -5066,23 +5090,7 @@
             "0.17"
           ],
           [
-            "62",
-            "Gonzalez, Gaston Alejandro",
-            "FERRO C. O.",
-            "1",
-            "6",
-            "0.17"
-          ],
-          [
-            "63",
-            "Martã­nez, Néstor Alberto",
-            "G. Y E. LA PLATA",
-            "1",
-            "6",
-            "0.17"
-          ],
-          [
-            "64",
+            "65",
             "Martinez Carli, Nicolás",
             "SAN FERNANDO",
             "1",
@@ -5090,7 +5098,7 @@
             "0.17"
           ],
           [
-            "65",
+            "66",
             "Guiffredi, Thiago",
             "DUCILO",
             "1",
@@ -5098,7 +5106,7 @@
             "0.20"
           ],
           [
-            "66",
+            "67",
             "Navarro, Rodrigo",
             "AACF QUILMES",
             "1",
@@ -5106,7 +5114,15 @@
             "0.20"
           ],
           [
-            "67",
+            "68",
+            "Sarsona Rauch, Tomás a",
+            "FERRO C. O.",
+            "1",
+            "5",
+            "0.20"
+          ],
+          [
+            "69",
             "Saucedo, Valentin Matias",
             "MITRE",
             "1",
@@ -5114,7 +5130,7 @@
             "0.20"
           ],
           [
-            "68",
+            "70",
             "Wright, Alan",
             "DUCILO",
             "1",
@@ -5122,7 +5138,7 @@
             "0.20"
           ],
           [
-            "69",
+            "71",
             "Binetti, Matías",
             "AACF QUILMES",
             "1",
@@ -5130,7 +5146,7 @@
             "0.25"
           ],
           [
-            "70",
+            "72",
             "Geoffroy, Matias",
             "BOCA JUNIORS",
             "1",
@@ -5138,20 +5154,20 @@
             "0.25"
           ],
           [
-            "71",
-            "Trinchinetti, Agustin Marco",
-            "SAN FERNANDO",
+            "73",
+            "Gilly, Patricio",
+            "FERRO C. O.",
             "1",
             "4",
             "0.25"
           ],
           [
-            "72",
-            "Gilly, Patricio",
-            "FERRO C. O.",
+            "74",
+            "Trinchinetti, Agustin Marco",
+            "SAN FERNANDO",
             "1",
-            "3",
-            "0.33"
+            "4",
+            "0.25"
           ],
           [
             "1",
@@ -5267,7 +5283,7 @@
           ],
           [
             "15",
-            "Fassi, Nicolas Ezequiel",
+            "Arroqui, Esteban Ariel",
             "",
             "4",
             "8",
@@ -5275,7 +5291,7 @@
           ],
           [
             "16",
-            "Vega, Erik",
+            "Fassi, Nicolas Ezequiel",
             "",
             "4",
             "8",
@@ -5283,6 +5299,30 @@
           ],
           [
             "17",
+            "Roldan, Juan Cruz",
+            "",
+            "4",
+            "8",
+            "0.50"
+          ],
+          [
+            "18",
+            "Vega, Erik",
+            "",
+            "4",
+            "8",
+            "0.50"
+          ],
+          [
+            "19",
+            "Bru, Joaquin Miguel",
+            "",
+            "3",
+            "9",
+            "0.33"
+          ],
+          [
+            "20",
             "Andrada, Juan Pablo",
             "",
             "3",
@@ -5290,15 +5330,7 @@
             "0.38"
           ],
           [
-            "18",
-            "Bru, Joaquin Miguel",
-            "",
-            "3",
-            "8",
-            "0.38"
-          ],
-          [
-            "19",
+            "21",
             "Rodriguez, Sebastián Alejandro",
             "",
             "3",
@@ -5306,24 +5338,8 @@
             "0.38"
           ],
           [
-            "20",
-            "Arroqui, Esteban Ariel",
-            "",
-            "3",
-            "7",
-            "0.43"
-          ],
-          [
-            "21",
-            "Melgarejo, Leandro",
-            "",
-            "3",
-            "7",
-            "0.43"
-          ],
-          [
             "22",
-            "Roldan, Juan Cruz",
+            "Melgarejo, Leandro",
             "",
             "3",
             "7",
@@ -5347,7 +5363,7 @@
           ],
           [
             "25",
-            "Mastroianni, Agustin Heber",
+            "Juarez, Emilio Javier",
             "",
             "2",
             "9",
@@ -5355,7 +5371,7 @@
           ],
           [
             "26",
-            "Ramirez, Marcos",
+            "Mastroianni, Agustin Heber",
             "",
             "2",
             "9",
@@ -5363,6 +5379,22 @@
           ],
           [
             "27",
+            "Ramirez, Marcos",
+            "",
+            "2",
+            "9",
+            "0.22"
+          ],
+          [
+            "28",
+            "Reale Barboza, Jean Alan",
+            "",
+            "2",
+            "9",
+            "0.22"
+          ],
+          [
+            "29",
             "D Lucas, Ignacio David",
             "",
             "2",
@@ -5370,7 +5402,7 @@
             "0.25"
           ],
           [
-            "28",
+            "30",
             "Franco Marchesani, Lautaro a",
             "",
             "2",
@@ -5378,7 +5410,7 @@
             "0.25"
           ],
           [
-            "29",
+            "31",
             "Ibarguren, Juan Miguel",
             "",
             "2",
@@ -5386,7 +5418,7 @@
             "0.25"
           ],
           [
-            "30",
+            "32",
             "Iglesias, Raul Ignacio",
             "",
             "2",
@@ -5394,7 +5426,7 @@
             "0.25"
           ],
           [
-            "31",
+            "33",
             "Larrandart, Lucas Ezequiel",
             "",
             "2",
@@ -5402,7 +5434,7 @@
             "0.25"
           ],
           [
-            "32",
+            "34",
             "Nuñez Figueroa, David",
             "",
             "2",
@@ -5410,24 +5442,8 @@
             "0.25"
           ],
           [
-            "33",
-            "Reale Barboza, Jean Alan",
-            "",
-            "2",
-            "8",
-            "0.25"
-          ],
-          [
-            "34",
-            "Casella Schuth, Kevin Tomas",
-            "",
-            "2",
-            "7",
-            "0.29"
-          ],
-          [
             "35",
-            "Drahan, Ramiro",
+            "Bruno, Gastã²n",
             "",
             "2",
             "7",
@@ -5435,6 +5451,22 @@
           ],
           [
             "36",
+            "Casella Schuth, Kevin Tomas",
+            "",
+            "2",
+            "7",
+            "0.29"
+          ],
+          [
+            "37",
+            "Drahan, Ramiro",
+            "",
+            "2",
+            "7",
+            "0.29"
+          ],
+          [
+            "38",
             "Luceno, Nicolás",
             "",
             "2",
@@ -5442,7 +5474,7 @@
             "0.33"
           ],
           [
-            "37",
+            "39",
             "Mujica Urzagaste, Mauro Gonzalo",
             "",
             "2",
@@ -5450,7 +5482,7 @@
             "0.33"
           ],
           [
-            "38",
+            "40",
             "Lattanzio, Santiago Luis",
             "",
             "2",
@@ -5458,7 +5490,7 @@
             "0.40"
           ],
           [
-            "39",
+            "41",
             "Navarro, Federico",
             "",
             "2",
@@ -5466,7 +5498,7 @@
             "0.50"
           ],
           [
-            "40",
+            "42",
             "Alvarez Suarez, Hilario",
             "",
             "1",
@@ -5474,7 +5506,7 @@
             "0.11"
           ],
           [
-            "41",
+            "43",
             "Vivanco, Andres Antonio",
             "",
             "1",
@@ -5482,7 +5514,7 @@
             "0.11"
           ],
           [
-            "42",
+            "44",
             "Antonelli, Emiliano",
             "",
             "1",
@@ -5490,24 +5522,8 @@
             "0.13"
           ],
           [
-            "43",
-            "Chaves, Matías Nicolás",
-            "",
-            "1",
-            "8",
-            "0.13"
-          ],
-          [
-            "44",
-            "Gerez, Luciano Andres",
-            "",
-            "1",
-            "8",
-            "0.13"
-          ],
-          [
             "45",
-            "Gorosito, Ignacio",
+            "Cavallaro, Martín",
             "",
             "1",
             "8",
@@ -5515,7 +5531,7 @@
           ],
           [
             "46",
-            "Juarez, Emilio Javier",
+            "Chaves, Matías Nicolás",
             "",
             "1",
             "8",
@@ -5523,7 +5539,7 @@
           ],
           [
             "47",
-            "Lezcano, Lucas I.",
+            "Gerez, Luciano Andres",
             "",
             "1",
             "8",
@@ -5531,7 +5547,7 @@
           ],
           [
             "48",
-            "Pascuali, Diego",
+            "Gorosito, Ignacio",
             "",
             "1",
             "8",
@@ -5539,31 +5555,31 @@
           ],
           [
             "49",
-            "Carrillo Ortega, Cristian Ramiro",
+            "Lezcano, Lucas I.",
             "",
             "1",
-            "7",
-            "0.14"
+            "8",
+            "0.13"
           ],
           [
             "50",
-            "Castro, Juan Manuel",
+            "Pascuali, Diego",
             "",
             "1",
-            "7",
-            "0.14"
+            "8",
+            "0.13"
           ],
           [
             "51",
-            "Ferrara, Ignacio",
+            "Pereyra, Matias Nicolas",
             "",
             "1",
-            "7",
-            "0.14"
+            "8",
+            "0.13"
           ],
           [
             "52",
-            "Gonzalez, Juan Cruz",
+            "Ahihi, Mariano",
             "",
             "1",
             "7",
@@ -5571,7 +5587,7 @@
           ],
           [
             "53",
-            "Nicoletti, Guido",
+            "Carrillo Ortega, Cristian Ramiro",
             "",
             "1",
             "7",
@@ -5579,7 +5595,7 @@
           ],
           [
             "54",
-            "Pereyra, Matias Nicolas",
+            "Castro, Juan Manuel",
             "",
             "1",
             "7",
@@ -5587,7 +5603,7 @@
           ],
           [
             "55",
-            "Serra, Lucas",
+            "Ferrara, Ignacio",
             "",
             "1",
             "7",
@@ -5595,7 +5611,7 @@
           ],
           [
             "56",
-            "Viggiano, Santiago",
+            "Gonzalez, Gaston Alejandro",
             "",
             "1",
             "7",
@@ -5603,14 +5619,46 @@
           ],
           [
             "57",
-            "Ahihi, Mariano",
+            "Gonzalez, Juan Cruz",
             "",
             "1",
-            "6",
-            "0.17"
+            "7",
+            "0.14"
           ],
           [
             "58",
+            "Martã­nez, Néstor Alberto",
+            "",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "59",
+            "Nicoletti, Guido",
+            "",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "60",
+            "Serra, Lucas",
+            "",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "61",
+            "Viggiano, Santiago",
+            "",
+            "1",
+            "7",
+            "0.14"
+          ],
+          [
+            "62",
             "Baruffaldi, Bruno",
             "",
             "1",
@@ -5618,15 +5666,7 @@
             "0.17"
           ],
           [
-            "59",
-            "Bruno, Gastã²n",
-            "",
-            "1",
-            "6",
-            "0.17"
-          ],
-          [
-            "60",
+            "63",
             "Cornes, Javier",
             "",
             "1",
@@ -5634,7 +5674,7 @@
             "0.17"
           ],
           [
-            "61",
+            "64",
             "Daer, Cesar Sebastián",
             "",
             "1",
@@ -5642,23 +5682,7 @@
             "0.17"
           ],
           [
-            "62",
-            "Gonzalez, Gaston Alejandro",
-            "",
-            "1",
-            "6",
-            "0.17"
-          ],
-          [
-            "63",
-            "Martã­nez, Néstor Alberto",
-            "",
-            "1",
-            "6",
-            "0.17"
-          ],
-          [
-            "64",
+            "65",
             "Martinez Carli, Nicolás",
             "",
             "1",
@@ -5666,7 +5690,7 @@
             "0.17"
           ],
           [
-            "65",
+            "66",
             "Guiffredi, Thiago",
             "",
             "1",
@@ -5674,7 +5698,7 @@
             "0.20"
           ],
           [
-            "66",
+            "67",
             "Navarro, Rodrigo",
             "",
             "1",
@@ -5682,16 +5706,8 @@
             "0.20"
           ],
           [
-            "67",
-            "Saucedo, Valentin Matias",
-            "",
-            "1",
-            "5",
-            "0.20"
-          ],
-          [
             "68",
-            "Wright, Alan",
+            "Sarsona Rauch, Tomás a",
             "",
             "1",
             "5",
@@ -5699,6 +5715,22 @@
           ],
           [
             "69",
+            "Saucedo, Valentin Matias",
+            "",
+            "1",
+            "5",
+            "0.20"
+          ],
+          [
+            "70",
+            "Wright, Alan",
+            "",
+            "1",
+            "5",
+            "0.20"
+          ],
+          [
+            "71",
             "Binetti, Matías",
             "",
             "1",
@@ -5706,7 +5738,7 @@
             "0.25"
           ],
           [
-            "70",
+            "72",
             "Geoffroy, Matias",
             "",
             "1",
@@ -5714,20 +5746,20 @@
             "0.25"
           ],
           [
-            "71",
-            "Trinchinetti, Agustin Marco",
+            "73",
+            "Gilly, Patricio",
             "",
             "1",
             "4",
             "0.25"
           ],
           [
-            "72",
-            "Gilly, Patricio",
+            "74",
+            "Trinchinetti, Agustin Marco",
             "",
             "1",
-            "3",
-            "0.33"
+            "4",
+            "0.25"
           ]
         ]
       }
@@ -16062,6 +16094,22 @@
           ],
           [
             "8",
+            "Benavidez Argibay, Lola",
+            "ALBATROS",
+            "12",
+            "21",
+            "0.57"
+          ],
+          [
+            "9",
+            "Correa, Maria Eugenia",
+            "ALBATROS",
+            "12",
+            "21",
+            "0.57"
+          ],
+          [
+            "10",
             "Konigsberg, Valentina",
             "EL SOSIEGO",
             "12",
@@ -16069,7 +16117,7 @@
             "0.92"
           ],
           [
-            "9",
+            "11",
             "Alfaro Mercuri, Maitena Rocio",
             "SAN FERNANDO",
             "11",
@@ -16077,36 +16125,20 @@
             "0.55"
           ],
           [
-            "10",
-            "Benavidez Argibay, Lola",
-            "ALBATROS",
-            "11",
-            "20",
-            "0.55"
-          ],
-          [
-            "11",
-            "Correa, Maria Eugenia",
-            "ALBATROS",
-            "11",
-            "20",
-            "0.55"
-          ],
-          [
             "12",
-            "Reinozo, Florencia Micaela",
-            "LOS MATREROS",
+            "Burgos, Lola",
+            "ALBATROS",
             "11",
             "20",
             "0.55"
           ],
           [
             "13",
-            "Burgos, Lola",
-            "ALBATROS",
+            "Reinozo, Florencia Micaela",
+            "LOS MATREROS",
             "11",
-            "19",
-            "0.58"
+            "20",
+            "0.55"
           ],
           [
             "14",
@@ -16118,6 +16150,14 @@
           ],
           [
             "15",
+            "Aquin, Florencia",
+            "ALBATROS",
+            "10",
+            "17",
+            "0.59"
+          ],
+          [
+            "16",
             "De Carli, Amalia",
             "U. LA PLATA",
             "9",
@@ -16125,7 +16165,7 @@
             "0.45"
           ],
           [
-            "16",
+            "17",
             "Valenziano, Lola",
             "C.U.B.A.",
             "9",
@@ -16133,7 +16173,7 @@
             "0.45"
           ],
           [
-            "17",
+            "18",
             "Crochat, Agnes",
             "SAN FERNANDO",
             "9",
@@ -16141,7 +16181,7 @@
             "0.47"
           ],
           [
-            "18",
+            "19",
             "Bosch, Agustina",
             "BANADE",
             "9",
@@ -16149,23 +16189,23 @@
             "0.50"
           ],
           [
-            "19",
+            "20",
             "Casella, Mariela",
             "LICEO MILITAR",
             "9",
-            "17",
-            "0.53"
-          ],
-          [
-            "20",
-            "Aquin, Florencia",
-            "ALBATROS",
-            "9",
-            "16",
-            "0.56"
+            "18",
+            "0.50"
           ],
           [
             "21",
+            "Campanaro Anfuso, Lucia Micaela",
+            "ALBATROS",
+            "8",
+            "20",
+            "0.40"
+          ],
+          [
+            "22",
             "Gonzalez, Agustina Belen",
             "SAN LORENZO",
             "8",
@@ -16173,7 +16213,7 @@
             "0.40"
           ],
           [
-            "22",
+            "23",
             "Litardo, Ariana Belen",
             "SAN LORENZO",
             "8",
@@ -16181,7 +16221,7 @@
             "0.40"
           ],
           [
-            "23",
+            "24",
             "Martinez, Delfina",
             "SAN FERNANDO",
             "8",
@@ -16189,7 +16229,7 @@
             "0.40"
           ],
           [
-            "24",
+            "25",
             "Natalutti, Florencia Agostina",
             "SAN LORENZO",
             "8",
@@ -16197,7 +16237,7 @@
             "0.42"
           ],
           [
-            "25",
+            "26",
             "De Luca, Sofia",
             "BANADE",
             "8",
@@ -16205,7 +16245,7 @@
             "0.44"
           ],
           [
-            "26",
+            "27",
             "Rodriguez Negri, Ariela",
             "SAN FERNANDO",
             "8",
@@ -16213,20 +16253,12 @@
             "0.47"
           ],
           [
-            "27",
+            "28",
             "Bosch, Jazmin Ayelen",
             "LICEO MILITAR",
             "7",
-            "19",
-            "0.37"
-          ],
-          [
-            "28",
-            "Campanaro Anfuso, Lucia Micaela",
-            "ALBATROS",
-            "7",
-            "19",
-            "0.37"
+            "20",
+            "0.35"
           ],
           [
             "29",
@@ -16241,8 +16273,8 @@
             "Galop, Aylen Florencia",
             "LICEO MILITAR",
             "6",
-            "20",
-            "0.30"
+            "21",
+            "0.29"
           ],
           [
             "31",
@@ -16358,6 +16390,22 @@
           ],
           [
             "45",
+            "Haitzaguerre, Maia",
+            "ALBATROS",
+            "4",
+            "21",
+            "0.19"
+          ],
+          [
+            "46",
+            "Andino, Valentina Morena",
+            "LICEO MILITAR",
+            "4",
+            "20",
+            "0.20"
+          ],
+          [
+            "47",
             "Carpio, Agustina",
             "SAN LORENZO",
             "4",
@@ -16365,15 +16413,7 @@
             "0.20"
           ],
           [
-            "46",
-            "Andino, Valentina Morena",
-            "LICEO MILITAR",
-            "4",
-            "19",
-            "0.21"
-          ],
-          [
-            "47",
+            "48",
             "Da Rocha, Leticia",
             "U. LA PLATA",
             "4",
@@ -16381,7 +16421,7 @@
             "0.21"
           ],
           [
-            "48",
+            "49",
             "Lenger, Jesica Valeria",
             "EL SOSIEGO",
             "4",
@@ -16389,7 +16429,7 @@
             "0.21"
           ],
           [
-            "49",
+            "50",
             "Costarelli, Micaela Sofia",
             "BANADE",
             "4",
@@ -16397,7 +16437,7 @@
             "0.22"
           ],
           [
-            "50",
+            "51",
             "Parborell, Sofia",
             "C.U.B.A.",
             "4",
@@ -16405,7 +16445,7 @@
             "0.22"
           ],
           [
-            "51",
+            "52",
             "Escolar, Luna Gabriela",
             "SAN FERNANDO",
             "4",
@@ -16413,7 +16453,15 @@
             "0.24"
           ],
           [
-            "52",
+            "53",
+            "Rossetto, Ana Laura",
+            "LICEO MILITAR",
+            "4",
+            "17",
+            "0.24"
+          ],
+          [
+            "54",
             "Alvarez, Melisa Daniela",
             "G.E.I.",
             "4",
@@ -16421,7 +16469,7 @@
             "0.25"
           ],
           [
-            "53",
+            "55",
             "Ferrari, Micaela Lucila",
             "G.E.I.",
             "4",
@@ -16429,7 +16477,7 @@
             "0.25"
           ],
           [
-            "54",
+            "56",
             "Ordonez, Felicitas",
             "C.U.B.A.",
             "4",
@@ -16437,7 +16485,7 @@
             "0.25"
           ],
           [
-            "55",
+            "57",
             "Redondo, Daiana",
             "EL SOSIEGO",
             "4",
@@ -16445,15 +16493,15 @@
             "0.25"
           ],
           [
-            "56",
-            "Rossetto, Ana Laura",
+            "58",
+            "Torres, Candela Ayelen",
             "LICEO MILITAR",
             "4",
             "16",
             "0.25"
           ],
           [
-            "57",
+            "59",
             "Maffey Stadler, Valentina",
             "LOS MATREROS",
             "4",
@@ -16461,7 +16509,7 @@
             "0.27"
           ],
           [
-            "58",
+            "60",
             "Natalutti, Chiara Delfina",
             "SAN LORENZO",
             "4",
@@ -16469,7 +16517,15 @@
             "0.40"
           ],
           [
-            "59",
+            "61",
+            "Marchesse, Carla",
+            "ALBATROS",
+            "3",
+            "21",
+            "0.14"
+          ],
+          [
+            "62",
             "Ruiz, Mayra",
             "EL SOSIEGO",
             "3",
@@ -16477,7 +16533,7 @@
             "0.14"
           ],
           [
-            "60",
+            "63",
             "Santander, Maria Del Pilar",
             "EL SOSIEGO",
             "3",
@@ -16485,15 +16541,15 @@
             "0.14"
           ],
           [
-            "61",
-            "Haitzaguerre, Maia",
-            "ALBATROS",
+            "64",
+            "Alvarez, Rocio",
+            "LICEO MILITAR",
             "3",
             "20",
             "0.15"
           ],
           [
-            "62",
+            "65",
             "Kerbel, Deyanira Soledad",
             "VICENTINOS",
             "3",
@@ -16501,15 +16557,7 @@
             "0.15"
           ],
           [
-            "63",
-            "Marchesse, Carla",
-            "ALBATROS",
-            "3",
-            "20",
-            "0.15"
-          ],
-          [
-            "64",
+            "66",
             "Protetto, Denise Eliana",
             "SAN FERNANDO",
             "3",
@@ -16517,7 +16565,7 @@
             "0.15"
           ],
           [
-            "65",
+            "67",
             "Tradito, Ana Paula",
             "SAN FERNANDO",
             "3",
@@ -16525,15 +16573,7 @@
             "0.15"
           ],
           [
-            "66",
-            "Alvarez, Rocio",
-            "LICEO MILITAR",
-            "3",
-            "19",
-            "0.16"
-          ],
-          [
-            "67",
+            "68",
             "Benitez, Ailen Madrona",
             "C.M. BELGRANO",
             "3",
@@ -16541,7 +16581,7 @@
             "0.16"
           ],
           [
-            "68",
+            "69",
             "Flores, Mia Soledad",
             "SAN LORENZO",
             "3",
@@ -16549,7 +16589,15 @@
             "0.16"
           ],
           [
-            "69",
+            "70",
+            "Martinez, Carolina Belen",
+            "LICEO MILITAR",
+            "3",
+            "19",
+            "0.16"
+          ],
+          [
+            "71",
             "Orioli, Luisana Salome",
             "G.E.I.",
             "3",
@@ -16557,7 +16605,7 @@
             "0.16"
           ],
           [
-            "70",
+            "72",
             "Delgado, Bianca",
             "C.M. BELGRANO",
             "3",
@@ -16565,7 +16613,7 @@
             "0.17"
           ],
           [
-            "71",
+            "73",
             "Reija, Maria Belen",
             "BANADE",
             "3",
@@ -16573,7 +16621,7 @@
             "0.17"
           ],
           [
-            "72",
+            "74",
             "Ybañez, Sofia Belen",
             "VICENTINOS",
             "3",
@@ -16581,7 +16629,7 @@
             "0.17"
           ],
           [
-            "73",
+            "75",
             "Ahumada, Maria Emilia",
             "LOS MATREROS",
             "3",
@@ -16589,7 +16637,7 @@
             "0.18"
           ],
           [
-            "74",
+            "76",
             "Ortolan, Maria Celeste",
             "BANADE",
             "3",
@@ -16597,7 +16645,7 @@
             "0.18"
           ],
           [
-            "75",
+            "77",
             "Porte, Soledad",
             "COMUNICACIONES",
             "3",
@@ -16605,7 +16653,7 @@
             "0.18"
           ],
           [
-            "76",
+            "78",
             "Castro, Ana Paz",
             "COMUNICACIONES",
             "3",
@@ -16613,7 +16661,7 @@
             "0.19"
           ],
           [
-            "77",
+            "79",
             "Gimenez Cano, Maria Pia",
             "U. LA PLATA",
             "3",
@@ -16621,7 +16669,7 @@
             "0.19"
           ],
           [
-            "78",
+            "80",
             "Aballay, Melanie Giselle",
             "G.E.I.",
             "3",
@@ -16629,7 +16677,7 @@
             "0.20"
           ],
           [
-            "79",
+            "81",
             "Stancato, Clara",
             "U. LA PLATA",
             "3",
@@ -16637,15 +16685,7 @@
             "0.20"
           ],
           [
-            "80",
-            "Torres, Candela Ayelen",
-            "LICEO MILITAR",
-            "3",
-            "15",
-            "0.20"
-          ],
-          [
-            "81",
+            "82",
             "Calvetti, Victoria Maria",
             "C.M. BELGRANO",
             "3",
@@ -16653,7 +16693,7 @@
             "0.23"
           ],
           [
-            "82",
+            "83",
             "Santos, Julieta",
             "ALBATROS",
             "3",
@@ -16661,7 +16701,7 @@
             "0.23"
           ],
           [
-            "83",
+            "84",
             "Aranda, Valentna",
             "VICENTINOS",
             "3",
@@ -16669,7 +16709,7 @@
             "0.27"
           ],
           [
-            "84",
+            "85",
             "Kosower, Caterina",
             "EL SOSIEGO",
             "3",
@@ -16677,7 +16717,7 @@
             "0.38"
           ],
           [
-            "85",
+            "86",
             "Caro, Agustina Ivana",
             "PUEYRREDON",
             "2",
@@ -16685,7 +16725,7 @@
             "0.10"
           ],
           [
-            "86",
+            "87",
             "Ccoata Windecker, Kylla Loreley",
             "LOS MATREROS",
             "2",
@@ -16693,7 +16733,7 @@
             "0.10"
           ],
           [
-            "87",
+            "88",
             "Gallo, Soledad",
             "G.E.I.",
             "2",
@@ -16701,7 +16741,7 @@
             "0.10"
           ],
           [
-            "88",
+            "89",
             "Marinelli, Erica Griselda",
             "VICENTINOS",
             "2",
@@ -16709,7 +16749,7 @@
             "0.10"
           ],
           [
-            "89",
+            "90",
             "Palasciano, Julieta Anastasia",
             "PUEYRREDON",
             "2",
@@ -16717,15 +16757,15 @@
             "0.10"
           ],
           [
-            "90",
+            "91",
             "Ponce Medana, M. Florencia",
             "LICEO MILITAR",
             "2",
-            "20",
+            "21",
             "0.10"
           ],
           [
-            "91",
+            "92",
             "Torres, Morena",
             "U. LA PLATA",
             "2",
@@ -16733,7 +16773,7 @@
             "0.10"
           ],
           [
-            "92",
+            "93",
             "Doldan, Milagros Andrea",
             "BANADE",
             "2",
@@ -16741,17 +16781,9 @@
             "0.11"
           ],
           [
-            "93",
+            "94",
             "Kusnier, Florencia Yael",
             "EL SOSIEGO",
-            "2",
-            "18",
-            "0.11"
-          ],
-          [
-            "94",
-            "Martinez, Carolina Belen",
-            "LICEO MILITAR",
             "2",
             "18",
             "0.11"
@@ -16905,7 +16937,7 @@
             "Bugel, Lola Morena",
             "LICEO MILITAR",
             "1",
-            "19",
+            "20",
             "0.05"
           ],
           [
@@ -16929,7 +16961,7 @@
             "Di Cataldo, Candela Oriana",
             "LICEO MILITAR",
             "1",
-            "20",
+            "21",
             "0.05"
           ],
           [
@@ -17206,16 +17238,16 @@
           ],
           [
             "151",
-            "Blanco, Sofía",
-            "DEP. FRANCESA",
+            "Bustamante Diaz, Milena Zoe",
+            "LICEO MILITAR",
             "1",
-            "10",
-            "0.10"
+            "11",
+            "0.09"
           ],
           [
             "152",
-            "Bustamante Diaz, Milena Zoe",
-            "LICEO MILITAR",
+            "Blanco, Sofía",
+            "DEP. FRANCESA",
             "1",
             "10",
             "0.10"
@@ -17414,6 +17446,22 @@
           ],
           [
             "8",
+            "Benavidez Argibay, Lola",
+            "",
+            "12",
+            "21",
+            "0.57"
+          ],
+          [
+            "9",
+            "Correa, Maria Eugenia",
+            "",
+            "12",
+            "21",
+            "0.57"
+          ],
+          [
+            "10",
             "Konigsberg, Valentina",
             "",
             "12",
@@ -17421,7 +17469,7 @@
             "0.92"
           ],
           [
-            "9",
+            "11",
             "Alfaro Mercuri, Maitena Rocio",
             "",
             "11",
@@ -17429,24 +17477,8 @@
             "0.55"
           ],
           [
-            "10",
-            "Benavidez Argibay, Lola",
-            "",
-            "11",
-            "20",
-            "0.55"
-          ],
-          [
-            "11",
-            "Correa, Maria Eugenia",
-            "",
-            "11",
-            "20",
-            "0.55"
-          ],
-          [
             "12",
-            "Reinozo, Florencia Micaela",
+            "Burgos, Lola",
             "",
             "11",
             "20",
@@ -17454,11 +17486,11 @@
           ],
           [
             "13",
-            "Burgos, Lola",
+            "Reinozo, Florencia Micaela",
             "",
             "11",
-            "19",
-            "0.58"
+            "20",
+            "0.55"
           ],
           [
             "14",
@@ -17470,6 +17502,14 @@
           ],
           [
             "15",
+            "Aquin, Florencia",
+            "",
+            "10",
+            "17",
+            "0.59"
+          ],
+          [
+            "16",
             "De Carli, Amalia",
             "",
             "9",
@@ -17477,7 +17517,7 @@
             "0.45"
           ],
           [
-            "16",
+            "17",
             "Valenziano, Lola",
             "",
             "9",
@@ -17485,7 +17525,7 @@
             "0.45"
           ],
           [
-            "17",
+            "18",
             "Crochat, Agnes",
             "",
             "9",
@@ -17493,7 +17533,7 @@
             "0.47"
           ],
           [
-            "18",
+            "19",
             "Bosch, Agustina",
             "",
             "9",
@@ -17501,24 +17541,16 @@
             "0.50"
           ],
           [
-            "19",
+            "20",
             "Casella, Mariela",
             "",
             "9",
-            "17",
-            "0.53"
-          ],
-          [
-            "20",
-            "Aquin, Florencia",
-            "",
-            "9",
-            "16",
-            "0.56"
+            "18",
+            "0.50"
           ],
           [
             "21",
-            "Gonzalez, Agustina Belen",
+            "Campanaro Anfuso, Lucia Micaela",
             "",
             "8",
             "20",
@@ -17526,7 +17558,7 @@
           ],
           [
             "22",
-            "Litardo, Ariana Belen",
+            "Gonzalez, Agustina Belen",
             "",
             "8",
             "20",
@@ -17534,7 +17566,7 @@
           ],
           [
             "23",
-            "Martinez, Delfina",
+            "Litardo, Ariana Belen",
             "",
             "8",
             "20",
@@ -17542,6 +17574,14 @@
           ],
           [
             "24",
+            "Martinez, Delfina",
+            "",
+            "8",
+            "20",
+            "0.40"
+          ],
+          [
+            "25",
             "Natalutti, Florencia Agostina",
             "",
             "8",
@@ -17549,7 +17589,7 @@
             "0.42"
           ],
           [
-            "25",
+            "26",
             "De Luca, Sofia",
             "",
             "8",
@@ -17557,7 +17597,7 @@
             "0.44"
           ],
           [
-            "26",
+            "27",
             "Rodriguez Negri, Ariela",
             "",
             "8",
@@ -17565,20 +17605,12 @@
             "0.47"
           ],
           [
-            "27",
+            "28",
             "Bosch, Jazmin Ayelen",
             "",
             "7",
-            "19",
-            "0.37"
-          ],
-          [
-            "28",
-            "Campanaro Anfuso, Lucia Micaela",
-            "",
-            "7",
-            "19",
-            "0.37"
+            "20",
+            "0.35"
           ],
           [
             "29",
@@ -17593,8 +17625,8 @@
             "Galop, Aylen Florencia",
             "",
             "6",
-            "20",
-            "0.30"
+            "21",
+            "0.29"
           ],
           [
             "31",
@@ -17710,6 +17742,22 @@
           ],
           [
             "45",
+            "Haitzaguerre, Maia",
+            "",
+            "4",
+            "21",
+            "0.19"
+          ],
+          [
+            "46",
+            "Andino, Valentina Morena",
+            "",
+            "4",
+            "20",
+            "0.20"
+          ],
+          [
+            "47",
             "Carpio, Agustina",
             "",
             "4",
@@ -17717,15 +17765,7 @@
             "0.20"
           ],
           [
-            "46",
-            "Andino, Valentina Morena",
-            "",
-            "4",
-            "19",
-            "0.21"
-          ],
-          [
-            "47",
+            "48",
             "Da Rocha, Leticia",
             "",
             "4",
@@ -17733,7 +17773,7 @@
             "0.21"
           ],
           [
-            "48",
+            "49",
             "Lenger, Jesica Valeria",
             "",
             "4",
@@ -17741,7 +17781,7 @@
             "0.21"
           ],
           [
-            "49",
+            "50",
             "Costarelli, Micaela Sofia",
             "",
             "4",
@@ -17749,7 +17789,7 @@
             "0.22"
           ],
           [
-            "50",
+            "51",
             "Parborell, Sofia",
             "",
             "4",
@@ -17757,7 +17797,7 @@
             "0.22"
           ],
           [
-            "51",
+            "52",
             "Escolar, Luna Gabriela",
             "",
             "4",
@@ -17765,7 +17805,15 @@
             "0.24"
           ],
           [
-            "52",
+            "53",
+            "Rossetto, Ana Laura",
+            "",
+            "4",
+            "17",
+            "0.24"
+          ],
+          [
+            "54",
             "Alvarez, Melisa Daniela",
             "",
             "4",
@@ -17773,7 +17821,7 @@
             "0.25"
           ],
           [
-            "53",
+            "55",
             "Ferrari, Micaela Lucila",
             "",
             "4",
@@ -17781,7 +17829,7 @@
             "0.25"
           ],
           [
-            "54",
+            "56",
             "Ordonez, Felicitas",
             "",
             "4",
@@ -17789,7 +17837,7 @@
             "0.25"
           ],
           [
-            "55",
+            "57",
             "Redondo, Daiana",
             "",
             "4",
@@ -17797,15 +17845,15 @@
             "0.25"
           ],
           [
-            "56",
-            "Rossetto, Ana Laura",
+            "58",
+            "Torres, Candela Ayelen",
             "",
             "4",
             "16",
             "0.25"
           ],
           [
-            "57",
+            "59",
             "Maffey Stadler, Valentina",
             "",
             "4",
@@ -17813,7 +17861,7 @@
             "0.27"
           ],
           [
-            "58",
+            "60",
             "Natalutti, Chiara Delfina",
             "",
             "4",
@@ -17821,7 +17869,15 @@
             "0.40"
           ],
           [
-            "59",
+            "61",
+            "Marchesse, Carla",
+            "",
+            "3",
+            "21",
+            "0.14"
+          ],
+          [
+            "62",
             "Ruiz, Mayra",
             "",
             "3",
@@ -17829,7 +17885,7 @@
             "0.14"
           ],
           [
-            "60",
+            "63",
             "Santander, Maria Del Pilar",
             "",
             "3",
@@ -17837,32 +17893,8 @@
             "0.14"
           ],
           [
-            "61",
-            "Haitzaguerre, Maia",
-            "",
-            "3",
-            "20",
-            "0.15"
-          ],
-          [
-            "62",
-            "Kerbel, Deyanira Soledad",
-            "",
-            "3",
-            "20",
-            "0.15"
-          ],
-          [
-            "63",
-            "Marchesse, Carla",
-            "",
-            "3",
-            "20",
-            "0.15"
-          ],
-          [
             "64",
-            "Protetto, Denise Eliana",
+            "Alvarez, Rocio",
             "",
             "3",
             "20",
@@ -17870,7 +17902,7 @@
           ],
           [
             "65",
-            "Tradito, Ana Paula",
+            "Kerbel, Deyanira Soledad",
             "",
             "3",
             "20",
@@ -17878,14 +17910,22 @@
           ],
           [
             "66",
-            "Alvarez, Rocio",
+            "Protetto, Denise Eliana",
             "",
             "3",
-            "19",
-            "0.16"
+            "20",
+            "0.15"
           ],
           [
             "67",
+            "Tradito, Ana Paula",
+            "",
+            "3",
+            "20",
+            "0.15"
+          ],
+          [
+            "68",
             "Benitez, Ailen Madrona",
             "",
             "3",
@@ -17893,7 +17933,7 @@
             "0.16"
           ],
           [
-            "68",
+            "69",
             "Flores, Mia Soledad",
             "",
             "3",
@@ -17901,7 +17941,15 @@
             "0.16"
           ],
           [
-            "69",
+            "70",
+            "Martinez, Carolina Belen",
+            "",
+            "3",
+            "19",
+            "0.16"
+          ],
+          [
+            "71",
             "Orioli, Luisana Salome",
             "",
             "3",
@@ -17909,7 +17957,7 @@
             "0.16"
           ],
           [
-            "70",
+            "72",
             "Delgado, Bianca",
             "",
             "3",
@@ -17917,7 +17965,7 @@
             "0.17"
           ],
           [
-            "71",
+            "73",
             "Reija, Maria Belen",
             "",
             "3",
@@ -17925,7 +17973,7 @@
             "0.17"
           ],
           [
-            "72",
+            "74",
             "Ybañez, Sofia Belen",
             "",
             "3",
@@ -17933,7 +17981,7 @@
             "0.17"
           ],
           [
-            "73",
+            "75",
             "Ahumada, Maria Emilia",
             "",
             "3",
@@ -17941,7 +17989,7 @@
             "0.18"
           ],
           [
-            "74",
+            "76",
             "Ortolan, Maria Celeste",
             "",
             "3",
@@ -17949,7 +17997,7 @@
             "0.18"
           ],
           [
-            "75",
+            "77",
             "Porte, Soledad",
             "",
             "3",
@@ -17957,7 +18005,7 @@
             "0.18"
           ],
           [
-            "76",
+            "78",
             "Castro, Ana Paz",
             "",
             "3",
@@ -17965,7 +18013,7 @@
             "0.19"
           ],
           [
-            "77",
+            "79",
             "Gimenez Cano, Maria Pia",
             "",
             "3",
@@ -17973,7 +18021,7 @@
             "0.19"
           ],
           [
-            "78",
+            "80",
             "Aballay, Melanie Giselle",
             "",
             "3",
@@ -17981,7 +18029,7 @@
             "0.20"
           ],
           [
-            "79",
+            "81",
             "Stancato, Clara",
             "",
             "3",
@@ -17989,15 +18037,7 @@
             "0.20"
           ],
           [
-            "80",
-            "Torres, Candela Ayelen",
-            "",
-            "3",
-            "15",
-            "0.20"
-          ],
-          [
-            "81",
+            "82",
             "Calvetti, Victoria Maria",
             "",
             "3",
@@ -18005,7 +18045,7 @@
             "0.23"
           ],
           [
-            "82",
+            "83",
             "Santos, Julieta",
             "",
             "3",
@@ -18013,7 +18053,7 @@
             "0.23"
           ],
           [
-            "83",
+            "84",
             "Aranda, Valentna",
             "",
             "3",
@@ -18021,7 +18061,7 @@
             "0.27"
           ],
           [
-            "84",
+            "85",
             "Kosower, Caterina",
             "",
             "3",
@@ -18029,7 +18069,7 @@
             "0.38"
           ],
           [
-            "85",
+            "86",
             "Caro, Agustina Ivana",
             "",
             "2",
@@ -18037,7 +18077,7 @@
             "0.10"
           ],
           [
-            "86",
+            "87",
             "Ccoata Windecker, Kylla Loreley",
             "",
             "2",
@@ -18045,7 +18085,7 @@
             "0.10"
           ],
           [
-            "87",
+            "88",
             "Gallo, Soledad",
             "",
             "2",
@@ -18053,7 +18093,7 @@
             "0.10"
           ],
           [
-            "88",
+            "89",
             "Marinelli, Erica Griselda",
             "",
             "2",
@@ -18061,7 +18101,7 @@
             "0.10"
           ],
           [
-            "89",
+            "90",
             "Palasciano, Julieta Anastasia",
             "",
             "2",
@@ -18069,15 +18109,15 @@
             "0.10"
           ],
           [
-            "90",
+            "91",
             "Ponce Medana, M. Florencia",
             "",
             "2",
-            "20",
+            "21",
             "0.10"
           ],
           [
-            "91",
+            "92",
             "Torres, Morena",
             "",
             "2",
@@ -18085,7 +18125,7 @@
             "0.10"
           ],
           [
-            "92",
+            "93",
             "Doldan, Milagros Andrea",
             "",
             "2",
@@ -18093,16 +18133,8 @@
             "0.11"
           ],
           [
-            "93",
-            "Kusnier, Florencia Yael",
-            "",
-            "2",
-            "18",
-            "0.11"
-          ],
-          [
             "94",
-            "Martinez, Carolina Belen",
+            "Kusnier, Florencia Yael",
             "",
             "2",
             "18",
@@ -18257,7 +18289,7 @@
             "Bugel, Lola Morena",
             "",
             "1",
-            "19",
+            "20",
             "0.05"
           ],
           [
@@ -18281,7 +18313,7 @@
             "Di Cataldo, Candela Oriana",
             "",
             "1",
-            "20",
+            "21",
             "0.05"
           ],
           [
@@ -18558,15 +18590,15 @@
           ],
           [
             "151",
-            "Blanco, Sofía",
+            "Bustamante Diaz, Milena Zoe",
             "",
             "1",
-            "10",
-            "0.10"
+            "11",
+            "0.09"
           ],
           [
             "152",
-            "Bustamante Diaz, Milena Zoe",
+            "Blanco, Sofía",
             "",
             "1",
             "10",
