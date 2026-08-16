@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-16T19:00:35.864535+00:00",
+  "actualizado": "2026-08-16T19:25:08.974815+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -4350,7 +4350,9 @@
           "local": "SAN FERNANDO C",
           "visita": "Q.H.S. B",
           "fecha": "dom 16 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO C",
@@ -15739,7 +15741,9 @@
           "local": "VICENTINOS",
           "visita": "SAN FERNANDO",
           "fecha": "dom 16 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO",
@@ -16789,7 +16793,7 @@
             "Lucena, Eluney Agustina",
             "CIRCULO HEBREO",
             "2",
-            "15",
+            "16",
             "0.13"
           ],
           [
@@ -16810,6 +16814,14 @@
           ],
           [
             "102",
+            "Safdie Kattah, Sheila",
+            "CIRCULO HEBREO",
+            "2",
+            "15",
+            "0.13"
+          ],
+          [
+            "103",
             "Alegre, Priscila Rocio",
             "VICENTINOS",
             "2",
@@ -16817,7 +16829,7 @@
             "0.14"
           ],
           [
-            "103",
+            "104",
             "Herrada, Lucila Sol",
             "BANADE",
             "2",
@@ -16825,7 +16837,7 @@
             "0.15"
           ],
           [
-            "104",
+            "105",
             "Soria, Candela Agustina",
             "VICENTINOS",
             "2",
@@ -16833,7 +16845,7 @@
             "0.15"
           ],
           [
-            "105",
+            "106",
             "Aloro Rodriguez, Mara Shirley",
             "U. LA PLATA",
             "2",
@@ -16841,7 +16853,7 @@
             "0.17"
           ],
           [
-            "106",
+            "107",
             "Coppola, Melina",
             "EL SOSIEGO",
             "2",
@@ -16849,7 +16861,7 @@
             "0.18"
           ],
           [
-            "107",
+            "108",
             "Gonzalez, Graciela",
             "COMUNICACIONES",
             "2",
@@ -16857,7 +16869,7 @@
             "0.20"
           ],
           [
-            "108",
+            "109",
             "Sanchez, Rocio",
             "DEP. FRANCESA",
             "2",
@@ -16865,7 +16877,7 @@
             "0.29"
           ],
           [
-            "109",
+            "110",
             "Chmielevsky, Guila",
             "CIRCULO HEBREO",
             "2",
@@ -16873,7 +16885,7 @@
             "1.00"
           ],
           [
-            "110",
+            "111",
             "Barragan, Natalia",
             "COMUNICACIONES",
             "1",
@@ -16881,7 +16893,7 @@
             "0.05"
           ],
           [
-            "111",
+            "112",
             "Barrios, Veronica Beatriz",
             "PUEYRREDON",
             "1",
@@ -16889,7 +16901,7 @@
             "0.05"
           ],
           [
-            "112",
+            "113",
             "Bugel, Lola Morena",
             "LICEO MILITAR",
             "1",
@@ -16897,7 +16909,7 @@
             "0.05"
           ],
           [
-            "113",
+            "114",
             "Cacherosky, Candela",
             "SAN FERNANDO",
             "1",
@@ -16905,7 +16917,7 @@
             "0.05"
           ],
           [
-            "114",
+            "115",
             "Castro Valette, Emma",
             "C.M. BELGRANO",
             "1",
@@ -16913,7 +16925,7 @@
             "0.05"
           ],
           [
-            "115",
+            "116",
             "Di Cataldo, Candela Oriana",
             "LICEO MILITAR",
             "1",
@@ -16921,7 +16933,7 @@
             "0.05"
           ],
           [
-            "116",
+            "117",
             "Hochman, Ariadna Lucia",
             "LOS MATREROS",
             "1",
@@ -16929,7 +16941,7 @@
             "0.05"
           ],
           [
-            "117",
+            "118",
             "Rodriguez, Milagros",
             "COMUNICACIONES",
             "1",
@@ -16937,7 +16949,7 @@
             "0.05"
           ],
           [
-            "118",
+            "119",
             "Santos, Valentina",
             "LOS MATREROS",
             "1",
@@ -16945,7 +16957,7 @@
             "0.05"
           ],
           [
-            "119",
+            "120",
             "Valette, Silvana Claudia",
             "C.M. BELGRANO",
             "1",
@@ -16953,7 +16965,7 @@
             "0.05"
           ],
           [
-            "120",
+            "121",
             "Vargas Srehnisky, Camila",
             "U. LA PLATA",
             "1",
@@ -16961,7 +16973,7 @@
             "0.05"
           ],
           [
-            "121",
+            "122",
             "Vazquez Ortolani, Sofia",
             "SAN FERNANDO",
             "1",
@@ -16969,7 +16981,7 @@
             "0.05"
           ],
           [
-            "122",
+            "123",
             "Vedia Rojas, Florencia Magali",
             "VICENTINOS",
             "1",
@@ -16977,7 +16989,7 @@
             "0.05"
           ],
           [
-            "123",
+            "124",
             "Vela, Martina",
             "C.M. BELGRANO",
             "1",
@@ -16985,7 +16997,7 @@
             "0.05"
           ],
           [
-            "124",
+            "125",
             "Vivar, Giselle Amalia",
             "C.M. BELGRANO",
             "1",
@@ -16993,7 +17005,7 @@
             "0.05"
           ],
           [
-            "125",
+            "126",
             "Ballestero, Milagros",
             "PUEYRREDON",
             "1",
@@ -17001,15 +17013,15 @@
             "0.06"
           ],
           [
-            "126",
+            "127",
             "Bernard, Daira Julieta",
             "CIRCULO HEBREO",
             "1",
-            "17",
+            "18",
             "0.06"
           ],
           [
-            "127",
+            "128",
             "Estevez, Paulina",
             "SAN FERNANDO",
             "1",
@@ -17017,7 +17029,7 @@
             "0.06"
           ],
           [
-            "128",
+            "129",
             "Gaspar, Ariana Ayelen",
             "G.E.I.",
             "1",
@@ -17025,7 +17037,7 @@
             "0.06"
           ],
           [
-            "129",
+            "130",
             "Palavecino, Dara Belen",
             "VICENTINOS",
             "1",
@@ -17033,7 +17045,7 @@
             "0.06"
           ],
           [
-            "130",
+            "131",
             "Perez De San Roman, Martina",
             "SAN FERNANDO",
             "1",
@@ -17041,7 +17053,7 @@
             "0.06"
           ],
           [
-            "131",
+            "132",
             "Perrone, Candela",
             "G.E.I.",
             "1",
@@ -17049,7 +17061,7 @@
             "0.06"
           ],
           [
-            "132",
+            "133",
             "Reynoso, Gladys Azucena",
             "EL SOSIEGO",
             "1",
@@ -17057,7 +17069,7 @@
             "0.06"
           ],
           [
-            "133",
+            "134",
             "Reynoso Castilla, Luciana",
             "BANADE",
             "1",
@@ -17065,7 +17077,7 @@
             "0.06"
           ],
           [
-            "134",
+            "135",
             "Russo, Maria Victoria",
             "COMUNICACIONES",
             "1",
@@ -17073,7 +17085,7 @@
             "0.06"
           ],
           [
-            "135",
+            "136",
             "Sequeira, Priscila Guadalupe",
             "SAN FERNANDO",
             "1",
@@ -17081,7 +17093,7 @@
             "0.06"
           ],
           [
-            "136",
+            "137",
             "Torres Astigueta, Clara Ines",
             "C.U.B.A.",
             "1",
@@ -17089,7 +17101,7 @@
             "0.06"
           ],
           [
-            "137",
+            "138",
             "Torres Martinez, Melanie Agustina",
             "SAN LORENZO",
             "1",
@@ -17097,7 +17109,7 @@
             "0.06"
           ],
           [
-            "138",
+            "139",
             "Cagide, Miranda",
             "PUEYRREDON",
             "1",
@@ -17105,7 +17117,7 @@
             "0.07"
           ],
           [
-            "139",
+            "140",
             "Colli, Julia",
             "U. LA PLATA",
             "1",
@@ -17113,7 +17125,7 @@
             "0.07"
           ],
           [
-            "140",
+            "141",
             "Cossu, Rocio Pilar",
             "LOS MATREROS",
             "1",
@@ -17121,7 +17133,7 @@
             "0.07"
           ],
           [
-            "141",
+            "142",
             "Izquierdo, Ailin",
             "BANADE",
             "1",
@@ -17129,7 +17141,7 @@
             "0.07"
           ],
           [
-            "142",
+            "143",
             "Macagno, Mora",
             "U. LA PLATA",
             "1",
@@ -17137,17 +17149,9 @@
             "0.07"
           ],
           [
-            "143",
+            "144",
             "Pulido Herrera, Rocio",
             "ALBATROS",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
-            "144",
-            "Safdie Kattah, Sheila",
-            "CIRCULO HEBREO",
             "1",
             "14",
             "0.07"
@@ -17157,7 +17161,7 @@
             "Acosta, Micaela",
             "CIRCULO HEBREO",
             "1",
-            "12",
+            "13",
             "0.08"
           ],
           [
@@ -17250,6 +17254,14 @@
           ],
           [
             "157",
+            "Alfie, Sofia Sara",
+            "CIRCULO HEBREO",
+            "1",
+            "6",
+            "0.17"
+          ],
+          [
+            "158",
             "Delpech, Barbara",
             "C.U.B.A.",
             "1",
@@ -17257,7 +17269,15 @@
             "0.17"
           ],
           [
-            "158",
+            "159",
+            "Paz, Ludmila Maylen",
+            "CIRCULO HEBREO",
+            "1",
+            "6",
+            "0.17"
+          ],
+          [
+            "160",
             "Rivarola, Amalia",
             "C.U.B.A.",
             "1",
@@ -17265,15 +17285,7 @@
             "0.17"
           ],
           [
-            "159",
-            "Alfie, Sofia Sara",
-            "CIRCULO HEBREO",
-            "1",
-            "5",
-            "0.20"
-          ],
-          [
-            "160",
+            "161",
             "Rivas, Marcela Mara",
             "VICENTINOS",
             "1",
@@ -17281,7 +17293,7 @@
             "0.20"
           ],
           [
-            "161",
+            "162",
             "Santin, Valentina",
             "ALBATROS",
             "1",
@@ -17289,7 +17301,7 @@
             "0.20"
           ],
           [
-            "162",
+            "163",
             "Portas Dalmau, Milagros",
             "COMUNICACIONES",
             "1",
@@ -17297,7 +17309,7 @@
             "0.25"
           ],
           [
-            "163",
+            "164",
             "Rojas, Lara Anahi",
             "VICENTINOS",
             "1",
@@ -17305,7 +17317,7 @@
             "0.25"
           ],
           [
-            "164",
+            "165",
             "Ajami, Julieta Yael",
             "CIRCULO HEBREO",
             "1",
@@ -17313,12 +17325,28 @@
             "0.33"
           ],
           [
-            "165",
+            "166",
+            "Falaq, Rocio Maria",
+            "CIRCULO HEBREO",
+            "1",
+            "3",
+            "0.33"
+          ],
+          [
+            "167",
             "Joli, Isabel Candela",
             "CIRCULO HEBREO",
             "1",
             "3",
             "0.33"
+          ],
+          [
+            "168",
+            "Moiguer, Lara Yael",
+            "CIRCULO HEBREO",
+            "1",
+            "2",
+            "0.50"
           ],
           [
             "1",
@@ -18109,7 +18137,7 @@
             "Lucena, Eluney Agustina",
             "",
             "2",
-            "15",
+            "16",
             "0.13"
           ],
           [
@@ -18130,6 +18158,14 @@
           ],
           [
             "102",
+            "Safdie Kattah, Sheila",
+            "",
+            "2",
+            "15",
+            "0.13"
+          ],
+          [
+            "103",
             "Alegre, Priscila Rocio",
             "",
             "2",
@@ -18137,7 +18173,7 @@
             "0.14"
           ],
           [
-            "103",
+            "104",
             "Herrada, Lucila Sol",
             "",
             "2",
@@ -18145,7 +18181,7 @@
             "0.15"
           ],
           [
-            "104",
+            "105",
             "Soria, Candela Agustina",
             "",
             "2",
@@ -18153,7 +18189,7 @@
             "0.15"
           ],
           [
-            "105",
+            "106",
             "Aloro Rodriguez, Mara Shirley",
             "",
             "2",
@@ -18161,7 +18197,7 @@
             "0.17"
           ],
           [
-            "106",
+            "107",
             "Coppola, Melina",
             "",
             "2",
@@ -18169,7 +18205,7 @@
             "0.18"
           ],
           [
-            "107",
+            "108",
             "Gonzalez, Graciela",
             "",
             "2",
@@ -18177,7 +18213,7 @@
             "0.20"
           ],
           [
-            "108",
+            "109",
             "Sanchez, Rocio",
             "",
             "2",
@@ -18185,7 +18221,7 @@
             "0.29"
           ],
           [
-            "109",
+            "110",
             "Chmielevsky, Guila",
             "",
             "2",
@@ -18193,7 +18229,7 @@
             "1.00"
           ],
           [
-            "110",
+            "111",
             "Barragan, Natalia",
             "",
             "1",
@@ -18201,7 +18237,7 @@
             "0.05"
           ],
           [
-            "111",
+            "112",
             "Barrios, Veronica Beatriz",
             "",
             "1",
@@ -18209,7 +18245,7 @@
             "0.05"
           ],
           [
-            "112",
+            "113",
             "Bugel, Lola Morena",
             "",
             "1",
@@ -18217,7 +18253,7 @@
             "0.05"
           ],
           [
-            "113",
+            "114",
             "Cacherosky, Candela",
             "",
             "1",
@@ -18225,7 +18261,7 @@
             "0.05"
           ],
           [
-            "114",
+            "115",
             "Castro Valette, Emma",
             "",
             "1",
@@ -18233,7 +18269,7 @@
             "0.05"
           ],
           [
-            "115",
+            "116",
             "Di Cataldo, Candela Oriana",
             "",
             "1",
@@ -18241,7 +18277,7 @@
             "0.05"
           ],
           [
-            "116",
+            "117",
             "Hochman, Ariadna Lucia",
             "",
             "1",
@@ -18249,7 +18285,7 @@
             "0.05"
           ],
           [
-            "117",
+            "118",
             "Rodriguez, Milagros",
             "",
             "1",
@@ -18257,7 +18293,7 @@
             "0.05"
           ],
           [
-            "118",
+            "119",
             "Santos, Valentina",
             "",
             "1",
@@ -18265,7 +18301,7 @@
             "0.05"
           ],
           [
-            "119",
+            "120",
             "Valette, Silvana Claudia",
             "",
             "1",
@@ -18273,7 +18309,7 @@
             "0.05"
           ],
           [
-            "120",
+            "121",
             "Vargas Srehnisky, Camila",
             "",
             "1",
@@ -18281,7 +18317,7 @@
             "0.05"
           ],
           [
-            "121",
+            "122",
             "Vazquez Ortolani, Sofia",
             "",
             "1",
@@ -18289,7 +18325,7 @@
             "0.05"
           ],
           [
-            "122",
+            "123",
             "Vedia Rojas, Florencia Magali",
             "",
             "1",
@@ -18297,7 +18333,7 @@
             "0.05"
           ],
           [
-            "123",
+            "124",
             "Vela, Martina",
             "",
             "1",
@@ -18305,7 +18341,7 @@
             "0.05"
           ],
           [
-            "124",
+            "125",
             "Vivar, Giselle Amalia",
             "",
             "1",
@@ -18313,7 +18349,7 @@
             "0.05"
           ],
           [
-            "125",
+            "126",
             "Ballestero, Milagros",
             "",
             "1",
@@ -18321,15 +18357,15 @@
             "0.06"
           ],
           [
-            "126",
+            "127",
             "Bernard, Daira Julieta",
             "",
             "1",
-            "17",
+            "18",
             "0.06"
           ],
           [
-            "127",
+            "128",
             "Estevez, Paulina",
             "",
             "1",
@@ -18337,7 +18373,7 @@
             "0.06"
           ],
           [
-            "128",
+            "129",
             "Gaspar, Ariana Ayelen",
             "",
             "1",
@@ -18345,7 +18381,7 @@
             "0.06"
           ],
           [
-            "129",
+            "130",
             "Palavecino, Dara Belen",
             "",
             "1",
@@ -18353,7 +18389,7 @@
             "0.06"
           ],
           [
-            "130",
+            "131",
             "Perez De San Roman, Martina",
             "",
             "1",
@@ -18361,7 +18397,7 @@
             "0.06"
           ],
           [
-            "131",
+            "132",
             "Perrone, Candela",
             "",
             "1",
@@ -18369,7 +18405,7 @@
             "0.06"
           ],
           [
-            "132",
+            "133",
             "Reynoso, Gladys Azucena",
             "",
             "1",
@@ -18377,7 +18413,7 @@
             "0.06"
           ],
           [
-            "133",
+            "134",
             "Reynoso Castilla, Luciana",
             "",
             "1",
@@ -18385,7 +18421,7 @@
             "0.06"
           ],
           [
-            "134",
+            "135",
             "Russo, Maria Victoria",
             "",
             "1",
@@ -18393,7 +18429,7 @@
             "0.06"
           ],
           [
-            "135",
+            "136",
             "Sequeira, Priscila Guadalupe",
             "",
             "1",
@@ -18401,7 +18437,7 @@
             "0.06"
           ],
           [
-            "136",
+            "137",
             "Torres Astigueta, Clara Ines",
             "",
             "1",
@@ -18409,7 +18445,7 @@
             "0.06"
           ],
           [
-            "137",
+            "138",
             "Torres Martinez, Melanie Agustina",
             "",
             "1",
@@ -18417,7 +18453,7 @@
             "0.06"
           ],
           [
-            "138",
+            "139",
             "Cagide, Miranda",
             "",
             "1",
@@ -18425,7 +18461,7 @@
             "0.07"
           ],
           [
-            "139",
+            "140",
             "Colli, Julia",
             "",
             "1",
@@ -18433,7 +18469,7 @@
             "0.07"
           ],
           [
-            "140",
+            "141",
             "Cossu, Rocio Pilar",
             "",
             "1",
@@ -18441,7 +18477,7 @@
             "0.07"
           ],
           [
-            "141",
+            "142",
             "Izquierdo, Ailin",
             "",
             "1",
@@ -18449,7 +18485,7 @@
             "0.07"
           ],
           [
-            "142",
+            "143",
             "Macagno, Mora",
             "",
             "1",
@@ -18457,16 +18493,8 @@
             "0.07"
           ],
           [
-            "143",
-            "Pulido Herrera, Rocio",
-            "",
-            "1",
-            "14",
-            "0.07"
-          ],
-          [
             "144",
-            "Safdie Kattah, Sheila",
+            "Pulido Herrera, Rocio",
             "",
             "1",
             "14",
@@ -18477,7 +18505,7 @@
             "Acosta, Micaela",
             "",
             "1",
-            "12",
+            "13",
             "0.08"
           ],
           [
@@ -18570,7 +18598,7 @@
           ],
           [
             "157",
-            "Delpech, Barbara",
+            "Alfie, Sofia Sara",
             "",
             "1",
             "6",
@@ -18578,7 +18606,7 @@
           ],
           [
             "158",
-            "Rivarola, Amalia",
+            "Delpech, Barbara",
             "",
             "1",
             "6",
@@ -18586,14 +18614,22 @@
           ],
           [
             "159",
-            "Alfie, Sofia Sara",
+            "Paz, Ludmila Maylen",
             "",
             "1",
-            "5",
-            "0.20"
+            "6",
+            "0.17"
           ],
           [
             "160",
+            "Rivarola, Amalia",
+            "",
+            "1",
+            "6",
+            "0.17"
+          ],
+          [
+            "161",
             "Rivas, Marcela Mara",
             "",
             "1",
@@ -18601,7 +18637,7 @@
             "0.20"
           ],
           [
-            "161",
+            "162",
             "Santin, Valentina",
             "",
             "1",
@@ -18609,7 +18645,7 @@
             "0.20"
           ],
           [
-            "162",
+            "163",
             "Portas Dalmau, Milagros",
             "",
             "1",
@@ -18617,7 +18653,7 @@
             "0.25"
           ],
           [
-            "163",
+            "164",
             "Rojas, Lara Anahi",
             "",
             "1",
@@ -18625,7 +18661,7 @@
             "0.25"
           ],
           [
-            "164",
+            "165",
             "Ajami, Julieta Yael",
             "",
             "1",
@@ -18633,12 +18669,28 @@
             "0.33"
           ],
           [
-            "165",
+            "166",
+            "Falaq, Rocio Maria",
+            "",
+            "1",
+            "3",
+            "0.33"
+          ],
+          [
+            "167",
             "Joli, Isabel Candela",
             "",
             "1",
             "3",
             "0.33"
+          ],
+          [
+            "168",
+            "Moiguer, Lara Yael",
+            "",
+            "1",
+            "2",
+            "0.50"
           ]
         ]
       }
