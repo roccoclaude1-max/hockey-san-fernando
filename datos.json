@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-17T19:37:33.100320+00:00",
+  "actualizado": "2026-08-17T20:38:06.761744+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -2858,7 +2858,7 @@
           "visita": "FERRO C. O.",
           "fecha": "lun 17 ago 16:00",
           "jugado": true,
-          "scoreLocal": "0",
+          "scoreLocal": "2",
           "scoreVisita": "0"
         },
         {
@@ -4425,7 +4425,7 @@
           "visita": "FERRO C. O. B",
           "fecha": "lun 17 ago 16:00",
           "jugado": true,
-          "scoreLocal": "0",
+          "scoreLocal": "3",
           "scoreVisita": "0"
         },
         {
