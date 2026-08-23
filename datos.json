@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-23T19:02:16.680890+00:00",
+  "actualizado": "2026-08-23T19:29:16.262690+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -4518,7 +4518,9 @@
           "local": "TRISTAN SUAREZ",
           "visita": "SAN FERNANDO C",
           "fecha": "dom 23 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO C",
@@ -15977,7 +15979,9 @@
           "local": "SAN FERNANDO",
           "visita": "LICEO MILITAR",
           "fecha": "dom 23 ago 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         }
       ],
       "posiciones": {
