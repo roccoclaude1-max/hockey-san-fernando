@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-08-25T16:14:00.561024+00:00",
+  "actualizado": "2026-08-25T17:10:42.000501+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -145,7 +145,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "QUILMES",
-          "fecha": "dom 20 sept 15:30",
+          "fecha": "lun 12 oct 15:30",
           "jugado": false
         },
         {
@@ -159,7 +159,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "S.A.G.",
-          "fecha": "dom 30 ago 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
@@ -2834,7 +2834,7 @@
         {
           "local": "PUERTO NIZUC",
           "visita": "SAN FERNANDO B",
-          "fecha": "dom 20 sept 16:00",
+          "fecha": "lun 12 oct 16:00",
           "jugado": false
         },
         {
@@ -2864,7 +2864,7 @@
         {
           "local": "LANUS",
           "visita": "SAN FERNANDO B",
-          "fecha": "dom 30 ago 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
@@ -4547,7 +4547,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "BOCA JUNIORS",
-          "fecha": "dom 20 sept 16:00",
+          "fecha": "lun 12 oct 16:00",
           "jugado": false
         },
         {
@@ -4577,7 +4577,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "MITRE B",
-          "fecha": "dom 30 ago 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
@@ -6300,7 +6300,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "BANCO NACION",
-          "fecha": "sáb 29 ago 16:00",
+          "fecha": "sáb 19 sept 16:00",
           "jugado": false
         },
         {
@@ -8807,7 +8807,7 @@
         {
           "local": "CHAMPAGNAT",
           "visita": "SAN FERNANDO B",
-          "fecha": "sáb 29 ago 10:30",
+          "fecha": "sáb 19 sept 10:30",
           "jugado": false
         },
         {
@@ -11250,7 +11250,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "SAN LUIS C",
-          "fecha": "sáb 29 ago 16:00",
+          "fecha": "sáb 19 sept 16:00",
           "jugado": false
         },
         {
@@ -16092,7 +16092,7 @@
         {
           "local": "SAN LORENZO",
           "visita": "SAN FERNANDO",
-          "fecha": "dom 20 sept 16:00",
+          "fecha": "lun 12 oct 16:00",
           "jugado": false
         },
         {
@@ -16106,7 +16106,7 @@
         {
           "local": "ALBATROS",
           "visita": "SAN FERNANDO",
-          "fecha": "dom 30 ago 16:00",
+          "fecha": "dom 20 sept 16:00",
           "jugado": false
         },
         {
