@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-06T15:38:39.816934+00:00",
+  "actualizado": "2026-09-06T17:45:00.751029+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -6307,7 +6307,9 @@
           "local": "SAN FERNANDO",
           "visita": "BCO. PROVINCIA",
           "fecha": "dom 06 sept 13:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "1"
         },
         {
           "local": "BELGRANO",
