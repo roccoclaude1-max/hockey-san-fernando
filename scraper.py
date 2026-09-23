@@ -51,6 +51,12 @@ async def scrape_fixture(page):
                 await btn.click()
                 await page.wait_for_timeout(2000)
                 break
+        # Scroll para cargar todos los partidos (lazy loading)
+        for _ in range(5):
+            await page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            await page.wait_for_timeout(800)
+        await page.evaluate('window.scrollTo(0, 0)')
+        await page.wait_for_timeout(500)
         containers = await page.query_selector_all('div.ms-sm12.mt-1')
         seen = set()
         for c in containers:
