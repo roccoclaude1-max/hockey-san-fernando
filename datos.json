@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-23T22:30:37.306479+00:00",
+  "actualizado": "2026-09-24T00:52:55.566362+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -160,7 +160,9 @@
           "local": "SAN FERNANDO",
           "visita": "S.A.G.",
           "fecha": "mié 23 sept 21:30",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO",
