@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-25T13:01:52.828598+00:00",
+  "actualizado": "2026-09-25T17:58:36.708987+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -195,7 +195,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "U. LA PLATA",
-          "fecha": "dom 11 oct 16:00",
+          "fecha": "sáb 10 oct 16:00",
           "jugado": false
         },
         {
@@ -3152,7 +3152,7 @@
         {
           "local": "BANFIELD",
           "visita": "SAN FERNANDO B",
-          "fecha": "dom 11 oct 16:00",
+          "fecha": "sáb 10 oct 16:00",
           "jugado": false
         },
         {
@@ -4983,7 +4983,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "G. Y ESGRIMA C",
-          "fecha": "dom 11 oct 16:00",
+          "fecha": "sáb 10 oct 16:00",
           "jugado": false
         },
         {
@@ -6816,7 +6816,7 @@
         {
           "local": "SAN FERNANDO",
           "visita": "SAN LORENZO",
-          "fecha": "sáb 10 oct 16:00",
+          "fecha": "dom 11 oct 16:00",
           "jugado": false
         },
         {
@@ -9473,7 +9473,7 @@
         {
           "local": "SAGLZ",
           "visita": "SAN FERNANDO B",
-          "fecha": "sáb 10 oct 16:00",
+          "fecha": "dom 11 oct 16:00",
           "jugado": false
         },
         {
@@ -12098,7 +12098,7 @@
         {
           "local": "SAN FERNANDO C",
           "visita": "CIUDAD DE CAMPANA",
-          "fecha": "sáb 10 oct 16:00",
+          "fecha": "dom 11 oct 16:00",
           "jugado": false
         },
         {
@@ -14675,7 +14675,7 @@
         {
           "local": "PUEYRREDON C",
           "visita": "SAN FERNANDO D",
-          "fecha": "sáb 10 oct 10:30",
+          "fecha": "dom 11 oct 10:30",
           "jugado": false
         },
         {
@@ -17252,7 +17252,7 @@
         {
           "local": "COMUNICACIONES",
           "visita": "SAN FERNANDO",
-          "fecha": "dom 11 oct 16:00",
+          "fecha": "sáb 10 oct 16:00",
           "jugado": false
         },
         {
