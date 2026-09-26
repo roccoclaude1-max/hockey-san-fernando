@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-26T17:24:38.405416+00:00",
+  "actualizado": "2026-09-26T20:02:52.743995+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -6805,7 +6805,9 @@
           "local": "SAN FERNANDO",
           "visita": "S. BARBARA",
           "fecha": "sáb 26 sept 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "1",
+          "scoreVisita": "0"
         },
         {
           "local": "ITALIANO",
@@ -9462,7 +9464,9 @@
           "local": "MUN. V. LOPEZ",
           "visita": "SAN FERNANDO B",
           "fecha": "sáb 26 sept 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         },
         {
           "local": "SAN FERNANDO B",
@@ -12087,7 +12091,9 @@
           "local": "SAN FERNANDO C",
           "visita": "N. CHICAGO",
           "fecha": "sáb 26 sept 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "2",
+          "scoreVisita": "2"
         },
         {
           "local": "DEP. S. BARBARA B",
@@ -14664,7 +14670,9 @@
           "local": "LUJAN R.C. B",
           "visita": "SAN FERNANDO D",
           "fecha": "sáb 26 sept 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO D",
@@ -17450,6 +17458,20 @@
           ],
           [
             "12",
+            "PUEYRREDON",
+            "22",
+            "24",
+            "5",
+            "7",
+            "12",
+            "26",
+            "47",
+            "-21",
+            "0",
+            ""
+          ],
+          [
+            "13",
             "COMUNICACIONES",
             "21",
             "24",
@@ -17463,7 +17485,7 @@
             ""
           ],
           [
-            "13",
+            "14",
             "VICENTINOS",
             "20",
             "24",
@@ -17473,20 +17495,6 @@
             "30",
             "44",
             "-14",
-            "0",
-            ""
-          ],
-          [
-            "14",
-            "PUEYRREDON",
-            "19",
-            "23",
-            "4",
-            "7",
-            "12",
-            "23",
-            "47",
-            "-24",
             "0",
             ""
           ],
@@ -17508,13 +17516,13 @@
             "16",
             "CIRCULO HEBREO",
             "8",
-            "23",
+            "24",
             "2",
             "2",
-            "19",
+            "20",
             "15",
-            "127",
-            "-112",
+            "130",
+            "-115",
             "0",
             ""
           ]
