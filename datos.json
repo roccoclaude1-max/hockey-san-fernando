@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-17T17:33:17.688277+00:00",
+  "actualizado": "2026-10-17T19:43:56.812269+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -12929,7 +12929,9 @@
           "local": "DEP. S. BARBARA B",
           "visita": "SAN FERNANDO C",
           "fecha": "sáb 17 oct 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "1"
         },
         {
           "local": "SAN FERNANDO C",
