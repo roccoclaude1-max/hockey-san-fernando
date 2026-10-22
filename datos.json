@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-21T22:00:11.504662+00:00",
+  "actualizado": "2026-10-22T00:38:21.405481+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -186,7 +186,9 @@
           "local": "SAN FERNANDO",
           "visita": "DUCILO",
           "fecha": "mié 21 oct 20:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "6",
+          "scoreVisita": "1"
         },
         {
           "local": "BCO. PROVINCIA",
