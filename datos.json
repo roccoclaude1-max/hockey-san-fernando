@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-10-31T15:52:19.836293+00:00",
+  "actualizado": "2026-10-31T19:39:24.704080+00:00",
   "datos": [
     {
       "id": "cab-a",
@@ -10386,7 +10386,9 @@
           "local": "SAN FERNANDO B",
           "visita": "G. Y ESGRIMA C",
           "fecha": "sáb 31 oct 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         }
       ],
       "posiciones": {
@@ -15872,7 +15874,9 @@
           "local": "SAN FERNANDO D",
           "visita": "C. NEWMAN D",
           "fecha": "sáb 31 oct 16:00",
-          "jugado": false
+          "jugado": true,
+          "scoreLocal": "0",
+          "scoreVisita": "0"
         }
       ],
       "posiciones": {
